@@ -1,50 +1,51 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-24 08:15+0000\n"
+"PO-Revision-Date: 2021-09-24 09:01+0000\n"
 "Last-Translator: Josef Kubíček <kubijo@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/slushpool/braiins-os-frontend/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/slushpool/"
+"insights-frontend/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: packages/insights/src/constants.tsx:50 /checksum/KcE81/lbC/
 msgctxt "UI"
 msgid "All"
-msgstr ""
+msgstr "Vše"
 
 #: packages/insights/src/constants.tsx:54 /checksum/2O5/7fw3YG
 msgctxt "UI"
 msgid "5 years"
-msgstr ""
+msgstr "5 let"
 
 #: packages/insights/src/constants.tsx:61 /checksum/xMUnfMNvcC
 msgctxt "UI"
 msgid "1 year"
-msgstr ""
+msgstr "1 rok"
 
 #: packages/insights/src/constants.tsx:68 /checksum/9Hv+rXFOyu
 msgctxt "UI"
 msgid "6 months"
-msgstr ""
+msgstr "6 měsíců"
 
 #: packages/insights/src/constants.tsx:75 /checksum/q7uqTqAMUP
 msgctxt "UI"
 msgid "3 months"
-msgstr ""
+msgstr "3 měsíce"
 
 #: packages/insights/src/constants.tsx:82 /checksum/h0AVTOMdml
 msgctxt "UI"
 msgid "1 month"
-msgstr ""
+msgstr "1 měsíc"
 
 #: packages/insights/src/constants.tsx:89 /checksum/e8NR02sWQz
 msgctxt "UI"
 msgid "1 weak"
-msgstr ""
+msgstr "1 týden"
 
 #: packages/insights/src/pages/E404.tsx:9 /checksum/SmkgRt8tjK
 msgctxt "UI"
@@ -65,13 +66,13 @@ msgstr ""
 #: shared/lib/helpOverlay/HelpMe.tsx:137 /checksum/xku/Ae0wC2
 msgctxt "UI"
 msgid "Previous"
-msgstr ""
+msgstr "Předchozí"
 
 #: shared/components/carbon/DatePager/DatePager.tsx:101
 #: shared/lib/helpOverlay/HelpMe.tsx:144 /checksum/FLgviAnpcl
 msgctxt "UI"
 msgid "Next"
-msgstr ""
+msgstr "Další"
 
 #: shared/lib/layout/components/Layout.tsx:230 /checksum/NXzuN9vcvw
 msgctxt "UI"
@@ -131,7 +132,7 @@ msgstr ""
 #: packages/insights/src/pages/Guides/CostToMine.tsx:81 /checksum/qRknYFBMY4
 msgctxt "UI"
 msgid "Hardware Selection"
-msgstr ""
+msgstr "Výběr zařízení"
 
 #: packages/insights/src/pages/Guides/CostToMine.tsx:84 /checksum/uwjXgvmSo+
 msgctxt "UI"
@@ -856,23 +857,23 @@ msgstr ""
 #: packages/insights/src/pages/Root/Root.tsx:289 /checksum/LRsi7QyFPz
 msgctxt "UI"
 msgid "Home"
-msgstr ""
+msgstr "Domů"
 
 #: packages/insights/src/pages/Root/Root.tsx:290 /checksum/ueCsPsZISr
 msgctxt "UI"
 msgid "Cost to Mine"
-msgstr ""
+msgstr "Cena těžby"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:180
 #: packages/insights/src/pages/Root/Root.tsx:291 /checksum/uPDxuK27Wd
 msgctxt "UI"
 msgid "Profitability"
-msgstr ""
+msgstr "Ziskovost"
 
 #: packages/insights/src/pages/Root/Root.tsx:335 /checksum/CYAkeY00Qq
 msgctxt "UI"
 msgid "Open menu"
-msgstr ""
+msgstr "Otevřít navigaci"
 
 #: packages/insights/src/pages/Root/Root.tsx:391 /checksum/yNm5Hh3tEy
 msgctxt "UI"
@@ -891,7 +892,7 @@ msgstr ""
 #: /checksum/bnu0gS+6om
 msgctxt "UI"
 msgid "Required value!"
-msgstr ""
+msgstr "Povinná hodnota!"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:177
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:144
@@ -923,14 +924,14 @@ msgstr ""
 #: /checksum/ScciS+MZ3k
 msgctxt "UI"
 msgid "Inputs"
-msgstr ""
+msgstr "Vstupy"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:288
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:245
 #: /checksum/DEuqw8TbK2
 msgctxt "UI"
 msgid "BTC Price"
-msgstr ""
+msgstr "Cena BTC"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:293
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:250
@@ -943,7 +944,7 @@ msgstr ""
 #: /checksum/qn1/QWM3m+
 msgctxt "UI"
 msgid "Select Hardware"
-msgstr ""
+msgstr "Výběr HW"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:310
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:47
@@ -951,7 +952,7 @@ msgstr ""
 #: /checksum/KwuybsWn+f
 msgctxt "UI"
 msgid "Hashrate"
-msgstr ""
+msgstr "Hashrate"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:315
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:46
@@ -959,13 +960,13 @@ msgstr ""
 #: /checksum/X3XhumiUAL
 msgctxt "UI"
 msgid "Consumption"
-msgstr ""
+msgstr "Spotřeba"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:320
 #: /checksum/Fqo2mGChzE
 msgctxt "UI"
 msgid "Elec.price / kWh"
-msgstr ""
+msgstr "Cena elektřiny / kWh"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:325
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:269
