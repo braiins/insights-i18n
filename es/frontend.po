@@ -1,12 +1,3658 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-30 17:35+0000\n"
+"PO-Revision-Date: 2021-11-30 17:51+0000\n"
 "Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/braiins-os-frontend/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/insights-frontend/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
+
+#: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
+msgctxt "UI"
+msgid "All"
+msgstr "Todo"
+
+#: packages/insights/src/constants.tsx:61 /checksum/2O5/7fw3YG
+msgctxt "UI"
+msgid "5 years"
+msgstr "5 Años"
+
+#: packages/insights/src/constants.tsx:69 /checksum/xMUnfMNvcC
+msgctxt "UI"
+msgid "1 year"
+msgstr "1 Años"
+
+#: packages/insights/src/constants.tsx:77 /checksum/9Hv+rXFOyu
+msgctxt "UI"
+msgid "6 months"
+msgstr "6 Meses"
+
+#: packages/insights/src/constants.tsx:85 /checksum/q7uqTqAMUP
+msgctxt "UI"
+msgid "3 months"
+msgstr "3 Meses"
+
+#: packages/insights/src/constants.tsx:93 /checksum/h0AVTOMdml
+msgctxt "UI"
+msgid "1 month"
+msgstr "1 Mes"
+
+#: packages/insights/src/pages/E404.tsx:9 /checksum/SmkgRt8tjK
+msgctxt "UI"
+msgid "Page Not Found"
+msgstr "Página no encontrada"
+
+#: packages/insights/src/pages/E404.tsx:10 /checksum/Dk+8tl62KG
+msgctxt "UI"
+msgid "We couldn't find the page or file you're looking for."
+msgstr "No pudimos encontrar la página o el archivo que busca."
+
+#: shared/lib/router/misc.tsx:63 /checksum/DI3eXXShyd
+msgctxt "UI"
+msgid "An error has occurred while loading the page!"
+msgstr "¡Ha ocurrido un error al cargar la página!"
+
+#: shared/components/carbon/DatePager/DatePager.tsx:89
+#: shared/lib/helpOverlay/HelpMe.tsx:162 /checksum/xku/Ae0wC2
+msgctxt "UI"
+msgid "Previous"
+msgstr "Previo"
+
+#: shared/components/carbon/DatePager/DatePager.tsx:101
+#: shared/lib/helpOverlay/HelpMe.tsx:169 /checksum/FLgviAnpcl
+msgctxt "UI"
+msgid "Next"
+msgstr "Próximo"
+
+#: shared/lib/layout/components/Layout.tsx:230 /checksum/cVJRkxBrxE
+msgctxt "UI"
+msgid "An error has occurred!"
+msgstr "¡Se ha producido un error!"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:38 /checksum/FGFPN+3FNx
+msgctxt "UI"
+msgid ""
+"Although there are dozens of variables that can impact a Bitcoin mining "
+"operation's bottom line, the viability of a mining business can ultimately "
+"be determined with just one simple statistic: the cost to mine 1 BTC — aka "
+"the “Cost of Production for Bitcoin."
+msgstr ""
+"Aunque hay docenas de variables que pueden afectar el resultado final de una"
+" operación minera de Bitcoin, la viabilidad de un negocio minero se puede "
+"determinar en última instancia con solo una estadística simple: el costo de "
+"extraer 1 BTC, también conocido como el \"Costo de producción de Bitcoin\"."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:45 /checksum/r5SVMMSh6J
+msgctxt "UI"
+msgid ""
+"The Braiins <a>Cost to Mine 1 BTC calculator</a> is meant to make it quick "
+"and easy for you to determine your cost of production for any ASIC hardware "
+"model or even for a mix of different hardware devices. By comparing your "
+"cost of production with the actual Bitcoin price, you can see your profit "
+"margin and better understand which hardware models will best suit your "
+"mining operation."
+msgstr ""
+"La <a>calculadora Costo de minar 1 BTC</a> de Braiins está diseñada para que"
+" usted pueda determinar el costo de producción de forma rápida y sencilla "
+"para cualquier modelo de hardware ASIC o incluso para una combinación de "
+"diferentes dispositivos de hardware. Al comparar su costo de producción con "
+"el precio real de Bitcoin, puede ver su margen de ganancia y comprender "
+"mejor qué modelos de hardware se adaptarán mejor a su operación minera."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:60
+#: packages/insights/src/pages/Guides/CostToMine.tsx:253 /checksum/4d/Mz2WX5e
+msgctxt "UI"
+msgid "How to Calculate Your Cost of Production"
+msgstr "Cómo calcular su costo de producción"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:62 /checksum/SGwcDBddD+
+msgctxt "UI"
+msgid ""
+"Let's start by quickly explaining each of the inputs and how they work."
+msgstr ""
+"Comencemos explicando rápidamente cada una de las entradas y cómo funcionan."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:70 /checksum/ybFlMkVexK
+msgctxt "UI"
+msgid ""
+"<strong><em>Bitcoin Price</em></strong> and <strong><em>Network "
+"Difficulty</em></strong> are both pulled from an API in real-time, so you "
+"don't need to do anything if you want to use current values."
+msgstr ""
+"<strong><em>Precio de Bitcoin</em></strong> y <strong><em>Dificultad de "
+"red</em></strong> se extraen de una API en tiempo real, por lo que no es "
+"necesario hacer cualquier cosa si desea utilizar los valores actuales."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:78 /checksum/YFxd5YMgc0
+msgctxt "UI"
+msgid ""
+"<strong><em>Select Hardware</em></strong> allows you to autofill the "
+"hashrate and consumption by choosing a specific ASIC device from our "
+"database. The models are sorted by hardware manufacturer (Bitmain, MicroBT, "
+"Innosilicon, and Canaan) and then further subcategorized by model family "
+"(e.g. Antminer S9, S17, and S19 variations are all grouped together)."
+msgstr ""
+"<strong><em>Seleccionar hardware</em></strong> le permite autocompletar el "
+"hashrate y el consumo eligiendo un dispositivo ASIC específico de nuestra "
+"base de datos. Los modelos se ordenan por fabricante de hardware (Bitmain, "
+"MicroBT, Innosilicon y Canaan) y luego se subcategorizan por familia de "
+"modelos (por ejemplo, las variaciones de Antminer S9, S17 y S19 se agrupan "
+"todas juntas)."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:86 /checksum/qRknYFBMY4
+msgctxt "UI"
+msgid "Hardware Selection"
+msgstr "Selección de hardware"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:108 /checksum/TKue3zkAx7
+msgctxt "UI"
+msgid ""
+"<strong><em>Electricity Price</em></strong> is your all-in cost per kWh of "
+"electricity, which is used to calculate your cost of production for mining 1"
+" Bitcoin given your mining efficiency (W/TH)."
+msgstr ""
+"<strong><em>Precio de la electricidad</em></strong> es su costo total por "
+"kWh de electricidad, que se utiliza para calcular su costo de producción "
+"para extraer 1 Bitcoin dada su eficiencia minera (W/TH)."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:116 /checksum/VexVRYb0C4
+msgctxt "UI"
+msgid ""
+"<strong><em>Pool Fee</em></strong> is the percentage of your BTC mined that "
+"is kept by your mining pool."
+msgstr ""
+"<strong><em>Tarifa de grupo</em></strong> es el porcentaje de su BTC "
+"extraído que mantiene su grupo de minería."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:124 /checksum/acPsGndp+J
+msgctxt "UI"
+msgid "If you toggle on the Advanced Options, you’ll also see these inputs:"
+msgstr "Si activa las Opciones avanzadas, también verá estas entradas:"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:129 /checksum/pyNpIj4uS+
+msgctxt "UI"
+msgid ""
+"<strong><em>Other Fees</em></strong> factors in additional costs such as "
+"downtime of your ASICs (e.g. 1-2% for regular maintenance or perhaps much "
+"higher if you cycle on/off due to climate), or perhaps fees for firmware and"
+" management solutions."
+msgstr ""
+"<strong><em>Otras tarifas</em></strong> tiene en cuenta los costos "
+"adicionales, como el tiempo de inactividad de sus ASIC (por ejemplo, 1-2% "
+"para el mantenimiento regular o quizás mucho más alto si enciende y apaga el"
+" ciclo debido al clima), o quizás tarifas por firmware y soluciones de "
+"administración."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:137 /checksum/QX6BY5M/Rs
+msgctxt "UI"
+msgid ""
+"<strong><em>Difficulty Change</em></strong> allows you to change the current"
+" value for difficulty by any percentage you want, in case you would like to "
+"project your cost to mine in a future difficulty epoch."
+msgstr ""
+"<strong><em>Cambio de Dificultad</em></strong> le permite cambiar el valor "
+"actual de la dificultad por cualquier porcentaje que quiera, en caso si le "
+"gustaría proyectar su costo de minar en una época futura de dificultad."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:145 /checksum/fG2EaaEain
+msgctxt "UI"
+msgid ""
+"<strong><em>Avg. Transaction Fees (BTC)</em></strong> is used to factor in "
+"extra revenue from transaction fees instead of only including the fixed "
+"block subsidy of 6.25 BTC. Although this is highly variable depending on "
+"network activity, it has averaged out to about 0.3 BTC per block (or 5% of "
+"total mining revenue) since the 2020 halving. As a result, true Cost to Mine"
+" 1 BTC is lower than if you only factor in the block subsidy."
+msgstr ""
+"<strong><em>Tasas Promedio de Transacción (BTC)</em></strong> se usa como "
+"factor en ingresos extra por tasas de transacción en lugar de solo incluir "
+"el subsidio de bloque fijo de 6.25 BTC. Aunque es altamente variable "
+"dependiendo de la actividad de la red, se promedia en 0.3 BTC por bloque (o "
+"5% del total del ingreso minero) desde el halving de 2020. Como resultado, "
+"el Costo real de Minar 1 BTC es menor que solo factor en el subsidio del "
+"bloque."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:154 /checksum/fJnV1K96Dm
+msgctxt "UI"
+msgid "TX Fees percentage from block"
+msgstr "Porcentaje en Tasa de Transacción del bloque"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:155 /checksum/uXJbEPYDjr
+msgctxt "UI"
+msgid ""
+"Average % of the total block reward made up by transaction fees over time."
+msgstr ""
+"Promedio % de la recompensa de bloque total hecha por las tasas de "
+"transacción en el tiempo."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:166
+#: packages/insights/src/pages/Guides/CostToMine.tsx:175 /checksum//RvTqYafRZ
+msgctxt "UI"
+msgid "Cost to Mine 1 BTC & Example"
+msgstr "Costo para Minar 1 BTC y Ejemplo"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:193
+#: packages/insights/src/pages/Guides/CostToMine.tsx:263 /checksum/zdpnXQkOkX
+msgctxt "UI"
+msgid "Sharing and Embedding"
+msgstr "Compartiendo y Empotrando"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:196 /checksum/wYlO7xATNr
+msgctxt "UI"
+msgid ""
+"If you think this tool can be useful to others in the mining industry, "
+"please share it! The <em>Share</em> button right above the chart allows you "
+"to share a URL with all of your user inputs, or you can select the embed "
+"option and embed an iframe of the tool in English, Russian, Spanish, Farsi, "
+"or Chinese."
+msgstr ""
+"Si piensa que esta herramienta puede ser útil a otros en la industria "
+"minera, ¡Comparta por favor! El botón <em>Compartir</em> justo arriba de la "
+"gráfica le permite compartir una URL con todos sus cambios introducidos, o "
+"puede seleccionar la opción empotrada y empotrar una iframe de la "
+"herramienta en Inglés, Ruso, Español, Farsi o Chino."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:205 /checksum/Je1w9/HQoW
+msgctxt "UI"
+msgid ""
+"This is also just the first of many tools and stats for Bitcoin miners that "
+"we will be releasing in <a>Braiins Mining Insights</a> over the following "
+"months, so check back soon to see what else we’re publishing!"
+msgstr ""
+"Esta es solo la primera de varias herramientas y estadísticas para mineros "
+"Bitcoin que estaremos lanzando en <a>Braiins Mining Insights</a> durante los"
+" próximos meses, ¡así que regrese pronto de nuevo para ver que mas estamos "
+"publicando!"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:230 /checksum/Dm066A30Lk
+msgctxt "UI"
+msgid "Mining Insights | Cost to Mine 1 BTC Guide"
+msgstr "Mining Insights | Guía Costo para Minar 1 BTC"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:234
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:636
+#: /checksum/a8Xb9g/DoQ
+msgctxt "UI"
+msgid "Bitcoin Mining Insights"
+msgstr "Mining Insights Bitcoin"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:237 /checksum/OmaokSuej5
+msgctxt "UI"
+msgid "Cost to Mine 1 BTC Guide"
+msgstr "Guía Costo para Minar 1 BTC"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:238 /checksum/Rr2JxSMAJH
+msgctxt "UI"
+msgid ""
+"A quick guide explaining how to use the Advanced Options in our new Cost to "
+"Mine 1 BTC calculator and where to find data on all the popular hardware "
+"models."
+msgstr ""
+"Una guía rápida explicando como usar las Opciones Avanzadas de nuestra nueva"
+" calculadora Costo para Minar 1 BTC y donde conseguir los datos de todos los"
+" modelos populares de hardware."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:242
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:644
+#: /checksum/lDyqMm5jfK
+msgctxt "UI"
+msgid "Nov 03, 2020"
+msgstr "nov 03, 2020"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:258 /checksum//CmbgYgafq
+msgctxt "UI"
+msgid "Cost to Mine 1 BTC Example"
+msgstr "Ejemplo Costo para Minar 1 BTC"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:86
+#: /checksum/ToVhQrSGuS
+msgctxt "UI"
+msgid ""
+"There are dozens of Bitcoin mining profitability calculators out there that "
+"miners can use to make quick estimates about their margins. In fact, these "
+"mining tools have existed for almost as long as Bitcoin itself."
+msgstr ""
+"Hay docenas de calculadoras de rentabilidad en minería Bitcoin que los "
+"mineros pueden usar para hacer estimaciones rápidas sobre sus márgenes. De "
+"hecho, esas herramientas de minería han existido tanto tiempo como el propio"
+" Bitcoin."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:98
+#: /checksum/RxhgvsfnCO
+msgctxt "UI"
+msgid ""
+"In this guide, we'll explain how to use these advanced options to make "
+"detailed projections of your potential cash flow from Bitcoin mining. These "
+"cash flow visualizations can be particularly useful for pitch decks if you "
+"are raising funds or just for yourself to get a better idea of how to best "
+"reinvest past profits into newer hardware."
+msgstr ""
+"En esta guía, explicaremos como usar esas opciones avanzadas para hacer "
+"proyecciones detalladas de su potencial flujo de caja de minería Bitcoin. "
+"Estas visualizaciones de flujo de caja pueden ser particularmente útiles "
+"para promociones si está levantando fondos o solo para usted tener mejor "
+"idea de como reinvertir ganancias pasadas en hardware nuevo."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:37
+#: /checksum/N32GY4k24z
+msgctxt "UI"
+msgid "Bitcoin Mining Profitability Calculator (Basic Options)"
+msgstr "Calculadora de Rentabilidad en Minería Bitcoin (Opciones Básicas)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:111
+#: /checksum/0dwvYqv6kE
+msgctxt "UI"
+msgid "Profitability Calculator - basic options"
+msgstr "Calculadora de Rentabilidad - opciones básicas"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:121
+#: /checksum/DhIb/YFEEA
+msgctxt "UI"
+msgid ""
+"<strong>Current BTC price & difficulty </strong> (pulled from an API in "
+"real-time but still customizable)"
+msgstr ""
+"<strong>Precio actual BTC y dificultad </strong> (obtenido de una an API en "
+"tiempo real pero personalizable)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:126
+#: /checksum/pylASOarZJ
+msgctxt "UI"
+msgid "<strong>Total hashrate</strong> (TH/s)"
+msgstr "<strong>Tasa de hash Total</strong> (TH/s)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:127
+#: /checksum/OGU91XMvKe
+msgctxt "UI"
+msgid "<strong>Total power consumption</strong> (Watts)"
+msgstr "<strong>Consumo total de potencia</strong> (Vatios)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:128
+#: /checksum/n9j8s/Z16U
+msgctxt "UI"
+msgid "<strong>Electricity price</strong> ($/kWh)"
+msgstr "<strong>Precio Electricidad</strong> ($/kWh)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:136
+#: /checksum/eVTO7H/wSR
+msgctxt "UI"
+msgid "<strong>Time period</strong> (custom range from 6 - 60 months)"
+msgstr ""
+"<strong>Período de tiempo</strong> (rango personalizable de 6 - 60 meses)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:139
+#: /checksum/opTDydS5ji
+msgctxt "UI"
+msgid ""
+"<strong>Avg. transaction fees per block</strong> (additional mining revenue "
+"from transaction fees)"
+msgstr ""
+"<strong>Tasas de transacción promedio por bloque</strong> (ganancia minera "
+"adicional por tarifas de transacción)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:145
+#: /checksum/eDASLXFi1K
+msgctxt "UI"
+msgid ""
+"<strong>Price increment</strong> (change the BTC price by a custom % "
+"monthly)"
+msgstr ""
+"<strong>Incremento de precio</strong> (cambia el precio BTC por un % mensual"
+" personalizado)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:151
+#: /checksum/GhK9JvpKQb
+msgctxt "UI"
+msgid ""
+"<strong>Difficulty increment</strong> (change the BTC network difficulty by "
+"a custom % monthly)"
+msgstr ""
+"<strong>Incremento de dificultad</strong> (cambia la dificultad de red BTC "
+"un % mensual personalizado)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:159
+#: /checksum/vyLBZd9f4S
+msgctxt "UI"
+msgid ""
+"Bitcoin's network difficulty has always increased significantly over long "
+"time periods, but the increase typically lags price increases because the "
+"time to manufacture and deploy new ASIC hardware is a bottleneck on "
+"difficulty growth."
+msgstr ""
+"La dificultad de la red Bitcoin siempre ha aumentado significativamente tras"
+" largos períodos de tiempo, pero el incremento típicamente va con retraso a "
+"los aumentos de precio por el tiempo de fabricación y despliegue de nuevo "
+"hardware ASIC que es un cuello de botella en el crecimiento de la "
+"dificultad."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:164
+#: /checksum/Q7nq3uDkUc
+msgctxt "UI"
+msgid "BTC Difficulty chart"
+msgstr "Gráfica Dificultad BTC"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:167
+#: /checksum/G50mWil7vO
+msgctxt "UI"
+msgid ""
+"Keep in mind that both of these increments are MONTHLY, meaning that the "
+"difficulty increment in the cash flow calculator accounts for a bit more "
+"than two actual Bitcoin difficulty adjustments each time. <em>For difficulty"
+" to approximately double over the course of 1 year — as it has historically "
+"done in the last few years — the monthly difficulty increment should be set "
+"at about 6%</em>."
+msgstr ""
+"Tome en cuenta que ambos incrementos son MENSUAL, lo que significa que el "
+"incremento de la dificultad en la calculadora de flujo de caja solo "
+"representa un poco mas de dos ajustes de dificultad Bitcoin cada vez. "
+"<em>Para una dificultad aproximadamente el doble por el transcurso de 1 año "
+"— como ha sido históricamente hecho en los últimos años — el incremento de "
+"dificultad mensual debería ponerse como en 6%</em>."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:174
+#: /checksum/gzf82KG+js
+msgctxt "UI"
+msgid ""
+"Price is relatively harder to predict, so we recommend playing around with "
+"different bullish and bearish scenarios. For example, see what would happen "
+"by increasing price faster than difficulty (as occurs in bull markets) or "
+"increasing it slower than difficulty (as occurs in sideways movements or "
+"bear markets)."
+msgstr ""
+"El precio es relativamente mas difícil de predecir, así que recomendamos "
+"jugar con distintos escenarios alcistas y bajistas. Por ejemplo, para ver "
+"que ocurriría al aumentar el precio mas rápido que la dificultad (como "
+"ocurre en mercados alcistas) o incrementar mas despacio que la dificultad "
+"(como ocurre en movimientos laterales o mercados bajistas)."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:180
+#: /checksum/0Dt6X+d3gU
+msgctxt "UI"
+msgid ""
+"Once you put in your values for the inputs above, you'll receive the "
+"following information about your operation:"
+msgstr ""
+"Cuando coloque sus valores en las entradas arriba, podrá recibir la "
+"siguiente información sobre su operación:"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:187
+#: /checksum/Dfbz/masSt
+msgctxt "UI"
+msgid "Monthly revenue in BTC and total BTC mined over the full time period"
+msgstr ""
+"Ganancia mensual en BTC y total BTC minado sobre un período de tiempo "
+"completo"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:192
+#: /checksum/JNqTOqBl+t
+msgctxt "UI"
+msgid "Monthly profit or loss in USD (or other fiat currency)"
+msgstr "Ganancias o pérdidas mensuales en USD (u otro dinero fiat)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:194
+#: /checksum/augJn4UaUZ
+msgctxt "UI"
+msgid "Cumulative profit or loss in USD over your selected time period"
+msgstr ""
+"Ganancias o pérdidas acumuladas en USD sobre su período de tiempo "
+"seleccionado"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:197
+#: /checksum/FvawVk7SZO
+msgctxt "UI"
+msgid ""
+"Your break-even electricity price given your hashrate, consumption, and pool"
+" fee"
+msgstr ""
+"Su punto de equilibrio en precio de electricidad dada su tasa de hash, "
+"consumo y tasa de pool"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:203
+#: /checksum/yUWVVKcfoN
+msgctxt "UI"
+msgid ""
+"Your average cost of production for 1 BTC over your selected time period"
+msgstr ""
+"Su costo promedio de producción para 1 BTC sobre su período de tiempo "
+"seleccionado"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:210
+#: /checksum/IFTY+mSkKV
+msgctxt "UI"
+msgid ""
+"But to really make the most of this tool, we recommend using the advanced "
+"options."
+msgstr ""
+"Pero para sacar realmente provecho a esta herramienta, recomendamos usar las"
+" opciones avanzadas."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:41
+#: /checksum/zOzav3prDj
+msgctxt "UI"
+msgid "Bitcoin Mining Cash Flow Calculator (Advanced Options)"
+msgstr "Calculadora Flujo de Caja Minería Bitcoin (Opciones Avanzadas)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:225
+#: /checksum/0dyLG+auHu
+msgctxt "UI"
+msgid "Profitability Calculator - advanced options"
+msgstr "Calculadora de Rentabilidad - opciones avanzadas"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:226
+#: /checksum/cfvLh0hUql
+msgctxt "UI"
+msgid "Source: <a>Mining Profitability Calculator</a>"
+msgstr "Fuente: <a>Calculadora de Rentabilidad Minera</a>"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:257
+#: /checksum/35b6Ox5QN0
+msgctxt "UI"
+msgid ""
+"The advanced version of our mining profitability calculator gives you a much"
+" more sophisticated overview of how your mining business will perform in "
+"different scenarios. Let's explain the custom options one-by-one."
+msgstr ""
+"La versión avanzada de nuestra calculadora de rentabilidad minera le da un "
+"resumen mas sofisticado de como su negocio minero se desempeñará en "
+"diferentes escenarios. Permítanos explicar las opciones personalizadas una "
+"por una."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:45
+#: /checksum/yqpmH+jzcA
+msgctxt "UI"
+msgid "Capital Expenditure (CAPEX)"
+msgstr "Gastos en Capital (CAPEX)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:271
+#: /checksum/RS8V4/D8Ss
+msgctxt "UI"
+msgid ""
+"Capital expenditures are costs you pay to acquire or upgrade your business' "
+"assets. In Bitcoin mining, examples of CAPEX include:"
+msgstr ""
+"Los Gastos en capital son costos que paga por adquirir o actualizar sus "
+"activos de negocio. En la minería Bitcoin, ejemplos de CAPEX incluye:"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:277
+#: /checksum/4eX+GqZ+uH
+msgctxt "UI"
+msgid "Purchasing ASICs and PSUs"
+msgstr "Compra de ASICs y PSUs"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:279
+#: /checksum/UnfvVtmVTw
+msgctxt "UI"
+msgid "Building or purchasing a data center facility to house your hardware"
+msgstr ""
+"Construcción o compra de una instalación data center para alojar su hardware"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:284
+#: /checksum/xC3Td2SRzJ
+msgctxt "UI"
+msgid "Immersion cooling or HVAC (air cooling) setup"
+msgstr ""
+"Instalación de enfriamiento por inmersión o climatización (enfriamiento por "
+"aire)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:285
+#: /checksum/R66oLZzHfY
+msgctxt "UI"
+msgid "Labor for installation"
+msgstr "Mano de obra para la instalación"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:286
+#: /checksum//9IoyvWBMq
+msgctxt "UI"
+msgid "Taxes and licenses to be legally compliant"
+msgstr "Impuestos y licencias para cumplir con la ley"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:49
+#: /checksum/k7yQ0nbmbg
+msgctxt "UI"
+msgid "Monthly Operational Expenditure (OPEX)"
+msgstr "Gastos Operativos Mensual (OPEX)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:297
+#: /checksum/gkvWYg/Q5m
+msgid ""
+"If you have fixed monthly costs that are independent of your mining revenue,"
+" you can factor those in here. Examples of common OPEXs include:"
+msgstr ""
+"Si tiene gastos fijos mensuales que son independientes de los ingresos de "
+"minado, puede contralos aquí. Ejemplos comunes de OPEX incluyen:"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:303
+#: /checksum/uQjMnHyqVB
+msgctxt "UI"
+msgid "Employee salaries"
+msgstr "Salario de los empleados"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:304
+#: /checksum/KJZCer06Iq
+msgctxt "UI"
+msgid "Fixed monthly expenses such as security or insurance"
+msgstr "Gastos fijos mensuales como seguridad o seguro"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:308
+#: /checksum/yOW2mFkDDN
+msgctxt "UI"
+msgid ""
+"Note that this should <em>not</em> include OPEX to run the miners, as that "
+"is calculated for you based on your power consumption and electricity price "
+"per kWh."
+msgstr ""
+"Note que esto <em>no</em> debería incluir la OPEX para operar los mineros, "
+"ya que es calculado por usted basado en su consumo de potencia y precio de "
+"electricidad por kWh."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:53
+#: /checksum/jKiG8+VGYF
+msgctxt "UI"
+msgid "Initial Hardware Value & Initial Infrastructure Value"
+msgstr "Valor Inicial de Hardware y Valor Inicial de Infraestructura"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:324
+#: /checksum/4QhO9InNiK
+msgctxt "UI"
+msgid ""
+"The <em>Initial Hardware Value</em> input should be the estimated resale "
+"value of any mining hardware (ASICs and PSUs) you own. Meanwhile, the "
+"<em>Initial Infrastructure Value </em> should be the market value of all "
+"your infrastructure such as containers, immersion cooling tanks and fluid, "
+"generators, etc."
+msgstr ""
+"La entrada <em>Valor Inicial de Hardware</em> debería estimarse como el "
+"valor estimado de reventa de cualquier hardware de minería (ASICs y PSUs) "
+"que tenga. Mientras, el <em>Valor Inicial de Infraestructura </em> debería "
+"ser el valor de mercado de toda su infraestructura como contenedores, "
+"tanques para enfriamiento por inmersión y fluido, generadores, etc."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:57
+#: /checksum/Ny8jbfQQ7K
+msgctxt "UI"
+msgid "Hardware & Infrastructure Appreciation / Depreciation (%)"
+msgstr "Hardware y Apreciación / Depreciación de Infraestructura (%)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:339
+#: /checksum/7uTNGEU4DK
+msgctxt "UI"
+msgid ""
+"These two inputs for monthly appreciation / depreciation allow you to change"
+" the value of your physical assets over time."
+msgstr ""
+"Estas dos entradas para apreciación / depreciación mensual le permiten "
+"cambiar el valor de sus activos físicos en el tiempo."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:346
+#: /checksum/aVdKkOBN74
+msgctxt "UI"
+msgid ""
+"Historically, the value of ASIC hardware is highly dependent on Bitcoin's "
+"price (and to a much lesser extent, the price of other SHA-256 coins "
+"including Bitcoin Cash and Bitcoin SV as well). At the same time, ASICs "
+"become less valuable when newer and more efficient models reach the market "
+"and the network difficulty increases. For instance, Antminer S9s that were "
+"originally selling for $2000 - $3000 in 2016 were available for $20 - $50 "
+"after the <a>2020 halving</a>."
+msgstr ""
+"Históricamente, el valor del hardware ASIC depende mucho del precio Bitcoin "
+"(y en menor grado, el precio de otras monedas SHA-256 incluyendo Bitcoin "
+"Cash y Bitcoin SV también). Al mismo tiempo, los ASICs se hacen menos "
+"valiosos cuando modelos nuevos y mas eficientes llegan al mercado y la "
+"dificultad de la red aumenta. Por ejemplo, los Antminer S9s que "
+"originalmente se vendrían entre $2000 - $3000 en 2016 estuvieron disponibles"
+" entre $20 - $50 tras el <a>halving 2020</a>."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:362
+#: /checksum/GXar1PJ9ur
+msgctxt "UI"
+msgid ""
+"If you calculate mining cash flow for 6 - 12 months, BTC price should be a "
+"significant variable that determines the change in value of your hardware. "
+"On the other hand, increasing difficulty and newer ASICs hitting the market "
+"should be the main factors that contribute to depreciation over longer time "
+"periods."
+msgstr ""
+"Si calcula el flujo de caja minero por 6 - 12 meses, el precio BTC debería "
+"ser una variable significativa que determine el cambio en el valor de su "
+"hardware. Por otro lado, incrementos de dificultad y llegada de nuevos ASICs"
+" al mercado deberían ser factores principales que contribuyen a la "
+"depreciación en períodos mas largos de tiempo."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:368
+#: /checksum/ky9UaT900k
+msgctxt "UI"
+msgid ""
+"The value of your infrastructure such as containers, buildings, land, etc. "
+"is likely less correlated with BTC price compared to ASIC hardware. That's "
+"why we enable you to set a separate rate for appreciation and depreciation "
+"of infrastructure."
+msgstr ""
+"El valor de su infraestructura como contenedores, edificios, tierra, etc. Es"
+" probablemente menos correlacionado al precio BTC comparado al hardware "
+"ASIC. Por eso le permitimos poner una tasa separada para apreciación y "
+"depreciación de la infraestructura."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:61
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:956
+#: /checksum/Gr3dTFTgzv
+msgctxt "UI"
+msgid "HODL Ratio"
+msgstr "Tasa de HODL"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:383
+#: /checksum/k1e1RVBQ0K
+msgctxt "UI"
+msgid ""
+"Most miners do not mine bitcoin purely to maximize their fiat profit in the "
+"short-term. Instead, it's very common for miners to hold at least some "
+"portion of their profits in BTC on their balance sheet, giving them exposure"
+" to potential price appreciation. With this in mind, we created the <em>HODL"
+" Ratio</em> as a way for users to determine a percentage of their net profit"
+" each month they want to keep in BTC rather than cashing it out. If you set "
+"a nonzero value for <em>Price Increment</em> in the basic inputs, the HODL "
+"Ratio will impact your <em>End Profit/Loss</em> as the value of BTC on your "
+"balance sheet will appreciate or depreciate in fiat terms over time."
+msgstr ""
+"Muchos mineros no minan bitcoin puramente para maximizar sus ganancias fiat "
+"al corto plazo. En su lugar, es muy común que los mineros mantengan al menos"
+" una porción de sus ganancias en BTC en su hoja de balances, dándoles "
+"exposición a posibles apreciaciones en el precio. Con esto en mente, hemos "
+"creado la <em>Tasa HODL</em> como una forma para los usuarios de determinar "
+"un porcentaje de su ganancia neta mensual que quieran mantener en BTC en "
+"lugar de cobrarlo. Si pone un valor que no sea cero para el <em>Incremento "
+"de Precio</em> en las entradas básicas, la Tasa HODL impactará su "
+"<em>Beneficio/Pérdida Final</em> como el valor BTC en su hoja de balance se "
+"apreciará o depreciará en término fiat sobre el tiempo."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:390
+#: /checksum/vqZLnjm0bX
+msgctxt "UI"
+msgid ""
+"To illustrate this, below is a chart with all of the inputs exactly the same"
+" as the one posted most recently above. The only difference is that the "
+"first had a HODL Ratio of 0%, and this one has a HODL Ratio of 100% (aka a "
+"MicroStrategy Treasury Policy)."
+msgstr ""
+"Para ilustrar esto, abajo está una gráfica con todas las entradas "
+"exactamente igual que la puesta arriba recién. La única diferencia es que la"
+" primera tuvo una Tasa HODL de 0%, y esta tiene una Tasa HODL de 100% (o una"
+" Micro-estrategia en Política de Tesorería)."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:398
+#: /checksum/qDj2iqP87e
+msgctxt "UI"
+msgid "Profitability Calculator - HODL ratio"
+msgstr "Calculadora de Rentabilidad - Tasa HODL"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:400
+#: /checksum/E2G1BpfzRL
+msgctxt "UI"
+msgid "Source: <a>Profitability Calculator with HODL Ratio = 100%</a>"
+msgstr "Fuente: <a>Calculadora de Rendabilidad con Tasa HODL = 100%</a>"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:434
+#: /checksum/su7WYeOJXi
+msgctxt "UI"
+msgid ""
+"For a much deeper overview of different strategies for treasury management, "
+"we strongly recommend that you read <a>The Intelligent Bitcoin Miner</a> by "
+"Anicca Research."
+msgstr ""
+"Para un resumen mucho mas profundo de estrategias distintas para el manejo "
+"de tesorería, le recomendamos ampliamente que lea <a>El Minero Bitcoin "
+"Inteligente</a> por Anicca Research."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:65
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:969
+#: /checksum/QyBezLsBh2
+msgctxt "UI"
+msgid "Discount Rate"
+msgstr "Tasa de Descuento"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:459
+#: /checksum/ITeKwqNxDM
+msgctxt "UI"
+msgid ""
+"If you set a nonzero <em>Discount Rate</em>, it will not impact the stats or"
+" the data series on the chart. However, we calculate NPV (Net Present Value)"
+" in the backend, and we print this value in the CSV file which you can "
+"download (see the <em>Download CSV</em> text right above the stats.)"
+msgstr ""
+"Si pone un valor distinto a cero en la <em>Tasa de Descuento</em>, No "
+"impactará la estadística o serie de datos de a gráfica. Sin embargo, "
+"calculamos el NPV (Valor Actual Neto) en la backend, e imprimimos el valor "
+"en el archivo CSV que puede descargar (ver el texto <em>Descargar CSV</em> "
+"arriba de las estadísticas.)"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:467
+#: /checksum/45Q6LF3gL4
+msgctxt "UI"
+msgid ""
+"In Discounted Cash Flow Analysis, the <em>Discount Rate</em> is an interest "
+"rate used to determine the present value of future cash flows."
+msgstr ""
+"En Análisis de Flujo de Caja Descontado, la <em>Tasa de Descuento</em> es "
+"una tasa de interés usada para determinar el valor presente y futuro de los "
+"flujos de caja."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:73
+#: /checksum/2rNIwvTuQB
+msgctxt "UI"
+msgid "Projecting Possible Scenarios"
+msgstr "Proyectando Posibles Escenarios"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:509
+#: /checksum/cz+3xbVn7E
+msgctxt "UI"
+msgid ""
+"Finally, we'll leave you with an example of how you can use the Braiins "
+"mining cash flow calculator to visualize projections for multiple different "
+"scenarios for BTC price action in the future. Whether you want to present "
+"financial projections to prospective investors or just inform yourself in "
+"order to make better decisions when managing your business, this can aid you"
+" in that venture."
+msgstr ""
+"Finalmente, le dejamos con un ejemplo de como puede usar la calculadora de "
+"flujo de caja minera Braiins para visualizar proyecciones con múltiples "
+"escenarios de acción de precio BTC en el futuro. Bien quiera presentar "
+"proyecciones financieras a posibles inversores o solo informarse usted de "
+"como tomar mejores decisiones al gestionar su negocio, esto puede ayudarle "
+"en dicha empresa."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:514
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:517
+#: /checksum/u7nV0rmTkM
+msgctxt "UI"
+msgid "Scenario 1: Difficulty Rises Faster than Price"
+msgstr "Escenario 1: La Dificultad Sube mas Rápido que el Precio"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:519
+#: /checksum/TtZPZbrNOi
+msgctxt "UI"
+msgid ""
+"Source: <a>Profitability Calculator Difficulty Increment > Price "
+"Increment</a>"
+msgstr ""
+"Fuente: <a>Calculadora de Rentabilidad Aumento de Dificultad > Incremento de"
+" Precio</a>"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:556
+#: /checksum/nWkpW+cZxs
+msgctxt "UI"
+msgid ""
+"Since difficulty is increasing faster than price, the revenue and profit per"
+" month decreases when holding hashrate constant. This is also likely to "
+"result in <em>Hardware Value</em> depreciation, as the ASICs are becoming "
+"less profitable over time."
+msgstr ""
+"Debido a que la dificultad está aumentando mas rápido que el precio, los "
+"ingresos y ganancias por mes disminuyen al mantener una tasa de hash "
+"constante. Esto seguramente también resulte en depreciación del<em>Valor de "
+"Hardware</em>, mientras los ASICs se hacen menos rentables con el tiempo."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:563
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:566
+#: /checksum/MGvIz95vRT
+msgctxt "UI"
+msgid "Scenario 2: Price Rises Faster than Difficulty"
+msgstr "Escenario 2: El Precio Sube mas Rápido que la Dificultad"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:568
+#: /checksum/JqMm1qXGgz
+msgctxt "UI"
+msgid ""
+"Source: <a>Profitability Calculator Price Increment > Difficulty "
+"Increment</a>"
+msgstr ""
+"Fuente: <a>Calculadora de Rentabilidad Aumento de Precio > Incremento de "
+"Dificultad</a>"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:605
+#: /checksum/1DbSfBFPQc
+msgctxt "UI"
+msgid ""
+"With price outpacing difficulty, the profitability of hashrate is increasing"
+" over time and the <em>Hardware Value </em>is depreciating much more slowly "
+"than in the previous case, leading to cumulative profit and net cash flow "
+"both accelerating upward each month."
+msgstr ""
+"Con en precio superando la dificultad, la rentabilidad de la tasa de hash "
+"está aumentando en el tiempo y el <em>Valor de Hardware </em>se está "
+"depreciando mucho mas despacio que en el caso previo, llevando a una "
+"acumulación de ganancias y flujo de caja neto ambos acelerando al alza cada "
+"mes."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:632
+#: /checksum/46APM7i8lE
+msgctxt "UI"
+msgid "Mining Insights | BTC Profitability Calculator Guide"
+msgstr "Mining Insights | Guía Calculadora de Rentabilidad BTC"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:639
+#: /checksum/8A3bdleOYt
+msgctxt "UI"
+msgid "BTC Profitability Calculator Guide"
+msgstr "Guía Calculadora Rentabilidad BTC"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:640
+#: /checksum/i5eMm97twR
+msgctxt "UI"
+msgid ""
+"Instructions explaining how to use the Advanced Options in our new Bitcoin "
+"mining profitability calculator in order to estimate cash flow for your "
+"mining operation."
+msgstr ""
+"Instrucciones que explican como usar las Opciones Avanzadas en nuestra nueva"
+" calculadora de rentabilidad minera Bitcoin para poder estimar el flujo de "
+"caja en su operación minera."
+
+#: packages/insights/src/pages/Guides/Wrapper.tsx:29 /checksum/K6O7lAnbOO
+msgctxt "UI"
+msgid "Mining Insights | Guides"
+msgstr "Mining Insights | Guías"
+
+#: packages/insights/src/pages/Root/Root.tsx:224 /checksum/Xot5UuXLAS
+msgctxt "UI"
+msgid "Failed to fetch network stats!"
+msgstr "¡Falló en traer estadísticas de red!"
+
+#: packages/insights/src/pages/Home/Home.tsx:226
+#: packages/insights/src/pages/Root/Root.tsx:345 /checksum/LRsi7QyFPz
+msgctxt "UI"
+msgid "Home"
+msgstr "Inicio"
+
+#: packages/insights/src/pages/Root/Root.tsx:347 /checksum/ueCsPsZISr
+msgctxt "UI"
+msgid "Cost to Mine"
+msgstr "Costo para Minar"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:215
+#: packages/insights/src/pages/Root/Root.tsx:346 /checksum/uPDxuK27Wd
+msgctxt "UI"
+msgid "Profitability"
+msgstr "Rentabilidad"
+
+#: packages/insights/src/pages/Root/Root.tsx:405 /checksum/CYAkeY00Qq
+msgctxt "UI"
+msgid "Open menu"
+msgstr "Menú abierto"
+
+#: packages/insights/src/pages/Root/Root.tsx:506 /checksum/yNm5Hh3tEy
+msgctxt "UI"
+msgid "Braiins | Mining Insights"
+msgstr "Braiins | Conocimientos de Minería"
+
+#: packages/insights/src/pages/Root/Root.tsx:507 /checksum/InDzuhzQQ2
+msgctxt "UI"
+msgid ""
+"Bitcoin Mining Insights is a collection of tools and stats built to help "
+"Bitcoin miners."
+msgstr ""
+"Bitcoin Mining Insights es una colección de herramientas y estadísticas "
+"hecha para ayudar mineros Bitcoin."
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:185
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:337
+#: /checksum/bnu0gS+6om
+msgctxt "UI"
+msgid "Required value!"
+msgstr "¡Valor requerido!"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:345
+#: /checksum/wqiKoP4VFa
+msgctxt "UI"
+msgid "Cannot calculate data without missing data!"
+msgstr "¡No puede calcular datos sin datos faltantes!"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:334
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:728
+#: /checksum/ScciS+MZ3k
+msgctxt "UI"
+msgid "Inputs"
+msgstr "Entradas"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:337
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:733
+#: /checksum/DEuqw8TbK2
+msgctxt "UI"
+msgid "BTC Price"
+msgstr "Precio BTC"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:342
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:746
+#: /checksum/AKhOJqs+5K
+msgctxt "UI"
+msgid "Network Difficulty"
+msgstr "Dificultad de Red"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:346
+#: /checksum/qn1/QWM3m+
+msgctxt "UI"
+msgid "Select Hardware"
+msgstr "Elija Hardware"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:358
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:136
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:62
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:756
+#: /checksum/KwuybsWn+f
+msgctxt "UI"
+msgid "Hashrate"
+msgstr "Tasa de hash"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:363
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:61
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:763
+#: /checksum/X3XhumiUAL
+msgctxt "UI"
+msgid "Consumption"
+msgstr "Consumo"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:368
+#: /checksum/Fqo2mGChzE
+msgctxt "UI"
+msgid "Elec.price / kWh"
+msgstr "Precio.elec / kWh"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:373
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:781
+#: /checksum/I5l5ilorKm
+msgctxt "UI"
+msgid "Block Subsidy"
+msgstr "Subsidio de Bloque"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:378
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:788
+#: /checksum/AWZsUcaYcv
+msgctxt "UI"
+msgid "Pool Fee"
+msgstr "Tasa de Pool"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:385
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:864
+#: /checksum/Rr/YYgnKnp
+msgctxt "UI"
+msgid "Advanced Options"
+msgstr "Opciones Avanzadas"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:397
+#: /checksum/1pMyCicCIN
+msgctxt "UI"
+msgid "Diff. Increment"
+msgstr "Incr. Dificultad"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:398
+#: /checksum/mcRHNDzzQv
+msgctxt "UI"
+msgid "Adjust the current difficulty by any percentage."
+msgstr "Ajusta la dificultad actual a cualquier porcentaje."
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:405
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:812
+#: /checksum/FbwVebeIHM
+msgctxt "UI"
+msgid "Other Fees"
+msgstr "Otras Tarifas"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:406
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:813
+#: /checksum/DuY8vwMPtV
+msgctxt "UI"
+msgid ""
+"Additional operational expenses such as dev fees for firmware, management "
+"and hosting fees, etc."
+msgstr ""
+"Gastos operativos adicionales como tarifas de desarrollo de firmware, "
+"tarifas de gestión y hospedaje, etc."
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:416
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:798
+#: /checksum/ZO4RbEEtiC
+msgctxt "UI"
+msgid "Avg. Tx Fees"
+msgstr "Tasas Prom. Tx"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:417
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:799
+#: /checksum/x/bi6wwdqj
+msgctxt "UI"
+msgid "Average value of transaction fees per block mined."
+msgstr "Valor promedio de tasas de transacción por bloque minado."
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:505
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1040
+#: /checksum/65p9HDwGV6
+msgctxt "UI"
+msgid "Otherwise we’ll include currently filled values"
+msgstr "De otro modo, incluiremos los valores rellenados actualmente"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:558
+#: packages/insights/src/pages/Home/Home.tsx:176 /checksum/AYFiio+dr7
+msgctxt "UI"
+msgid "Cost to Mine 1 Bitcoin"
+msgstr "Costo para Minar 1 bitcoin"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:530
+#: /checksum/S8T97QFZmr
+msgctxt "UI"
+msgid "Stats with Stock Firmware"
+msgstr "Estadísticas con Firmware de Serie"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:574
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1096
+#: /checksum/HktjGc3Vh1
+msgctxt "UI"
+msgid "User Guide"
+msgstr "Guía de Usuario"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:137
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:580
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1103
+#: /checksum/DL6qQ0mjGE
+msgctxt "UI"
+msgid "Share"
+msgstr "Aporte"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:590
+#: /checksum/Eh0gggvHd2
+msgctxt "UI"
+msgid "Hardware Efficiency"
+msgstr "Eficiencia de Hardware"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:596
+#: /checksum/DB1RQWsTmP
+msgctxt "UI"
+msgid "Margin"
+msgstr "Margen"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:602
+#: /checksum/Fs4ylT9aTk
+msgctxt "UI"
+msgid "Break-Even Elec. Price"
+msgstr "Precio Elec. Punto Equilibrio"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:615
+#: /checksum/CSS8HlX33N
+msgctxt "UI"
+msgid "BTC Mined per Day"
+msgstr "BTC Minado por Día"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:626
+#: /checksum/GYcnoPl3+p
+msgctxt "UI"
+msgid "Profit per Day"
+msgstr "Ganancias por Día"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:659
+#: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:102
+#: /checksum/xfE7CG1Loy
+msgctxt "UI"
+msgid "Cost to Mine 1 BTC"
+msgstr "Costo para Minar 1 BTC"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:770
+#: /checksum/A8XrJerZOu
+msgctxt "UI"
+msgid "Elect. price per kWh"
+msgstr "Precio Elect. por kWh"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:709
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:98
+#: /checksum/NtqT0u1laF
+msgctxt "UI"
+msgid "Time Period"
+msgstr "Período de Tiempo"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:827
+#: /checksum/An9RHen1Vh
+msgctxt "UI"
+msgid "Difficulty Increment"
+msgstr "Aumento de Dificultad"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:846
+#: /checksum/G+9Ah/cIjE
+msgctxt "UI"
+msgid "Price Increment"
+msgstr "Incremento de Precio"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:876
+#: /checksum/VItXOfirv+
+msgctxt "UI"
+msgid "CAPEX"
+msgstr "CAPEX"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:877
+#: /checksum/c/GJXdGHgt
+msgctxt "UI"
+msgid ""
+"Initial capital expenditure (e.g. purchasing hardware, setting up more "
+"capacity, labor and materials for installation, etc.)."
+msgstr ""
+"Gasto Inicial de capital (ej: compra de hardware, aumento de capacidad, mano"
+" de obra, materiales para instalación, etc.)."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:887
+#: /checksum/PnAV62GaSI
+msgctxt "UI"
+msgid "Monthly OPEX"
+msgstr "OPEX Mensual"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:888
+#: /checksum/wgQzPqdbr6
+msgctxt "UI"
+msgid "Fixed monthly expenses (e.g. labor, security, insurance, taxes)."
+msgstr "Costos fijos mensual (ej: trabajo, seguridad, seguro, impuestos)."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:897
+#: /checksum/al0zOyEGEf
+msgctxt "UI"
+msgid "Initial HW Value"
+msgstr "Valor HW Inicial"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:898
+#: /checksum/lT3hO2Hkuo
+msgctxt "UI"
+msgid "Total starting value of your ASIC hardware inventory."
+msgstr "Valor total inicial de su inventario de hardware ASIC."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:911
+#: /checksum/dbXvCTViHm
+msgctxt "UI"
+msgid "Hardware Appr./Depr."
+msgstr "Hardware Apre./Depr."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:925
+#: /checksum/+kb/N/xw1q
+msgctxt "UI"
+msgid "Initial Infra Value"
+msgstr "Valor Infra Inicial"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:926
+#: /checksum/NOTtKeQYe0
+msgctxt "UI"
+msgid ""
+"Total starting value of your infrastructure (e.g.: land, data center "
+"infrastructure, containers, immersion cooling systems)."
+msgstr ""
+"Valor total inicial de su infraestructura (ej: tierra, infraestructura data "
+"center, contenedores, sistemas de enfriamiento por inmersión)."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:942
+#: /checksum/e+6aAQOhqi
+msgctxt "UI"
+msgid "Infra Appr./Depr."
+msgstr "Infra Apre./Depr."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:957
+#: /checksum/G8uNeKdDIe
+msgctxt "UI"
+msgid ""
+"The % of your monthly profit that you hold as BTC instead of cashing out "
+"entirely to fiat."
+msgstr ""
+"El % mensual de su ganancia que mantiene como BTC en lugar de cobrarla toda "
+"por fiat."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:970
+#: /checksum/rs75txoiTe
+msgctxt "UI"
+msgid ""
+"The interest rate used in discounted cash flow (DCF) analysis to determine "
+"the present value of future cash flows."
+msgstr ""
+"La tasa de interés usada en su flujo de caja descontado (DCF) análisis para "
+"determinar el valor actual de flujos de caja futuros."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1071
+#: /checksum/tQxjR3TzVR
+msgctxt "UI"
+msgid "Bitcoin Mining Profitability Calculator"
+msgstr "Calculadora de Rentabilidad Minera Bitcoin"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1090
+#: /checksum/fMrGyRCIVB
+msgctxt "UI"
+msgid "Download CSV"
+msgstr "Descarga CSV"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1114
+#: /checksum/r9eNopnqe2
+msgctxt "UI"
+msgid "Avg. Cost of Production"
+msgstr "Costo Prom. de Producción"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1115
+#: /checksum/4By/9NSev1
+msgctxt "UI"
+msgid "The average cost to mine 1 BTC for your mining operation."
+msgstr "El costo promedio para minar 1 BTC en su operación minera."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1128
+#: /checksum/aBI7tDibdI
+msgctxt "UI"
+msgid "Electricity Break Even"
+msgstr "Punto de Equilibrio Electricidad"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1129
+#: /checksum/0HWkZ2FCNb
+msgctxt "UI"
+msgid "The average break-even electricity price for your mining operation."
+msgstr ""
+"El punto de equilibrio promedio del precio de electricidad para su operación"
+" minera."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1142
+#: /checksum/M9g+76/LYo
+msgctxt "UI"
+msgid "CAPEX Break Even"
+msgstr "Punto de Equilibrio CAPEX"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1143
+#: /checksum/GqYIpdtSoS
+msgctxt "UI"
+msgid ""
+"The month when your cumulative profit equals or surpasses your initial CAPEX"
+" investment. Will not display a number if CAPEX = 0 or if the Break Even "
+"point is not reached during the given time period."
+msgstr ""
+"El mes cuando sus ganancias acumuladas igualan o sobrepasan su inversión "
+"inicial CAPEX. No mostrará un número si CAPEX = 0 o si el Punto de "
+"Equilibrio no se alcanza durante el período de tiempo dado."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1155
+#: /checksum/qQMvb0Nm0s
+msgctxt "UI"
+msgid "End Profit/Loss"
+msgstr "Ganancia/Perdida Final"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1166
+#: /checksum/03h8GIIbQP
+msgctxt "UI"
+msgid "Total BTC Mined"
+msgstr "Total BTC Minado"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1174
+#: /checksum/hZPhX5b0dK
+msgctxt "UI"
+msgid "IRR"
+msgstr "TIR"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1177
+#: /checksum/EBKsUbsWg0
+msgctxt "UI"
+msgid ""
+"Internal Rate of Return, a metric used to estimate the profitability of "
+"potential investments.{br}IRR value is undefined when CAPEX is 0."
+msgstr ""
+"Tasa Interna de Retorno, una métrica usada para estimar la rentabilidad de "
+"inversiones potenciales.{br}El valor TIR no está definido si CAPEX es 0."
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:365
+#: /checksum/B8C37hlrbc
+msgctxt "UI"
+msgid "Revenue and Profit Calculator"
+msgstr "Calculadora de Ingresos y Ganancias"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1208
+#: /checksum/xC/sEXQn9t
+msgctxt "UI"
+msgid "Profitability Calculator"
+msgstr "Calculadora de Rentabilidad"
+
+#: packages/insights/src/pages/Home/Home.tsx:45 /checksum/CXi9ykS1h9
+msgctxt "UI"
+msgid "Bitcoin Mining Stats"
+msgstr "Estadísticas Minería Bitcoin"
+
+#: packages/insights/src/pages/Home/Home.tsx:62 /checksum/o4i/sMjou2
+msgctxt "UI"
+msgid "Profitability of Popular SHA-256 ASICs"
+msgstr "Rentabilidad de ASICs SHA-256 populares"
+
+#: packages/insights/src/pages/Home/Home.tsx:72 /checksum/DOLrtZ9DYr
+msgctxt "UI"
+msgid "Bitcoin Miner Holdings & Transaction Flows"
+msgstr "Activos Mineros BItcoin y Flujos de Transacción"
+
+#: packages/insights/src/pages/Home/Home.tsx:77 /checksum/utVGXRJUad
+msgctxt "UI"
+msgid "Powered by Coin Metrics Network Data Pro"
+msgstr "Alimentado por Coin Metrics Network Data Pro"
+
+#: packages/insights/src/pages/Home/Home.tsx:104 /checksum/NboKSD31EQ
+msgctxt "UI"
+msgid "Bitcoin ASIC Hardware & Power Capacity Calculator"
+msgstr "Hardware ASIC Bitcoin y Calculadora de Capacidad de Potencia"
+
+#: packages/insights/src/pages/Home/Home.tsx:129 /checksum/0MvzbuWmWI
+msgctxt "UI"
+msgid "By subscribing you are agreeing to our <a>Privacy Policy</a>"
+msgstr ""
+"Al suscribirse está de acuerdo con nuestra <a>Política de Privacidad</a>"
+
+#: packages/insights/src/pages/Home/Home.tsx:150 /checksum/s3eGF+DTYQ
+msgctxt "UI"
+msgid "Other Mining Tools"
+msgstr "Otras Herramientas de Minería"
+
+#: packages/insights/src/pages/Home/Home.tsx:156 /checksum/F/ug1KdHjy
+msgctxt "UI"
+msgid "Bitcoin Profitability Calculator"
+msgstr "Calculadora Rentabilidad Bitcoin"
+
+#: packages/insights/src/pages/Home/Home.tsx:161
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1074
+#: /checksum/NYNj/JXHGL
+msgctxt "UI"
+msgid ""
+"This calculator will show you your net profit from mining based on your "
+"hashrate, efficiency, electricity price, and other operational expences. To "
+"include capital expenditure (e.g. costs to buy hardware), use the advanced "
+"inputs."
+msgstr ""
+"Esta calculadora le mostrará su ganancia neta basada en su tasa de hash, "
+"eficiencia, precio de electricidad y otros gastos operacionales. Para "
+"incluir gastos de capital (ej: costos de compra de hardware), use las "
+"entradas avanzadas."
+
+#: packages/insights/src/pages/Home/Home.tsx:169
+#: packages/insights/src/pages/Home/Home.tsx:188 /checksum/H2R4xHOkTU
+msgctxt "UI"
+msgid "Launch Calculator"
+msgstr "Iniciar calculadora"
+
+#: packages/insights/src/pages/Home/Home.tsx:180 /checksum/BYQPCB61NI
+msgctxt "UI"
+msgid ""
+"This calculator will show you the cost to mine 1 Bitcoin based on your "
+"hashrate, power consumption, and additional (optional) inputs. You can "
+"select any hardware model from the dropdown menu or choose “Custom” to input"
+" the hashrate and power consumption yourself."
+msgstr ""
+"Esta calculadora le mostrará el costo para minar 1 bitcoin basado en su tasa"
+" de hach, consumo de potencia, y entradas adicionales (opcional). Puede "
+"elegir cualquier modelo de hardware desde el menú desplegable o escoger "
+"\"Personalizado\" para ingresar usted la tasa de hash y consumo de potencia."
+
+#: packages/insights/src/pages/Guides/common.tsx:36 /checksum/9y+JaDw3aS
+msgctxt "UI"
+msgid "Published on $date"
+msgstr "Publicado el $date"
+
+#: packages/insights/src/pages/Guides/common.tsx:49 /checksum/6UfIPijyDf
+msgctxt "UI"
+msgid "Start Reading"
+msgstr "Empezar Lectura"
+
+#: packages/insights/src/pages/Guides/common.tsx:66 /checksum/gmU6zkS6vt
+msgctxt "UI"
+msgid "Table of Contents"
+msgstr "Tabla de Contenidos"
+
+#: packages/insights/src/pages/Root/components/StatusPage/StatusPage.tsx:48
+#: /checksum/3nCmoeStAW
+msgctxt "UI"
+msgid "Go to Homepage"
+msgstr "Ir a la Página de Inicio"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/index.tsx:35
+#: /checksum/5eH/nx0ybe
+msgctxt "UI"
+msgid "Bitcoin Miner Holdings"
+msgstr "Activos Minería Bitcoin"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/index.tsx:40
+#: /checksum/3ebHqsf/vO
+msgctxt "UI"
+msgid "Bitcoin Miner Flows"
+msgstr "Flujos Minería Bitcoin"
+
+#: shared/charts/MultiLine/MultiLine.tsx:120 /checksum/AMBWvayRmY
+msgctxt "UI"
+msgid "An error has occurred in the chart!"
+msgstr "¡Un error ha ocurrido en la gráfica!"
+
+#: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:104
+#: /checksum/3/Iz0RNBVE
+msgctxt "UI"
+msgid "Profit/Loss (USD)"
+msgstr "Ganancia/Perdida (USD)"
+
+#: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:105
+#: /checksum/Qkwhhk4BCI
+msgctxt "UI"
+msgid "Electricity Price (USD)"
+msgstr "Precio Electricidad (USD)"
+
+#: shared/components/DidCatch/DidCatch.tsx:29 /checksum/XEa29O/eL/
+msgctxt "UI"
+msgid "We've failed to report the issue (you might have a connection issues)."
+msgstr ""
+"No hemos podido reportar el incidente (usted podría tener problemas de "
+"conexión)."
+
+#: shared/components/DidCatch/DidCatch.tsx:30 /checksum/pXgcLZ78lC
+msgctxt "UI"
+msgid "Please contact our technical support team."
+msgstr "Póngase en contacto con nuestro equipo de soporte técnico."
+
+#: shared/components/DidCatch/DidCatch.tsx:33 /checksum/ez5/u4BQ64
+msgctxt "UI"
+msgid "We have been notified about the issue and are working on a fix."
+msgstr ""
+"Se nos ha notificado el problema y estamos trabajando para solucionarlo."
+
+#: shared/components/DidCatch/DidCatch.tsx:34 /checksum/hav+RWLOY7
+msgctxt "UI"
+msgid "For further information please contact our technical support."
+msgstr ""
+"Para más información, póngase en contacto con nuestro soporte técnico."
+
+#: shared/components/DidCatch/DidCatch.tsx:37 /checksum/ia/LtU7xYZ
+msgctxt "UI"
+msgid "There's a new version of this page available"
+msgstr "Hay una nueva versión de esta página disponible"
+
+#: shared/components/DidCatch/DidCatch.tsx:39 /checksum/nLnO+1+HEd
+msgctxt "UI"
+msgid ""
+"This is not an error, we have just released a new version of this page."
+msgstr ""
+"Esto no es un error, acabamos de liberar una nueva versión de esta página."
+
+#: shared/components/DidCatch/DidCatch.tsx:40 /checksum/RSadH9RTI2
+msgctxt "UI"
+msgid "Please reload the page to get the latest version."
+msgstr "Vuelva a cargar la página para obtener la última versión."
+
+#: shared/components/DidCatch/DidCatch.tsx:59 /checksum/W5XZYVGZrq
+msgctxt "UI"
+msgid "Reload the page to continue"
+msgstr "Recargue la página para continuar"
+
+#: shared/components/DidCatch/DidCatch.tsx:69 /checksum/sM67mb+aX6
+msgctxt "UI"
+msgid "Technical support"
+msgstr "Soporte Técnico"
+
+#: shared/components/DidCatch/DidCatch.tsx:96 /checksum/VyMUPIZMk2
+msgctxt "UI"
+msgid "Unknown Error"
+msgstr "Error desconocido"
+
+#: shared/components/ChartPager/ChartPager.tsx:73 /checksum/0sTtjChq/z
+msgctxt "UI"
+msgid "Step left"
+msgstr "Izquierda"
+
+#: shared/components/ChartPager/ChartPager.tsx:86 /checksum/bf4Ygh9TJ5
+msgctxt "UI"
+msgid "Step right"
+msgstr "Derecha"
+
+#: shared/components/ChartPager/ChartPager.tsx:98
+#: shared/components/carbon/DatePager/DatePager.tsx:110 /checksum/3zRDywALs+
+msgctxt "UI"
+msgid "Skip to the end"
+msgstr "Saltar al final"
+
+#: packages/insights/src/pages/Home/components/Feed/Feed.tsx:70
+#: /checksum/3eZ1CeeQpK
+msgctxt "UI"
+msgid "Invalid format of news feed received!"
+msgstr "¡Formato inválido de noticias recibido!"
+
+#: packages/insights/src/pages/Home/components/Feed/Feed.tsx:116
+#: /checksum/CpR4/EPg7K
+msgctxt "UI"
+msgid "News from Braiins.com"
+msgstr "Noticias desde Braiins.com"
+
+#: packages/insights/src/pages/Home/components/Feed/Feed.tsx:125
+#: /checksum/4NXVmu2JQr
+msgctxt "UI"
+msgid "View all news"
+msgstr "Ver todas las noticias"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:91
+#: /checksum/HV/ooiQP0Z
+msgctxt "UI"
+msgid "Hashrate <nobr>(current)</nobr>"
+msgstr "Tasa de hash <nobr>(actual)</nobr>"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:99
+#: /checksum/F9LBju/SqT
+msgctxt "UI"
+msgid "Monthly Revenue"
+msgstr "Ingreso Mensual"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:100
+#: /checksum/HJJwPzZS5B
+msgctxt "UI"
+msgid "Cumulative Profit and Cash Flow"
+msgstr "Ganancia Acumulada y Flujo de Caja"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:101
+#: /checksum/qNo3H1b+yb
+msgctxt "UI"
+msgid "Cash Flow"
+msgstr "Flujo de Caja"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:102
+#: /checksum/JA5vqgCLjq
+msgctxt "UI"
+msgid "Hardware Value"
+msgstr "Valor Hardware"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:103
+#: /checksum/umdmQ92e7A
+msgctxt "UI"
+msgid "Net Profit/Loss (Cumulative)"
+msgstr "Ganancia/Pérdida neta (Acumulada)"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:65
+#: /checksum/lqKqQ0mXAg
+msgctxt "UI"
+msgid "Difficulty Stats"
+msgstr "Estadísticas de Dificultad"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:127
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:86
+#: /checksum/QARY/DRTV6
+msgctxt "UI"
+msgid "Difficulty"
+msgstr "Dificultad"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:187
+#: /checksum/ATYp5Zjitk
+msgctxt "UI"
+msgid "HW Model"
+msgstr "Modelo HW"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:192
+#: /checksum/r3Cova/L68
+msgctxt "UI"
+msgid "Break-Even <nobr>Electricity Price</nobr>"
+msgstr "Punto de Equilibrio <nobr>Precio Electricidad</nobr>"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:197
+#: /checksum/GlmbHVO4Oc
+msgctxt "UI"
+msgid "Daily Profit <nobr>(Stock FW)</nobr>"
+msgstr "Ganancia Diaria <nobr>(FW serie)</nobr>"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:209
+#: /checksum/1lnBS8AxOk
+msgctxt "UI"
+msgid "Daily BTC Mined"
+msgstr "BTC Minado Diario"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:246
+#: /checksum/OVQZAOd+ov
+msgctxt "UI"
+msgid "Electricity Price"
+msgstr "Precio Electricidad"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:52
+#: /checksum/Unjg5IeNjj
+msgctxt "UI"
+msgid "Pool"
+msgstr "Pool"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:57
+#: /checksum/ceZQo/v+eC
+msgctxt "UI"
+msgid "HQ"
+msgstr "HQ"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:91
+#: /checksum//3P+qQheQw
+msgctxt "UI"
+msgid "Blocks Mined"
+msgstr "Bloques Minados"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:96
+#: /checksum/JDjSn4HApx
+msgctxt "UI"
+msgid "Average <nobr>Block Value</nobr>"
+msgstr "<nobr>Valor de Bloque</nobr> promedio"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:101
+#: /checksum/OG8DJHarbi
+msgctxt "UI"
+msgid "Market Share"
+msgstr "Cuota de Mercado"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:138
+#: /checksum/HNtGBx9wVm
+msgctxt "UI"
+msgid "1D"
+msgstr "1D"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:144
+#: /checksum/HAXOLPCkV/
+msgctxt "UI"
+msgid "5D"
+msgstr "5D"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:150
+#: /checksum/icob1w/IFA
+msgctxt "UI"
+msgid "5W"
+msgstr "5S"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:196
+#: /checksum/QfpnwW96qB
+msgctxt "UI"
+msgid "$name pool icon"
+msgstr "Ícono de pool $name"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:206
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:219
+#: /checksum/qRhNFYJZff
+msgctxt "UI"
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:223
+#: /checksum/81gzPHXvIp
+msgctxt "UI"
+msgid "Miner / Pool"
+msgstr "Minero / Pool"
+
+#: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:224
+#: /checksum/aAZhKvuP0r
+msgctxt "UI"
+msgid "Block Mined"
+msgstr "Bloque Minado"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:60
+#: /checksum/yJ8HmnL8nl
+msgctxt "UI"
+msgid "Hardware Name"
+msgstr "Nombre Hardware"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:71
+#: /checksum/znPI/OdISi
+msgctxt "UI"
+msgid "# of Units"
+msgstr "# de Unidades"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:76
+#: /checksum/z4umX4xjIV
+msgctxt "UI"
+msgid "Total Hashrate"
+msgstr "Tasa de hash Total"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:79
+#: /checksum//uACcOzfn5
+msgctxt "UI"
+msgid "N/A"
+msgstr "N/A"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:102
+#: /checksum/Uz4MsumS8G
+msgctxt "UI"
+msgid ""
+"Go to the Profitability Calculator with pre-set values for hashrate & "
+"consumption"
+msgstr ""
+"Vaya a Calculadora Rentabilidad con valores preestablecidos tasa de hash y "
+"consumo"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:141
+#: /checksum/LCpBtbm6oj
+msgctxt "UI"
+msgid "Filter"
+msgstr "Filtro"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:156
+#: /checksum/rwsubf/2OJ
+msgctxt "UI"
+msgid "Capacity"
+msgstr "Capacidad"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:52
+#: /checksum/C4HW/7za0G
+msgctxt "UI"
+msgid "Share on"
+msgstr "Compartir en"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:68
+#: /checksum/9PQ5DfQLsj
+msgctxt "UI"
+msgid "URL"
+msgstr "Dirección (URL)"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:116
+#: /checksum/Xm5AbMToPI
+msgctxt "UI"
+msgid "Embed Code"
+msgstr "Código Empotrado"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:129
+#: /checksum/P3KqmkfYNf
+msgctxt "UI"
+msgid "Share Results"
+msgstr "Compartir Resultados"
+
+#: packages/insights/src/components/ShareDialog/ShareDialog.tsx:130
+#: /checksum//mMDsL79dq
+msgctxt "UI"
+msgid "Embed Form"
+msgstr "Formulario Empotrado"
+
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:80
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:81
+#: /checksum/cd+/CQdSRi
+msgctxt "UI"
+msgid "Required Field!"
+msgstr "¡Campo Requerido!"
+
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:102
+#: /checksum/c8qQrc8GCm
+msgctxt "UI"
+msgid "Select hardware"
+msgstr "Elija hardware"
+
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:103
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:590
+#: shared/components/carbon/DataTable/DataTable.tsx:258
+#: shared/components/carbon/Progressbar/Progressbar.tsx:54
+#: /checksum/1r/fx4e7T/
+msgctxt "UI"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:135
+#: /checksum/EyCCklf9ED
+msgctxt "UI"
+msgid "Select Manufacturer"
+msgstr "Seleccione Fabricante"
+
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:148
+#: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:149
+#: /checksum/w2I6CCm7sb
+msgctxt "UI"
+msgid "Select HW Model"
+msgstr "Seleccione Modelo HW"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:607
+#: shared/components/format/Interval/Interval.tsx:84 /checksum/vkQ1giC8GS
+msgctxt "UI"
+msgid "Now"
+msgstr "Ahora"
+
+#: shared/components/format/Timesince/Timesince.tsx:31 /checksum/nuTJ8lQ6oY
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {year} other {years} }"
+msgstr "{num} {num, plural, =1 {year} other {years} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:32 /checksum/IO+MN6nDT9
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {month} other {months} }"
+msgstr "{num} {num, plural, =1 {month} other {months} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:33 /checksum/UgMH39E77d
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {week} other {weeks} }"
+msgstr "{num} {num, plural, =1 {week} other {weeks} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:34 /checksum/9Jrmz3TB7z
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {day} other {days} }"
+msgstr "{num} {num, plural, =1 {day} other {days} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:35 /checksum/0BdOuMCWOr
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {hour} other {hours} }"
+msgstr "{num} {num, plural, =1 {hour} other {hours} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:36 /checksum/nqK7sMvQfH
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {minute} other {minutes} }"
+msgstr "{num} {num, plural, =1 {minute} other {minutes} }"
+
+#: shared/components/format/Timesince/Timesince.tsx:37 /checksum/7MT9RqmPUe
+msgctxt "UI"
+msgid "{num} {num, plural, =1 {second} other {seconds} }"
+msgstr "{num} {num, plural, =1 {second} other {seconds} }"
+
+#. "in 1 week"
+#: shared/components/format/Timesince/Timesince.tsx:41 /checksum/NekcZQXII4
+msgctxt "UI"
+msgid "in {a}"
+msgstr "en {a}"
+
+#. "in 1 week and 2 days"
+#: shared/components/format/Timesince/Timesince.tsx:43 /checksum/LJk37V/K7M
+msgctxt "UI"
+msgid "in {a} and {b}"
+msgstr "en {a} y {b}"
+
+#. "1 week and 2 days"
+#: shared/components/format/Timesince/Timesince.tsx:46 /checksum/NwMVMlB+zO
+msgctxt "UI"
+msgid "{a} and {b}"
+msgstr "{a} y {b}"
+
+#: shared/components/carbon/Calendar/Calendar.tsx:194 /checksum/J1swR3mzbW
+msgctxt "UI"
+msgid "Failed to load the calendar widget"
+msgstr "No se pudo cargar widget de calendario"
+
+#: shared/components/carbon/OtpInput/OtpInput.tsx:53 /checksum/Q3pq3nPCw5
+msgctxt "UI"
+msgid "Enter the one-time password<br/>generated by your OTP app"
+msgstr ""
+"Introduzca la contraseña de un solo uso<br/>generada por su aplicación OTP"
+
+#: shared/components/carbon/Select/Select.tsx:19 /checksum/kgY4Q7Zflg
+msgctxt "UI"
+msgid "Choose an option"
+msgstr "Elija una opción"
+
+#: shared/components/carbon/DataTable/DataTable.tsx:253 /checksum/1S7dSi0fw/
+msgctxt "UI"
+msgid "{count, plural, =1 {# item} other {# items}} selected"
+msgstr "{count, plural, = 1 {# item} otros {# items}} seleccionados"
+
+#: shared/components/carbon/Pagination/Pagination.tsx:52 /checksum/UQQSrqxv7w
+msgctxt "UI"
+msgid "Previous page"
+msgstr "Página previa"
+
+#: shared/components/carbon/Pagination/Pagination.tsx:53 /checksum/ewj1GtYIq6
+msgctxt "UI"
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: shared/components/carbon/Pagination/Pagination.tsx:56 /checksum/UbBppVp4ef
+msgctxt "UI"
+msgid "{min}–{max} of {total} items"
+msgstr "{min}–{max} de {total} elementos"
+
+#: shared/components/carbon/Pagination/Pagination.tsx:59 /checksum/nCnP8rP6z0
+msgctxt "UI"
+msgid "Items per page"
+msgstr "Elementos por página"
+
+#: shared/components/carbon/Pagination/Pagination.tsx:61 /checksum/aM/Du2cS1c
+msgctxt "UI"
+msgid "of {total} pages"
+msgstr "de {total} páginas"
+
+#: shared/components/app/LinksBar/LinksBar.tsx:40 /checksum/4arFVhx+6a
+msgctxt "UI"
+msgid "Language"
+msgstr "Idioma"
+
+#: shared/components/app/EmailConfirmDialog/EmailConfirmDialog.tsx:18
+#: /checksum/0oWwXJjSJv
+msgctxt "UI"
+msgid "Email Confirmation"
+msgstr "Confirmación de Correo"
+
+#: shared/components/app/EmailConfirmDialog/EmailConfirmDialog.tsx:24
+#: /checksum/fO9TZjmzuO
+msgctxt "UI"
+msgid "A confirmation email has been sent to: <strong>{email}</strong>"
+msgstr "Un correo de confirmación ha sido enviado a: <strong>{email}</strong>"
+
+#: shared/components/app/EmailConfirmDialog/EmailConfirmDialog.tsx:37
+#: /checksum/e7Gru/kIEg
+msgctxt "UI"
+msgid "Please confirm the request by following the link included."
+msgstr "Confirme la solicitud siguiendo el enlace incluido."
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:80
+#: /checksum/paykJGarUV
+msgctxt "UI"
+msgid "1-hop_miner_flows"
+msgstr "1-hop_miner_flows"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:174
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:289
+#: /checksum/BHaEZRMkHu
+msgctxt "UI"
+msgid "Inflow"
+msgstr "Ingreso"
+
+#. Chart title shown on fullscreen & exported version
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:82
+#: /checksum/1r3A11mht1
+msgctxt "UI"
+msgid "1-hop Miner Flows"
+msgstr "1-salto Minero Flujos"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:89
+#: /checksum/cBBHFVqWuR
+msgctxt "UI"
+msgid "miner_net_flows"
+msgstr "miner_net_flows"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:289
+#: /checksum/ydfowNAugO
+msgctxt "UI"
+msgid "0-hop (Pools)"
+msgstr "0-salto (Pools)"
+
+#. Chart title shown on fullscreen & exported version
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:91
+#: /checksum/XNKm4xVVFe
+msgctxt "UI"
+msgid "Miner Net Flows"
+msgstr "Flujos Minero Neto"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:98
+#: /checksum/Ws1Wbkl9ml
+msgctxt "UI"
+msgid "30_day_mri"
+msgstr "30_day_mri"
+
+#. Chart title shown on fullscreen & exported version
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:100
+#: /checksum/LMob98w5vw
+msgctxt "UI"
+msgid "30-day MRI"
+msgstr "30-días MRI"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:248
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:302
+#: /checksum/MFUI/YuMc5
+msgctxt "UI"
+msgid "Coinbase Distance"
+msgstr "Distancia Coinbase"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:297
+#: /checksum/9GGSkxx+gY
+msgctxt "UI"
+msgid "1-hop (Miners)"
+msgstr "1-salto (Mineros)"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:175
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:298
+#: /checksum/gyIJ1LXShZ
+msgctxt "UI"
+msgid "Outflow"
+msgstr "Egreso"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:348
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:387
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:283
+#: /checksum/KYW8UNz+rU
+msgctxt "UI"
+msgid "Cannot download chart, no config present!"
+msgstr "No pudo descargar gráfica, ¡sin configuración!"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:378
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:419
+#: /checksum/DUuvC5+E9x
+msgctxt "UI"
+msgid "Type:"
+msgstr "Tipo:"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:390
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:431
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:309
+#: /checksum/KkYC1OlDIP
+msgctxt "UI"
+msgid "Period"
+msgstr "Período"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:403
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:444
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:322
+#: /checksum/qk/iOQGVD3
+msgctxt "UI"
+msgid "Exit Fullscreen [ESC]"
+msgstr "Salir Pantalla completa [ESC]"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:414
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:455
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:333
+#: /checksum/NQ9P0/+U9s
+msgctxt "UI"
+msgid "Download"
+msgstr "Descargar"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:418
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:459
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:337
+#: /checksum/GMbfIMiT8Q
+msgctxt "UI"
+msgid "Generating the image…"
+msgstr "Generando la imagen…"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:81
+#: /checksum/kT74goT0GM
+msgctxt "UI"
+msgid "miner_holdings"
+msgstr "miner_holdings"
+
+#. Chart title shown on fullscreen & exported version
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:83
+#: /checksum/pGnuz7bfvc
+msgctxt "UI"
+msgid "Absolute"
+msgstr "Absoluto"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:86
+#: /checksum/YdXl2rj+v7
+msgctxt "UI"
+msgid "miner_holdings_as_a_proportion_of_supply"
+msgstr "miner_holdings_as_a_proportion_of_supply"
+
+#. filename for the chart download function
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:87
+#: /checksum/9qJ/UczxGS
+msgctxt "UI"
+msgid "Miner Holdings as a Proportion of Supply"
+msgstr "Activos Mineros como Proporción de Suministro"
+
+#. Chart title shown on fullscreen & exported version
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:88
+#: /checksum/4Qv2W2tdw8
+msgctxt "UI"
+msgid "Proportional"
+msgstr "Proporcional"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:241
+#: /checksum/FWDFvHowFH
+msgctxt "UI"
+msgid "Remaining Supply"
+msgstr "Suministro Restante"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:240
+#: /checksum/9KtBQ3gnPq
+msgctxt "UI"
+msgid "1 hop (Miners)"
+msgstr "1 salto (Mineros)"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:239
+#: /checksum/moVVfwlR1G
+msgctxt "UI"
+msgid "0 hops (Pools)"
+msgstr "0 saltos (Pools)"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:321
+#: /checksum/Wjru8jTbnV
+msgctxt "UI"
+msgid "Total Holdings (BTC)"
+msgstr "Total Activos (BTC)"
+
+#: shared/lib/time/calendar.tsx:13 /checksum/SjZn2pSSEW
+msgctxt "UI"
+msgid "Today"
+msgstr "Hoy"
+
+#: shared/lib/time/calendar.tsx:20 /checksum/atXk5quAyc
+msgctxt "UI"
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: shared/lib/time/calendar.tsx:34 /checksum//8WXbamE8z
+msgctxt "UI"
+msgid "This Week"
+msgstr "Esta Semana"
+
+#: shared/lib/time/calendar.tsx:48 /checksum/3YK7E7SR3s
+msgctxt "UI"
+msgid "Last Week"
+msgstr "Última Semana"
+
+#: shared/lib/time/calendar.tsx:59 /checksum/j8H6u1xYwy
+msgctxt "UI"
+msgid "This Month"
+msgstr "Este Mes"
+
+#: shared/lib/time/calendar.tsx:70 /checksum/Yh5p1EuYEk
+msgctxt "UI"
+msgid "Last Month"
+msgstr "Último Mes"
+
+#: shared/lib/time/data.tsx:3 /checksum/rGqkY6ibUF
+msgctxt "CAL"
+msgid "Su"
+msgstr "Do"
+
+#: shared/lib/time/data.tsx:4 /checksum/WAJX6F7fZW
+msgctxt "CAL"
+msgid "Mo"
+msgstr "Lu"
+
+#: shared/lib/time/data.tsx:5 /checksum/ZtLN7yenBI
+msgctxt "CAL"
+msgid "Tu"
+msgstr "Ma"
+
+#: shared/lib/time/data.tsx:6 /checksum/rBV2mmglgr
+msgctxt "CAL"
+msgid "We"
+msgstr "Mi"
+
+#: shared/lib/time/data.tsx:7 /checksum/lKTE4Gh+QE
+msgctxt "CAL"
+msgid "Th"
+msgstr "Ju"
+
+#: shared/lib/time/data.tsx:8 /checksum/ddug3sAky2
+msgctxt "CAL"
+msgid "Fr"
+msgstr "Vi"
+
+#: shared/lib/time/data.tsx:9 /checksum/eVZtNdL8j3
+msgctxt "CAL"
+msgid "Sa"
+msgstr "Sa"
+
+#: shared/lib/time/data.tsx:12 /checksum/gOilVx3Uc1
+msgctxt "CAL"
+msgid "Sunday"
+msgstr "Domingo"
+
+#: shared/lib/time/data.tsx:13 /checksum/+UlQ33J7CS
+msgctxt "CAL"
+msgid "Monday"
+msgstr "Lunes"
+
+#: shared/lib/time/data.tsx:14 /checksum/2oHC6NkSpU
+msgctxt "CAL"
+msgid "Tuesday"
+msgstr "Martes"
+
+#: shared/lib/time/data.tsx:15 /checksum/cBnynGV1d+
+msgctxt "CAL"
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: shared/lib/time/data.tsx:16 /checksum//QCopXoo2U
+msgctxt "CAL"
+msgid "Thursday"
+msgstr "Jueves"
+
+#: shared/lib/time/data.tsx:17 /checksum/sMuXP/rsEv
+msgctxt "CAL"
+msgid "Friday"
+msgstr "Viernes"
+
+#: shared/lib/time/data.tsx:18 /checksum/1gEyjZCK1s
+msgctxt "CAL"
+msgid "Saturday"
+msgstr "Sábado"
+
+#: shared/lib/time/data.tsx:23 /checksum/8C/9aCuwIV
+msgctxt "CAL"
+msgid "Jan"
+msgstr "Ene"
+
+#: shared/lib/time/data.tsx:24 /checksum/OdQTXNpHUh
+msgctxt "CAL"
+msgid "Feb"
+msgstr "Feb"
+
+#: shared/lib/time/data.tsx:25 /checksum/GcWS+36AVW
+msgctxt "CAL"
+msgid "Mar"
+msgstr "Mar"
+
+#: shared/lib/time/data.tsx:26 /checksum/yt+qrgmQ+S
+msgctxt "CAL"
+msgid "Apr"
+msgstr "Abr"
+
+#: shared/lib/time/data.tsx:27 shared/lib/time/data.tsx:41
+#: /checksum/hUG65KzFzP
+msgctxt "CAL"
+msgid "May"
+msgstr "May"
+
+#: shared/lib/time/data.tsx:28 /checksum/H4O+6BDV/M
+msgctxt "CAL"
+msgid "Jun"
+msgstr "Jun"
+
+#: shared/lib/time/data.tsx:29 /checksum/+fG6ufkF7j
+msgctxt "CAL"
+msgid "Jul"
+msgstr "Jul"
+
+#: shared/lib/time/data.tsx:30 /checksum/cmjiPGmdSx
+msgctxt "CAL"
+msgid "Aug"
+msgstr "Ago"
+
+#: shared/lib/time/data.tsx:31 /checksum/KzqexW1Otw
+msgctxt "CAL"
+msgid "Sep"
+msgstr "Sep"
+
+#: shared/lib/time/data.tsx:32 /checksum/SDslPZhRoF
+msgctxt "CAL"
+msgid "Oct"
+msgstr "Oct"
+
+#: shared/lib/time/data.tsx:33 /checksum/OK2OumiEGq
+msgctxt "CAL"
+msgid "Nov"
+msgstr "Nov"
+
+#: shared/lib/time/data.tsx:34 /checksum/3ol0rhhEJT
+msgctxt "CAL"
+msgid "Dec"
+msgstr "Dic"
+
+#: shared/lib/time/data.tsx:37 /checksum/THc+ufvBHJ
+msgctxt "CAL"
+msgid "January"
+msgstr "Enero"
+
+#: shared/lib/time/data.tsx:38 /checksum/wleCey0htJ
+msgctxt "CAL"
+msgid "February"
+msgstr "Febrero"
+
+#: shared/lib/time/data.tsx:39 /checksum/R7dPr5ELwu
+msgctxt "CAL"
+msgid "March"
+msgstr "Marzo"
+
+#: shared/lib/time/data.tsx:40 /checksum/5+fXpyACUY
+msgctxt "CAL"
+msgid "April"
+msgstr "Abril"
+
+#: shared/lib/time/data.tsx:42 /checksum/cTBXFqUBZZ
+msgctxt "CAL"
+msgid "June"
+msgstr "Junio"
+
+#: shared/lib/time/data.tsx:43 /checksum/BtrYNWUQcD
+msgctxt "CAL"
+msgid "July"
+msgstr "Julio"
+
+#: shared/lib/time/data.tsx:44 /checksum/TLEpyjh+cm
+msgctxt "CAL"
+msgid "August"
+msgstr "Agosto"
+
+#: shared/lib/time/data.tsx:45 /checksum/83hPxjXxXn
+msgctxt "CAL"
+msgid "September"
+msgstr "Septiembre"
+
+#: shared/lib/time/data.tsx:46 /checksum/mafgSxxlEG
+msgctxt "CAL"
+msgid "October"
+msgstr "Octubre"
+
+#: shared/lib/time/data.tsx:47 /checksum//C8NaVpq5Y
+msgctxt "CAL"
+msgid "November"
+msgstr "Noviembre"
+
+#: shared/lib/time/data.tsx:48 /checksum/9JVTCEZIN8
+msgctxt "CAL"
+msgid "December"
+msgstr "Diciembre"
+
+#: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:59
+#: /checksum/dKJ/VT5Fd3
+msgctxt "UI"
+msgid "No data…"
+msgstr "Sin datos…"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:89 /checksum/sXzV75EASp
+msgctxt "UI"
+msgid ""
+"Alternatively, you can select the <em>Custom</em> option to input your own "
+"hashrate and power consumption values rather than using preloaded values "
+"from the ASIC database, which is best if you use a performance boosting "
+"firmware like <a>Braiins OS+‎</a> to improve your device's efficiency."
+msgstr ""
+"Alternativamente, puede seleccionar la opción <em>Personalizada</em> para "
+"introducir sus propios valores de tasa de hash y consumo de energía en lugar"
+" de utilizar los valores precargados de la base de datos del ASIC, lo cual "
+"es mejor si utiliza un firmware de mejora del rendimiento como <a>Braiins "
+"OS+</a> para mejorar la eficiencia de su dispositivo."
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:287
+#: /checksum/Fuc1okraUQ
+msgctxt "UI"
+msgid "Get up to 20% better efficiency with Braiins OS+‎"
+msgstr "Obtenga hasta 20% mejor eficiencia con Braiins OS+"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:174
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:433
+#: /checksum/rbQ01JJy0Z
+msgctxt "UI"
+msgid "Failed to load profitability data!"
+msgstr "¡No se pudieron cargar los datos de rentabilidad!"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:53
+#: /checksum/ObVB7kP6+p
+msgctxt "UI"
+msgid "Failed to load hashrate stats!"
+msgstr "¡No se pudo cargar las estadísticas de la tasa de hash!"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:96
+#: /checksum/2RvAm18JRS
+msgctxt "UI"
+msgid "Hashrate <nobr>(30 Days)</nobr>"
+msgstr "Tasa de hash <nobr>(30 Días)</nobr>"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:111
+#: /checksum/Toal6+ItWn
+msgctxt "UI"
+msgid "Average Fees per Block <nobr>(144 Blocks)</nobr>"
+msgstr "Tasas Medias por Bloque <nobr>(144 Bloques)</nobr>"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:116
+#: /checksum/5IjbcT2Mf3
+msgctxt "UI"
+msgid "Fees % of Block Reward <nobr>(144 Blocks)</nobr>"
+msgstr "Tasas % de Recompensa por Bloque <nobr>(144 Bloques)</nobr>"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:121
+#: /checksum/W5fBWrGuaa
+msgctxt "UI"
+msgid "Total Mining Revenue <nobr>($mil/Day)</nobr>"
+msgstr "Ingreso Total de Minería <nobr>($mil/Día)</nobr>"
+
+#: packages/insights/src/pages/Home/components/Feed/Feed.tsx:74
+#: /checksum/k+uA+BUNOO
+msgctxt "UI"
+msgid "Failed to load news feed!"
+msgstr "¡No se pudo cargar la fuente de noticias!"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:101
+#: /checksum/nqpvvdWpVc
+msgctxt "UI"
+msgid "Current Epoch Block Time"
+msgstr "Tiempo de Bloque en Época actual"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:106
+#: /checksum/3bzbUhWLNq
+msgctxt "UI"
+msgid "Estimated Adjustment"
+msgstr "Ajuste estimado"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:111
+#: /checksum/Pu4K27kiy3
+msgctxt "UI"
+msgid "Estimated Next Difficulty"
+msgstr "Próxima Dificultad Estimada"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:116
+#: /checksum/TFjaw4ktaL
+msgctxt "UI"
+msgid "Estimated Adjustment Date"
+msgstr "Fecha Estimada de Ajuste"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:121
+#: /checksum/lV9ekhR6p5
+msgctxt "UI"
+msgid "Previous Adjustment"
+msgstr "Ajuste Anterior"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:163
+#: /checksum/ZQ4DUVeX6e
+msgctxt "UI"
+msgid "Coming Soon™‎"
+msgstr "Próximamente™"
+
+#: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:203
+#: /checksum/kxUN/ynKJh
+msgctxt "UI"
+msgid "Daily Profit <nobr>(Braiins OS+‎)</nobr>"
+msgstr "Beneficio Diario <nobr>(Braiins OS+)</nobr>"
+
+#: packages/insights/src/pages/Home/components/Pools/Pools.tsx:76
+#: /checksum/JSvSvqiiMO
+msgctxt "UI"
+msgid "Failed to load pools data!"
+msgstr "¡No se pudo cargar datos de los pool!"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:136
+#: /checksum/w+H7Dd8KcI
+msgctxt "UI"
+msgid "Show All"
+msgstr "Mostrar Todo"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:152
+#: /checksum/lZOek0Zcae
+msgctxt "UI"
+msgid "Failed to load flows data!"
+msgstr "¡No se pudo cargar datos de flujos!"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:177
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:166
+#: /checksum/sEKHbvKR3D
+msgctxt "UI"
+msgid "Invalid data for: $keys!"
+msgstr "¡Datos no válidos para: $keys!"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:207
+#: /checksum/CKUVGY9esM
+msgctxt "UI"
+msgid "Failed to load data for Flows!"
+msgstr "¡No se pudo cargar datos para Flujos!"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:136
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:226
+#: /checksum/fw7TMoK7kO
+msgctxt "UI"
+msgid "Failed to load holdings data!"
+msgstr "¡No se pudo cargar datos de tenencias!"
+
+#: packages/insights/src/constants.tsx:101 /checksum/I0NREYlQZw
+msgctxt "UI"
+msgid "1 week"
+msgstr "1 semana"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:168 /checksum/Sc9A5ifoWf
+msgctxt "UI"
+msgid ""
+"To give you an example of how this tool can be used, we’ll compare a stock "
+"Antminer S9 with a custom S9 running Braiins OS+‎ autotuning firmware."
+msgstr ""
+"Para darle un ejemplo de como puede usar esta herramienta, vamos a comparar "
+"una Antminer S9 de serie con una S9 personalizada corriendo el firmware con "
+"autoajuste Braiins OS+."
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:176 /checksum/EceIjaZjKw
+msgctxt "UI"
+msgid "Antminer S9 with stock firmware compared to an S9 with Braiins OS+‎"
+msgstr "Antminer S9 con firmware de serie comparado a una S9 con Braiins OS+"
+
+#: packages/insights/src/pages/Guides/CostToMine.tsx:182 /checksum/6wphixzXUC
+msgctxt "UI"
+msgid ""
+"You can see that improving the efficiency of the S9 by running Braiins OS+‎ "
+"firmware brings the cost to mine 1 BTC down from $9293 to $7787 and the "
+"break-even electricity price from $0.043 to $0.052 per kWh. The S9 on stock "
+"firmware has a 2% pool fee, while the S9 on Braiins OS+ has a 2% devfee but "
+"0% pool fees on Slush Pool. In other words, the same machine with "
+"essentially the same external conditions was made significantly more "
+"economical by upgrading the firmware."
+msgstr ""
+"Puede ver que mejorando la eficiencia de la S9 por correr el firmware "
+"Braiins OS+ le baja el costo de minar 1 BTC desde $9293 a $7787 y el punto "
+"de equilibrio en precio de electricidad de $0.043 a $0.052 por kWh. La S9 "
+"con firmware de serie tiene una tasa de pool de 2%, mientras que la S9 con "
+"Braiins OS+ tiene una tasa de desarrollo de 2% pero 0% tasa de pool en Slush"
+" Pool. Es decir, la misma máquina esencialmente en las mismas condiciones "
+"externas se ha hecho significativamente mas económica al actualizar el "
+"firmware."
+
+#: packages/insights/src/pages/Root/Root.tsx:348 /checksum/FgOCJ46C8N
+msgctxt "UI"
+msgid "Blog"
+msgstr "Blog"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:403
+#: /checksum/b4iT1U7JQR
+msgctxt "UI"
+msgid "Invalid state of inputs!"
+msgstr "¡Estado de entradas no válido!"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:511
+#: /checksum/sZt0xVj4PH
+msgctxt "UI"
+msgid "Start date cannot be in the future!"
+msgstr "¡La fecha de inicio no puede ser en el futuro!"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:512
+#: /checksum/pAduusPDV3
+msgctxt "UI"
+msgid "End date cannot be before start date!"
+msgstr "¡La fecha de finalización no puede ser anterior a la fecha de inicio!"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:539
+#: /checksum/91Yyyuz6dL
+msgctxt "UI"
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:595
+#: /checksum/pyqcSI5TC9
+msgctxt "UI"
+msgid "Submit"
+msgstr "Enviar"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:605
+#: /checksum//wOyoOtBxh
+msgctxt "UI"
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:608
+#: /checksum/83FUjqi/4Q
+msgctxt "UI"
+msgid "Historical / Mixed"
+msgstr "Histórico / Mixto"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:616
+#: /checksum/6PgPFEkfJ1
+msgctxt "UI"
+msgid "Length"
+msgstr "Longitud"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:620
+#: /checksum/M1aG/x7U3f
+msgctxt "UI"
+msgid "Value between 6 and 60 is required!"
+msgstr "¡Se requiere un valor entre 6 y 60!"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:633
+#: /checksum/RUS4dicL9v
+msgctxt "UI"
+msgid "Months"
+msgstr "Meses"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:656
+#: /checksum/hZniybduag
+msgctxt "UI"
+msgid "Future Projection {count, plural, one {# month} other {# months}}"
+msgstr "Proyección de futuro {cuenta, plural, un {# mes} otro {# meses}}"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:674
+#: /checksum/3//ap7lrzm
+msgctxt "UI"
+msgid ""
+"Historical data for BTC price, network difficulty, block subsidy and "
+"transaction fees are retrieved automatically from the database.{br}<a>Read "
+"user guide</a>"
+msgstr ""
+"Los datos históricos del precio de BTC, la dificultad de la red, el subsidio"
+" por bloque y las tarifas de transacción se recuperan automáticamente de la "
+"base de datos.{br}<a>Leer la guía del usuario</a>"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:692
+#: /checksum/VD/CdAC1ER
+msgctxt "UI"
+msgid "Backtest {range}"
+msgstr "Backtest {range}"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:696
+#: /checksum/JBCeP8G23w
+msgctxt "UI"
+msgid "Mixed Projection {range}"
+msgstr "Proyección mixta {range}"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:193
+#: /checksum/pMub1/k0QX
+msgctxt "UI"
+msgid "Cannot calculate data without missing inputs!"
+msgstr "¡No se pueden calcular los datos sin las entradas que faltan!"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:314
+#: /checksum/RCPtOPDIPH
+msgctxt "UI"
+msgid "Stock Firmware"
+msgstr "Firmware de serie"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:317
+#: /checksum/UJYY8W2t/J
+msgctxt "UI"
+msgid "Braiins OS+‎ Overclocking"
+msgstr "Braiins OS+ Overclocking"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:321
+#: /checksum/C2W90NsWEF
+msgctxt "UI"
+msgid "Braiins OS+‎ High Efficiency"
+msgstr "Braiins OS+ Alta Eficiencia"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:533
+#: /checksum/tgiYk6/Vgl
+msgctxt "UI"
+msgid "Stats with Braiins OS+‎ Overclocking"
+msgstr "Estadísticas con Braiins OS+ Overclocking"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:536
+#: /checksum/FsjkhY+tcF
+msgctxt "UI"
+msgid "Stats with Braiins OS+‎ High Efficiency"
+msgstr "Estadísticas con Braiins OS+ Alta Eficiencia"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:554
+#: /checksum/YXY3M58vxT
+msgctxt "UI"
+msgid ""
+"This calculator will show you the cost to mine 1 Bitcoin based on your "
+"hashrate, power consumption, and additional (optional) inputs. You can "
+"select any hardware model from the dropdown menu or choose \"Custom\" to "
+"input the hashrate and power consumption yourself."
+msgstr ""
+"Esta calculadora le mostrará el costo para minar 1 bitcoin basado en su tasa"
+" de hash, consumo de potencia, y entradas adicionales (opcional). Puede "
+"elegir cualquier modelo de hardware del menú desplegable o escoger "
+"\"Personalizar\" para usted introducir la tasa de hash y consumo de "
+"potencia."
+
+#: packages/insights/src/pages/Home/Home.tsx:53 /checksum/MGLP2PcvKw
+msgctxt "UI"
+msgid "Hashrate and Mining Economics Charts"
+msgstr "Gráficas de Tasa de hash y Economía Minera"
+
+#: packages/insights/src/pages/Home/Home.tsx:88 /checksum/jfxMXP/IlB
+msgctxt "UI"
+msgid "Bitcoin Mining Pools Hashrate Distribution"
+msgstr "Distribución de la tasa de hash de los pools de minería Bitcoin"
+
+#: packages/insights/src/pages/Home/Home.tsx:94 /checksum/STac/CrfxR
+msgctxt "UI"
+msgid "Hashrate Distribution"
+msgstr "Distribución Tasa de hash"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:135
+#: /checksum/DstM6VZtfm
+msgctxt "UI"
+msgid "Hashrate (EH/s)"
+msgstr "Tasa de hash (EH/s)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:126
+#: /checksum/Euu+M/Xh/H
+msgctxt "UI"
+msgid "Difficulty (Trillion)"
+msgstr "Dificultad (Billones)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:161
+#: /checksum/y4yk18uIaB
+msgctxt "UI"
+msgid "Hashvalue (SAT/TH/day)"
+msgstr "Valor hash (SAT/TH/día)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:162
+#: /checksum/vcrLxoUyng
+msgctxt "UI"
+msgid "Hashvalue"
+msgstr "Valor hash"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:171
+#: /checksum/rQvwZZ5PRx
+msgctxt "UI"
+msgid "Hashprice ($/TH/day)"
+msgstr "Precio hash ($/TH/día)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:172
+#: /checksum/emgdF8ShJ1
+msgctxt "UI"
+msgid "Hashprice"
+msgstr "Precio hash"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:197
+#: /checksum/F0hx5cz/hL
+msgctxt "UI"
+msgid "Tx Fees per Block"
+msgstr "Tasas de Tx por Bloque"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:199
+#: /checksum/CaztfYw/Mx
+msgctxt "UI"
+msgid "Tx Fees % of Block Reward (%)"
+msgstr "Tasas de Tx % de Recompensa por Bloque (%)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:209
+#: /checksum/6BclstADF7
+msgctxt "UI"
+msgid "Avg. Tx Fees per Block (BTC)"
+msgstr "Tasas promedio de Tx por Bloque (BTC)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:211
+#: /checksum/wokGXwN1CN
+msgctxt "UI"
+msgid "Tx Fees per Block (BTC)"
+msgstr "Tasas de Tx por Bloque (BTC)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:234
+#: /checksum/3xIrgtBVgj
+msgctxt "UI"
+msgid "Daily Mining Revenue (USD million)"
+msgstr "Ingresos Mineros Diarios (millones de USD)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:235
+#: /checksum/GJuiFuXNWr
+msgctxt "UI"
+msgid "Daily Mining Revenue (USD)"
+msgstr "Ingresos Diarios de Minería (USD)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:257
+#: /checksum/+r09eehBkT
+msgctxt "UI"
+msgid "Hashrate & Difficulty"
+msgstr "Tasa de hash y Dificultad"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:258
+#: /checksum/ii058H8B+6
+msgctxt "UI"
+msgid "Hashvalue & Hashprice"
+msgstr "Valor hash y Precio hash"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:259
+#: /checksum/IzhskMhTVm
+msgctxt "UI"
+msgid "Transaction Fees"
+msgstr "Tasas de Transacción"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:260
+#: /checksum/iZ3tA77cnx
+msgctxt "UI"
+msgid "Daily Mining Revenue"
+msgstr "Ingresos Diarios de Minería"
+
+#: shared/components/Notifications/Notifications.tsx:244 /checksum/kFuPtdj2PY
+msgctxt "UI"
+msgid "Close All"
+msgstr "Cerrar Todo"
+
+#: shared/components/Timeline/Timeline.tsx:61 /checksum/ROKxCJgs98
+msgctxt "UI"
+msgid "Toggle the section…"
+msgstr "Alternar la sección…"
+
+#: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:91
+#: /checksum/rt+DkxS41H
+msgctxt "UI"
+msgid "Blocks this Epoch"
+msgstr "Bloques esta Época"
+
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:404
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:445
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:323
+#: /checksum/DHl8h1/rxq
+msgctxt "UI"
+msgid "Switch to Fullscreen"
+msgstr "Cambiar a Pantalla completa"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:68
+#: /checksum/OF6vWgqvRX
+msgctxt "UI"
+msgid "Hashrate Stats"
+msgstr "Estadísticas de Tasa de hash"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:101
+#: /checksum/XqKEItV7fr
+msgctxt "UI"
+msgid "Hashvalue <nobr>(SAT/TH/Day)</nobr>"
+msgstr "Valor hash <nobr>(SAT/TH/Día)</nobr>"
+
+#: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:106
+#: /checksum/nhZWc96SIP
+msgctxt "UI"
+msgid "Hashprice <nobr>($/TH/Day)</nobr>"
+msgstr "Precio hash <nobr>($/TH/Día)</nobr>"
+
+#. filename for the chart download function
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:81
+#: /checksum/4LMYwRj55w
+msgctxt "UI"
+msgid "Bitcoin Miner Flows: 1-hop"
+msgstr "Flujos Mineros de Bitcoin: 1 salto"
+
+#. filename for the chart download function
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:90
+#: /checksum/Jv4/Vf4QRn
+msgctxt "UI"
+msgid "Bitcoin Miner Flows: 0-hop (Pools)"
+msgstr "Flujos Mineros de Bitcoin: 0-saltos (Pools)"
+
+#. filename for the chart download function
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:99
+#: /checksum/vtjWAXzZ0q
+msgctxt "UI"
+msgid "Bitcoin Miner Flows: 30-day MRI"
+msgstr "Flujos mineros de Bitcoin: IRM 30 días"
+
+#. filename for the chart download function
+#: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:82
+#: /checksum/ER/KHy1eNM
+msgctxt "UI"
+msgid "Miner Holdings: Absolute values"
+msgstr "Activos de Minería: Valores Absolutos"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:65
+#: /checksum/voU7bmgaFG
+msgctxt "UI"
+msgid "Reported <nobr>Hashrate</nobr>"
+msgstr "<nobr>Tasa de Hash</nobr> reportada"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:66
+#: /checksum/TM4WyKjamz
+msgctxt "UI"
+msgid ""
+"Hashrate reported by pools in real-time via APIs. This should more "
+"accurately reflect pools’ actual hashrate as it won't be impacted by the "
+"typical short-term variance in block finds (i.e. pool \"luck\"). However, it"
+" is possible for pools to misreport their hashrate."
+msgstr ""
+"Tasa de hash reportada por los pools en tiempo real a través de las APIs. "
+"Esto debería reflejar con mayor precisión la tasa de hash actual de los "
+"pools, ya que no se verá afectado por la típica variación a corto plazo en "
+"los hallazgos de bloques (es decir, la \"suerte\" del pool). Sin embargo, es"
+" posible que los pools informen mal de su tasa de hash."
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:80
+#: /checksum/dJfLdVhPTH
+msgctxt "UI"
+msgid "Estimated <nobr>Hashrate</nobr>"
+msgstr "<nobr>Tasa de hash</nobr> estimada"
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:81
+#: /checksum/jo+0bCw3By
+msgctxt "UI"
+msgid ""
+"Calculated based on the amount of blocks each pool has found. While this can"
+" be somewhat inaccurate over short time periods due to luck, it doesn’t "
+"require trusting the pool operators."
+msgstr ""
+"Se calcula en base a la cantidad de bloques que ha encontrado cada pool. "
+"Aunque esto puede ser algo inexacto en periodos cortos de tiempo debido a la"
+" suerte, no requiere confiar en los operadores de los pool."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:130
+#: /checksum/Rk4HRYLO9c
+msgctxt "UI"
+msgid ""
+"<strong>Pool & other fees</strong> (e.g. firmware devfees, revenue splits, "
+"etc.; taken as a % of revenue)"
+msgstr ""
+"<strong>Pool y otras tasas</strong> (ej: tasas de firmware, reparto de "
+"ganancia, etc.; tomado como un % de la ganancia)"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:504
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1039
+#: /checksum/l3r7TWcusV
+msgctxt "UI"
+msgid "Include always-live data for difficulty and BTC price"
+msgstr "Incluir siempre datos en vivo de dificultad y precio BTC"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:104
+#: /checksum/HCbBw7RI12
+msgctxt "UI"
+msgid "Revenue per Month"
+msgstr "Ingresos por Mes"
+
+#: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:105
+#: /checksum/LwDC9hJzSI
+msgctxt "UI"
+msgid "Net Profit per Month"
+msgstr "Ganancia Neta por Mes"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:69
+#: /checksum/Ilgmn3t6IX
+msgctxt "UI"
+msgid "Bitcoin Mining Profitability Historical Backtesting"
+msgstr "Rentabilidad de la minería Bitcoin Backtesting histórico"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:77
+#: /checksum/UPdo5/dnKQ
+msgctxt "UI"
+msgid "Share Your Custom Mining Profitability Analysis"
+msgstr "Comparta Su Análisis de Rentabilidad de Minería Personalizado"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:92
+#: /checksum/snzeIVGyfv
+msgctxt "UI"
+msgid ""
+"However, we've created a new profitability calculator which aims to provide "
+"far more customization for the many variables that go into a mining "
+"operation's cash flow analysis. Namely, we enable users to set advanced "
+"variables such as monthly Bitcoin price and difficulty increments, capital "
+"expenditure (CAPEX) and ASIC hardware inventory values, asset appreciation "
+"or depreciation, additional fees and operating expenses, and more."
+msgstr ""
+"Sin embargo, hemos creado una nueva calculadora de rentabilidad que apunta a"
+" proveer mas personalización para las muchas variables que van en un "
+"análisis del flujo de caja de una operación minera. Concretamente, nosotros "
+"permitimos a los usuarios fijar variables avanzadas como el precio mensual "
+"de Bitcoin y los aumentos de dificultad, gasto de capital (CAPEX) y valores "
+"de inventario hardware ASIC, apreciación o depreciación de activos, tasas "
+"adicionales costos operativos, y mas."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:113
+#: /checksum/fZEsxHGawl
+msgctxt "UI"
+msgid ""
+"The basic version of our profitability calculator is what you're likely "
+"already accustomed to seeing on other sites. The inputs are:"
+msgstr ""
+"La versión básica de nuestra calculadora de rentabilidad es probablemente lo"
+" que usted acostumbra a ver en otros sitios. Sus entradas son:"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:477
+#: /checksum/2xUOdYn6K6
+msgctxt "UI"
+msgid "Date range selection dialog"
+msgstr "Diálogo de selección de rango de fechas"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:484
+#: /checksum/4WG+nTV/UE
+msgctxt "UI"
+msgid ""
+"In addition to making forward projections on your estimated mining "
+"profitability given assumptions about BTC price and difficulty, you can also"
+" check the historical profitability with real data. To do so, click the Time"
+" Period input in the top-left corner to open the pop-up window shown below. "
+"Then click Historical / Mixed and select the months that you want to start "
+"and end the analysis period."
+msgstr ""
+"Además de hacer proyecciones a futuro sobre su rentabilidad minera estimada "
+"dadas las suposiciones sobre el precio y la dificultad del BTC, también "
+"puede comprobar la rentabilidad histórica con datos reales. Para ello, haga "
+"clic en la entrada Período de tiempo en la esquina superior izquierda para "
+"abrir la ventana emergente que se muestra a continuación. Luego, haga clic "
+"en Histórico / Mixto y seleccione los meses en los que desea iniciar y "
+"finalizar el periodo de análisis."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:492
+#: /checksum/y4Km8ny0oX
+msgctxt "UI"
+msgid ""
+"As indicated, your <strong>End Date</strong> does not need to be in the "
+"past, even when your <strong>Start Date</strong> is. You can either do a "
+"pure historical analysis of mining profitability based on real data, or you "
+"can keep your assumptions about future BTC price, difficulty, and average "
+"transaction fees per block to extend your analysis into the future as well. "
+"An example of a mixed projection is shown below. You'll also notice that "
+"mining revenue and profitability both fall significantly in Month 50, which "
+"is due to the halving that is automatically factored in based on expected "
+"10-minute block times."
+msgstr ""
+"Como se ha indicado, su <strong>Fecha de finalización</strong> no necesita "
+"estar en el pasado, incluso cuando su <strong>Fecha de inicio</strong> lo "
+"es. Puede hacer un análisis histórico puro de la rentabilidad de la minería "
+"basado en datos reales, o puede mantener las suposiciones sobre el precio "
+"futuro de BTC, la dificultad y las tarifas de transacción promedio por "
+"bloque para extender su análisis al futuro también. A continuación se "
+"muestra un ejemplo de una proyección mixta. También notará que los ingresos "
+"y la rentabilidad de la minería caen significativamente en el mes 50, lo que"
+" se debe a la reducción a la mitad que se tiene en cuenta automáticamente en"
+" función de los tiempos de bloque esperados de 10 minutos."
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:499
+#: /checksum/LgwvYCQtq8
+msgctxt "UI"
+msgid "Revenue example for historical backtesting"
+msgstr "Ejemplo de ingresos para el backtesting histórico"
+
+#: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:620
+#: /checksum/5AsaWWvsJi
+msgctxt "UI"
+msgid ""
+"If you want to share or save your mining profitability analysis without "
+"needing to redo the inputs, you can use a custom sharing URL. Simply click "
+"\"Share\" in the top-right corner above the chart and your custom URL will "
+"be generated along with options to share directly on social media."
+msgstr ""
+"Si desea compartir o guardar su análisis de rentabilidad de minería sin "
+"necesidad de rehacer las entradas, puede usar una URL de uso compartido "
+"personalizada. Simplemente haga clic en \"Compartir\" en la esquina superior"
+" derecha sobre el gráfico y se generará su URL personalizada junto con "
+"opciones para compartir directamente en las redes sociales."
+
+#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/xn7vgAfP/8
+msgctxt "UI"
+msgid "Braiins | Bitcoin Mining Company"
+msgstr "Braiins | Compañía Minera de Bitcoin"
+
+#: packages/insights/src/pages/Root/Root.tsx:560 /checksum/MMWeCsSd0k
+msgctxt "UI"
+msgid "Bitcoin Mining Company"
+msgstr "Compañía Minera Bitcoin"
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:828
+#: /checksum/hyZk405RHg
+msgctxt "UI"
+msgid ""
+"Annual change in difficulty over the given Time Period. Note there are "
+"approximately 2 difficulty adjustments per month, so this increment should "
+"be roughly double your expected average difficulty adjustment."
+msgstr ""
+"Cambio anual de dificultad en un Período de Tiempo dado. Note que hay "
+"aproximadamente 2 ajustes de dificultad por mes, así que este incremento "
+"debería ser como el doble de su ajuste de dificultad promedio esperada."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:847
+#: /checksum/geSpY6Uv6h
+msgctxt "UI"
+msgid "Annual increase or decrease in BTC price over the given Time Period."
+msgstr ""
+"Aumento o reducción anual en precio BTC durante el Período de Tiempo dado."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:912
+#: /checksum/rZYtGm3v2E
+msgctxt "UI"
+msgid "Annual % change in the value of your ASIC hardware inventory."
+msgstr "Cambio % anual en el valor de su inventario hardware ASIC."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:943
+#: /checksum/Ih/wlEs4w5
+msgctxt "UI"
+msgid "Annual % change in the value of your infrastructure."
+msgstr "Variación anual en % del valor de su infraestructura."
+
+#: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1083
+#: /checksum/nPQS61o4dw
+msgctxt "UI"
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: packages/insights/src/pages/CostToMine/CostToMine.tsx:609
+#: /checksum/8Dxa3iR4Yc
+msgctxt "UI"
+msgid "Cost of Production"
+msgstr "Costo de Producción"
+
+#: packages/insights/src/pages/Home/Home.tsx:111 /checksum/gie6CC+51H
+msgctxt "UI"
+msgid "More updates in progress…"
+msgstr "Más actualizaciones en curso…"
+
+#: packages/insights/src/pages/Home/Home.tsx:114 /checksum/NhOnkXR9Vt
+msgctxt "UI"
+msgid ""
+"We’re working on adding more stats, charts, and tools to shed light on the "
+"bitcoin mining industry."
+msgstr ""
+"Estamos trabajando para agregar más estadísticas, gráficos y herramientas "
+"para arrojar luz sobre la industria minera de bitcoin."
+
+#: packages/insights/src/pages/Home/Home.tsx:124 /checksum/YdCmAWkNvc
+msgctxt "UI"
+msgid "Subscribe to get notified when we release an update."
+msgstr ""
+"Suscríbase para recibir notificaciones cuando publiquemos una actualización."
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:115
+#: /checksum/cGfBryBnoW
+msgctxt "UI"
+msgid "Price (USD)"
+msgstr "Precio (USD)"
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:116
+#: /checksum/cW8ApCXFKe
+msgctxt "UI"
+msgid "Price"
+msgstr "Precio"
+
+#: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:103
+#: /checksum/YK8163o+x2
+msgctxt "UI"
+msgid "Profit/Loss"
+msgstr "Ganancias/Pérdidas"
+
+#: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:67
+#: /checksum/MdCZnzoxLN
+msgctxt "UI"
+msgid ""
+"Calculated at 90% of full capacity, leaving a safety factor and some "
+"capacity for cooling"
+msgstr ""
+"Calculado al 90% de la capacidad total, dejando un factor de seguridad y "
+"algo de capacidad para enfriar"
+
+#: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:240
+#: /checksum/klVTlTZ1MH
+msgctxt "UI"
+msgid "1 Day"
+msgstr "1 Día"
+
+#: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:241
+#: /checksum/JtDYf0egO0
+msgctxt "UI"
+msgid "5 Days"
+msgstr "5 Días"
+
+#: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:242
+#: /checksum/owUpCbgKqX
+msgctxt "UI"
+msgid "5 Weeks"
+msgstr "5 Semanas"
+
+#: shared/components/NotificationsList/NotificationsList.tsx:66
+#: /checksum/Pbq1qG9RJj
+msgctxt "UI"
+msgid "{duration} ago"
+msgstr ""
+
+#: shared/components/NotificationsList/NotificationsList.tsx:117
+#: /checksum/Qbz4Ayd28K
+msgctxt "UI"
+msgid "You have no messages…"
+msgstr ""
+
+#: shared/components/NotificationsList/NotificationsList.tsx:118
+#: /checksum/5h3lN9gOZq
+msgctxt "UI"
+msgid "Login to see your notifications…"
+msgstr ""
+
+#: shared/components/NotificationsList/NotificationsList.tsx:129
+#: shared/components/NotificationsList/NotificationsList.tsx:139
+#: /checksum/gzinhFzBsT
+msgctxt "UI"
+msgid "Notifications"
+msgstr ""
+
+#: shared/components/NotificationsList/NotificationsList.tsx:136
+#: /checksum/95yIsAOHSY
+msgctxt "UI"
+msgid ""
+"{count} unread {count, plural, one {notification} other {notifications}}"
+msgstr ""
+
+#: shared/components/carbon/DataTable/DataTable.tsx:464 /checksum/6v3Z6und4K
+msgctxt "UI"
+msgid "Select row"
+msgstr ""
+
+#. One letter format e.g. "1y" (1 year)
+#: shared/components/format/Timesince/Timesince.tsx:21 /checksum/lmDeptUzje
+msgctxt "UI"
+msgid "{num}y"
+msgstr ""
+
+#: shared/components/format/Timesince/Timesince.tsx:22
+#: shared/components/format/Timesince/Timesince.tsx:26 /checksum/jYlc0CZdj9
+msgctxt "UI"
+msgid "{num}m"
+msgstr ""
+
+#: shared/components/format/Timesince/Timesince.tsx:23 /checksum/6fXvvlhKx/
+msgctxt "UI"
+msgid "{num}w"
+msgstr ""
+
+#: shared/components/format/Timesince/Timesince.tsx:24 /checksum/4f1923K8Qx
+msgctxt "UI"
+msgid "{num}d"
+msgstr ""
+
+#: shared/components/format/Timesince/Timesince.tsx:25 /checksum/9JPC6sZmCf
+msgctxt "UI"
+msgid "{num}h"
+msgstr ""
+
+#: shared/components/format/Timesince/Timesince.tsx:27 /checksum/fJSK2NREFQ
+msgctxt "UI"
+msgid "{num}s"
+msgstr ""
+
+#: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:267
+#: /checksum/5X9umOjpIY
+msgctxt "UI"
+msgid ""
+"This pool is not reporting their real-time hashrate, so the value is "
+"estimated by blocks found."
+msgstr ""
+
+#~ msgctxt "UI"
+#~ msgid "Change Language"
+#~ msgstr "Cambiar Idioma"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "However, we’ve created a new profitability calculator which aims to provide "
+#~ "far more customization for the many variables that go into a mining "
+#~ "operation’s cash flow analysis. Namely, we enable users to set advanced "
+#~ "variables such as monthly Bitcoin price and difficulty increments, capital "
+#~ "expenditure (CAPEX) and ASIC hardware inventory values, asset appreciation "
+#~ "or depreciation, additional fees and operating expenses, and more."
+#~ msgstr ""
+#~ "Sin embargo, hemos creado una nueva calculadora de rentabilidad que apunta "
+#~ "en proveer mas personalización para las muchas variables que van en un "
+#~ "análisis del flujo de caja de una operación minera. Concretamente, nosotros "
+#~ "habilitamos a los usuarios a fijar variables avanzadas como el precio "
+#~ "mensual de Bitcoin y los aumentos de dificultad, gasto de capital (CAPEX) y "
+#~ "valores de inventario hardware ASIC, apreciación o depreciación de activos, "
+#~ "tasas adicionales y costos operativos, y mas."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "The basic version of our profitability calculator is what you’re likely "
+#~ "already accustomed to seeing on other sites. The inputs are:"
+#~ msgstr ""
+#~ "La versión básica de nuestra calculadora de rentabilidad es probablemente lo"
+#~ " que usted acostumbra a ver en otros sitios. Sus entradas son:"
+
+#~ msgctxt "UI"
+#~ msgid "Cost for 1 BTC"
+#~ msgstr "Costo para 1 BTC"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Monthly change in difficulty over the given Time Period. Note there are "
+#~ "approximately 2 difficulty adjustments per month, so this increment should "
+#~ "be roughly double your expected average difficulty adjustment."
+#~ msgstr ""
+#~ "Cambio mensual de dificultad en un Período de Tiempo dado. Note que hay "
+#~ "aproximadamente 2 ajustes de dificultad por mes, así que este incremento "
+#~ "debería ser como el doble de su ajuste de dificultad promedio esperada."
+
+#~ msgctxt "UI"
+#~ msgid "Monthly increase or decrease in BTC price over the given Time Period."
+#~ msgstr ""
+#~ "Aumento o reducción mensual de precio BTC durante el Período de Tiempo dado."
+
+#~ msgctxt "UI"
+#~ msgid "Monthly % change in the value of your ASIC hardware inventory."
+#~ msgstr "Cambio % mensual en el valor de su inventario hardware ASIC."
+
+#~ msgctxt "UI"
+#~ msgid "Monthly % change in the value of your infrastructure."
+#~ msgstr "Cambio % mensual en el valor total de su infraestructura."
+
+#~ msgctxt "UI"
+#~ msgid "Stats for 24 months"
+#~ msgstr "Estadísticas para 24 meses"
+
+#~ msgctxt "UI"
+#~ msgid "More coming soon…"
+#~ msgstr "Pronto habrá más…"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "New stats dashboard and calculators are on the way.{br}Subscribe to get "
+#~ "notified when we release an update."
+#~ msgstr ""
+#~ "Nuevas estadísticas tablero y calculadoras van en camino.{br}Suscríbase para"
+#~ " recibir notificaciones cuando lancemos una actualización."
+
+#~ msgctxt "UI"
+#~ msgid "Subscribe"
+#~ msgstr "Suscribirse"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "<strong>Pool & other fees</strong> (e.g. firmware devfees, revenue splits, "
+#~ "etc.; taken as a % of revenue"
+#~ msgstr ""
+#~ "<strong>Pool y otras tasas</strong> (ej: tasas de firmware, reparto de "
+#~ "ganancia, etc.; tomado como un % de la ganancia"
+
+#~ msgctxt "UI"
+#~ msgid "Include always live data for difficulty and BTC price"
+#~ msgstr "Siempre incluir datos en vivo de dificultad y precio BTC"
+
+#~ msgctxt "UI"
+#~ msgid "Revenue per month,"
+#~ msgstr "Ingresos por mes,"
+
+#~ msgctxt "UI"
+#~ msgid "Net profit per month"
+#~ msgstr "Ganancia neta por mes"
+
+#~ msgctxt "UI"
+#~ msgid "1 weak"
+#~ msgstr "1 Semana"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "This calculator will show you the cost to mine 1 Bitcoin based on your hash "
+#~ "rate, power consumption, and additional (optional) inputs. You can select "
+#~ "any hardware model from the dropdown menu or choose \"Custom\" to input the "
+#~ "hashrate and power consumption yourself."
+#~ msgstr ""
+#~ "Esta calculadora le mostrará el costo para minar 1 bitcoin basado en su tasa"
+#~ " de hash, consumo de potencia, y entradas adicionales (opcional). Puede "
+#~ "elegir cualquier modelo de hardware del menú desplegable o escoger "
+#~ "\"Personalizar\" para usted introducir la tasa de hash y consumo de "
+#~ "potencia."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Time period over which you wish to run the cash flow / profitability "
+#~ "calculations."
+#~ msgstr ""
+#~ "Período de tiempo durante el cual desea correr los cálculos de flujo de caja"
+#~ " / rentabilidad."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "This calculator will show you your net profit from mining based on your hash"
+#~ " rate, efficiency, electricity price, and other operational expences. To "
+#~ "include capital expenditure (e.g. costs to buy hardware), use the advanced "
+#~ "inputs."
+#~ msgstr ""
+#~ "Esta calculadora le mostrará su ingreso neto por minar basado en su tasa de "
+#~ "hash, eficiencia, precio electricidad, y otros gastos operacionales. Para "
+#~ "incluir gastos de capital (ej: costos para comprar hardware), use las "
+#~ "entradas avanzadas."
+
+#~ msgctxt "UI"
+#~ msgid "Hash Rate Distribution"
+#~ msgstr "Distribución Tasa de Hash"
+
+#~ msgctxt "UI"
+#~ msgid "Hash Rate Stats"
+#~ msgstr "Estadísticas Tasa de Hash"
+
+#~ msgctxt "UI"
+#~ msgid "Reported <nobr>Hash Rate</nobr>"
+#~ msgstr "<nobr>Tasa de Hash</nobr> reportada"
+
+#~ msgctxt "UI"
+#~ msgid "Estimated <nobr>Hash Rate</nobr>"
+#~ msgstr "<nobr>Tasa de Hash</nobr> estimada"
+
+#~ msgctxt "UI"
+#~ msgid "1W <nobr>Hash Rate</nobr>"
+#~ msgstr "<nobr>Tasa de Hash</nobr> 1S"
+
+#~ msgctxt "UI"
+#~ msgid "Powered by Coin Metrics"
+#~ msgstr "Alimentado por Coin Metrics"
+
+#~ msgctxt "UI"
+#~ msgid "Switch to Fullscreen [F]"
+#~ msgstr "Cambiar a Pantalla completa [F]"
+
+#~ msgctxt "UI"
+#~ msgid "Miner Holdings"
+#~ msgstr "Activos Mineros"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "To give you an example of how this tool can be used, we’ll compare a stock "
+#~ "Antminer S9 with a custom S9 running Braiins OS+‎ autotuning firmware."
+#~ msgstr ""
+#~ "Para darle un ejemplo de como puede usar esta herramienta, vamos a comparar "
+#~ "una Antminer S9 de serie con una S9 personalizada corriendo el firmware con "
+#~ "autoajuste Braiins OS+."
+
+#~ msgctxt "UI"
+#~ msgid "Antminer S9 with stock firmware compared to an S9 with Braiins OS+‎"
+#~ msgstr "Antminer S9 con firmware de serie comparado a una S9 con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "You can see that improving the efficiency of the S9 by running Braiins OS+‎ "
+#~ "firmware brings the cost to mine 1 BTC down from $9293 to $7787 and the "
+#~ "break-even electricity price from $0.043 to $0.052 per kWh. The S9 on stock "
+#~ "firmware has a 2% pool fee, while the S9 on Braiins OS+ has a 2% devfee but "
+#~ "0% pool fees on Slush Pool. In other words, the same machine with "
+#~ "essentially the same external conditions was made significantly more "
+#~ "economical by upgrading the firmware."
+#~ msgstr ""
+#~ "Puede ver que mejorando la eficiencia de la S9 por correr el firmware "
+#~ "Braiins OS+ le baja el costo de minar 1 BTC desde $9293 a $7787 y el punto "
+#~ "de equilibrio en precio de electricidad de $0.043 a $0.052 por kWh. La S9 "
+#~ "con firmware de serie tiene una tasa de pool de 2%, mientras que la S9 con "
+#~ "Braiins OS+ tiene una tasa de desarrollo de 2% pero 0% tasa de pool en Slush"
+#~ " Pool. Es decir, la misma máquina esencialmente en las mismas condiciones "
+#~ "externas se ha hecho significativamente mas económica al actualizar el "
+#~ "firmware."
+
+#~ msgctxt "UI"
+#~ msgid "Showing Results for Stock Firmware"
+#~ msgstr "Mostrando Resultados con Firmware de Serie"
+
+#~ msgctxt "UI"
+#~ msgid "Showing Results for Braiins OS+‎"
+#~ msgstr "Mostrando Resultados con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid "Stats with Braiins OS+‎"
+#~ msgstr "Estadísticas con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid "Bitcoin Mining Pools Hash Rate Distribution"
+#~ msgstr "Distribución de la tasa de hash de los pools de minería Bitcoin"
+
+#~ msgctxt "UI"
+#~ msgid "Hash Value <nobr>(BTC/TH/Day)</nobr>"
+#~ msgstr "Valor Hash <nobr>(BTC/TH/Día)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Hash Price <nobr>($/TH/Day)</nobr>"
+#~ msgstr "Precio Hash <nobr>($/TH/Día)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Block this Epoch"
+#~ msgstr "Bloquear esta Época"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Alternatively, you can select the <em>Custom</em> option to input your own "
+#~ "hashrate and power consumption values rather than using preloaded values "
+#~ "from the ASIC database, which is best if you use a performance boosting "
+#~ "firmware like <a>Braiins OS+</a> to improve your device's efficiency."
+#~ msgstr ""
+#~ "Alternativamente, puede seleccionar la opción <em>Personalizado</em> para "
+#~ "ingresar su propio hashrate y valores de consumo de energía en lugar de usar"
+#~ " valores precargados de la base de datos ASIC, lo cual es mejor si usa un "
+#~ "firmware que mejore el rendimiento como <a>Braiins OS+</a> para mejorar la "
+#~ "eficiencia de su dispositivo."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "To give you an example of how this tool can be used, we’ll compare a stock "
+#~ "Antminer S9 with a custom S9 running Braiins OS+ autotuning firmware."
+#~ msgstr ""
+#~ "Para darle un ejemplo de como puede usar esta herramienta, vamos a comprar "
+#~ "una Antminer S9 de seria con una S9 personalizada corriendo el firmware con "
+#~ "autoajuste Braiins OS+."
+
+#~ msgctxt "UI"
+#~ msgid "Antminer S9 with stock firmware compared to an S9 with Braiins OS+"
+#~ msgstr "Antminer S9 con firmware de serie comparado a una S9 con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "You can see that improving the efficiency of the S9 by running Braiins OS+ "
+#~ "firmware brings the cost to mine 1 BTC down from $9293 to $7787 and the "
+#~ "break-even electricity price from $0.043 to $0.052 per kWh. The S9 on stock "
+#~ "firmware has a 2% pool fee, while the S9 on Braiins OS+ has a 2% devfee but "
+#~ "0% pool fees on Slush Pool. In other words, the same machine with "
+#~ "essentially the same external conditions was made significantly more "
+#~ "economical by upgrading the firmware."
+#~ msgstr ""
+#~ "Puede ver que mejorando la eficiencia de la S9 por correr el firmware "
+#~ "Braiins OS+ le baja el costo de minar 1 BTC desde $9293 a $7787 y el punto "
+#~ "de equilibrio en precio de electricidad de $0.043 a $0.052 por kWh. La S9 "
+#~ "con firmware de serie tiene una tasa de pool de 2%, mientras que la S9 con "
+#~ "Braiins OS+ tiene una tasa de desarrollo de 2% pero 0% tasa de pool en Slush"
+#~ " Pool. Es decir, la misma máquina esencialmente en las mismas condiciones "
+#~ "externas se ha hecho significativamente mas económica al actualizar el "
+#~ "firmware."
+
+#~ msgctxt "UI"
+#~ msgid "Get up to 20% better efficiency with Braiins OS+"
+#~ msgstr "Obtenga hasta 20% mejor eficiencia con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid "Showing Results for Stock Firmware"
+#~ msgstr "Mostrando Resultados con Firmware de Serie"
+
+#~ msgctxt "UI"
+#~ msgid "Showing Results for Braiins OS+"
+#~ msgstr "Mostrando Resultados con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid "Stats with Braiins OS+"
+#~ msgstr "Estadísticas con Braiins OS+"
+
+#~ msgctxt "UI"
+#~ msgid "Profitability data loading error: $error!"
+#~ msgstr "¡Error cargando datos de rentabilidad: $error!"
+
+#~ msgctxt "UI"
+#~ msgid "News feed loading error: $error!"
+#~ msgstr "¡Error cargando noticias: $error!"
+
+#~ msgctxt "UI"
+#~ msgid "Hashrate stats loading error: $error!"
+#~ msgstr "¡Error cargando estadísticas Tasa de Hash: $error!"
+
+#~ msgctxt "UI"
+#~ msgid "Hashrate <nobr>(30 days)</nobr>"
+#~ msgstr "Tasa de hash <nobr>(30 días)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Hash value <nobr>(BTC/TH/day)</nobr>"
+#~ msgstr "Valor de hash <nobr>(BTC/TH/día)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Hash price <nobr>($/TH/day)</nobr>"
+#~ msgstr "Precio de hash <nobr>($/TH/día)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Average fees per block <nobr>(144 blocks)</nobr>"
+#~ msgstr "Tasas promedio por bloque <nobr>(144 bloques)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Fees % of block reward <nobr>(144 blocks)</nobr>"
+#~ msgstr "Tasas % recompensa de bloque <nobr>(144 bloques)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Total mining revenue <nobr>($mil/day)</nobr>"
+#~ msgstr "Recompensa minería total <nobr>($millón/día)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Block this epoch"
+#~ msgstr "Bloque esta época"
+
+#~ msgctxt "UI"
+#~ msgid "Current epoch block time"
+#~ msgstr "Tiempo de bloque época actual"
+
+#~ msgctxt "UI"
+#~ msgid "Estimated adjustment"
+#~ msgstr "Ajuste estimado"
+
+#~ msgctxt "UI"
+#~ msgid "Estimated next difficulty"
+#~ msgstr "Próxima dificultad estimada"
+
+#~ msgctxt "UI"
+#~ msgid "Estimated adjustment date"
+#~ msgstr "Fecha estimada de ajuste"
+
+#~ msgctxt "UI"
+#~ msgid "Previous adjustment"
+#~ msgstr "Ajuste previo"
+
+#~ msgctxt "UI"
+#~ msgid "Daily Profit <nobr>(Braiins OS+)</nobr>"
+#~ msgstr "Ganancia Diaria <nobr>(Braiins OS+)</nobr>"
+
+#~ msgctxt "UI"
+#~ msgid "Data loading error: $error!"
+#~ msgstr "¡Error cargando datos: $error!"
+
+#~ msgctxt "UI"
+#~ msgid "Holdings data loading error: $error!"
+#~ msgstr "¡Error cargando datos de activos: $error!"
+
+#~ msgctxt "UI"
+#~ msgid "Invalid data for: $keys"
+#~ msgstr "Datos inválidos para: $keys"
