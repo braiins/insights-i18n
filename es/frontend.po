@@ -1,9 +1,10 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-30 17:51+0000\n"
+"PO-Revision-Date: 2021-12-15 19:51+0000\n"
 "Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/insights-frontend/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/"
+"insights-frontend/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,7 +172,7 @@ msgstr ""
 #: packages/insights/src/pages/Guides/CostToMine.tsx:124 /checksum/acPsGndp+J
 msgctxt "UI"
 msgid "If you toggle on the Advanced Options, you’ll also see these inputs:"
-msgstr "Si activa las Opciones avanzadas, también verá estas entradas:"
+msgstr "Si activa las Opciones Avanzadas, también verá estas entradas:"
 
 #: packages/insights/src/pages/Guides/CostToMine.tsx:129 /checksum/pyNpIj4uS+
 msgctxt "UI"
@@ -335,7 +336,7 @@ msgstr ""
 "proyecciones detalladas de su potencial flujo de caja de minería Bitcoin. "
 "Estas visualizaciones de flujo de caja pueden ser particularmente útiles "
 "para promociones si está levantando fondos o solo para usted tener mejor "
-"idea de como reinvertir ganancias pasadas en hardware nuevo."
+"idea de como re-invertir ganancias pasadas en hardware nuevo."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:37
 #: /checksum/N32GY4k24z
@@ -614,7 +615,7 @@ msgstr "Impuestos y licencias para cumplir con la ley"
 #: /checksum/k7yQ0nbmbg
 msgctxt "UI"
 msgid "Monthly Operational Expenditure (OPEX)"
-msgstr "Gastos Operativos Mensual (OPEX)"
+msgstr "Gastos Operativos Mensuales (OPEX)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:297
 #: /checksum/gkvWYg/Q5m
@@ -981,7 +982,7 @@ msgstr "Rentabilidad"
 #: packages/insights/src/pages/Root/Root.tsx:405 /checksum/CYAkeY00Qq
 msgctxt "UI"
 msgid "Open menu"
-msgstr "Menú abierto"
+msgstr "Abrir menú"
 
 #: packages/insights/src/pages/Root/Root.tsx:506 /checksum/yNm5Hh3tEy
 msgctxt "UI"
@@ -1296,7 +1297,7 @@ msgid ""
 "The % of your monthly profit that you hold as BTC instead of cashing out "
 "entirely to fiat."
 msgstr ""
-"El % mensual de su ganancia que mantiene como BTC en lugar de cobrarla toda "
+"El % de su ganancia mensual que mantiene como BTC en lugar de cobrarla toda "
 "por fiat."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:970
@@ -1522,7 +1523,7 @@ msgstr "¡Un error ha ocurrido en la gráfica!"
 #: /checksum/3/Iz0RNBVE
 msgctxt "UI"
 msgid "Profit/Loss (USD)"
-msgstr "Ganancia/Perdida (USD)"
+msgstr "Ganancia/Pérdida (USD)"
 
 #: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:105
 #: /checksum/Qkwhhk4BCI
@@ -2061,7 +2062,7 @@ msgstr "30_day_mri"
 #: /checksum/LMob98w5vw
 msgctxt "UI"
 msgid "30-day MRI"
-msgstr "30-días MRI"
+msgstr "30-días IRM"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:248
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:302
@@ -2613,7 +2614,7 @@ msgstr "¡La fecha de inicio no puede ser en el futuro!"
 #: /checksum/pAduusPDV3
 msgctxt "UI"
 msgid "End date cannot be before start date!"
-msgstr "¡La fecha de finalización no puede ser anterior a la fecha de inicio!"
+msgstr "¡La fecha de fin no puede ser anterior a la fecha de inicio!"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:539
 #: /checksum/91Yyyuz6dL
@@ -3222,26 +3223,26 @@ msgstr "5 Semanas"
 #: /checksum/Pbq1qG9RJj
 msgctxt "UI"
 msgid "{duration} ago"
-msgstr ""
+msgstr "hace {duration}"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:117
 #: /checksum/Qbz4Ayd28K
 msgctxt "UI"
 msgid "You have no messages…"
-msgstr ""
+msgstr "No tiene mensajes…"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:118
 #: /checksum/5h3lN9gOZq
 msgctxt "UI"
 msgid "Login to see your notifications…"
-msgstr ""
+msgstr "Ingrese para ver sus notificaciones…"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:129
 #: shared/components/NotificationsList/NotificationsList.tsx:139
 #: /checksum/gzinhFzBsT
 msgctxt "UI"
 msgid "Notifications"
-msgstr ""
+msgstr "Notificaciones"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:136
 #: /checksum/95yIsAOHSY
@@ -3249,43 +3250,44 @@ msgctxt "UI"
 msgid ""
 "{count} unread {count, plural, one {notification} other {notifications}}"
 msgstr ""
+"{count} sin leer {count, plural, one {notification} otras {notifications}}"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:464 /checksum/6v3Z6und4K
 msgctxt "UI"
 msgid "Select row"
-msgstr ""
+msgstr "Seleccionar fila"
 
 #. One letter format e.g. "1y" (1 year)
 #: shared/components/format/Timesince/Timesince.tsx:21 /checksum/lmDeptUzje
 msgctxt "UI"
 msgid "{num}y"
-msgstr ""
+msgstr "{num}a"
 
 #: shared/components/format/Timesince/Timesince.tsx:22
 #: shared/components/format/Timesince/Timesince.tsx:26 /checksum/jYlc0CZdj9
 msgctxt "UI"
 msgid "{num}m"
-msgstr ""
+msgstr "{num}m"
 
 #: shared/components/format/Timesince/Timesince.tsx:23 /checksum/6fXvvlhKx/
 msgctxt "UI"
 msgid "{num}w"
-msgstr ""
+msgstr "{num}s"
 
 #: shared/components/format/Timesince/Timesince.tsx:24 /checksum/4f1923K8Qx
 msgctxt "UI"
 msgid "{num}d"
-msgstr ""
+msgstr "{num}d"
 
 #: shared/components/format/Timesince/Timesince.tsx:25 /checksum/9JPC6sZmCf
 msgctxt "UI"
 msgid "{num}h"
-msgstr ""
+msgstr "{num}h"
 
 #: shared/components/format/Timesince/Timesince.tsx:27 /checksum/fJSK2NREFQ
 msgctxt "UI"
 msgid "{num}s"
-msgstr ""
+msgstr "{num}s"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:267
 #: /checksum/5X9umOjpIY
@@ -3294,6 +3296,8 @@ msgid ""
 "This pool is not reporting their real-time hashrate, so the value is "
 "estimated by blocks found."
 msgstr ""
+"Este pool no informa su tasa de hash en tiempo real, por lo que el valor se "
+"estima por bloques encontrados."
 
 #~ msgctxt "UI"
 #~ msgid "Change Language"
