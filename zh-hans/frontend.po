@@ -1,15 +1,16 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-22 00:51+0000\n"
-"Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/slushpool/insights-frontend/zh_Hans/>\n"
+"PO-Revision-Date: 2021-12-20 10:57+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"slushpool/insights-frontend/zh_Hans/>\n"
 "Language: zh-hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -2462,7 +2463,7 @@ msgstr ""
 #: /checksum/pyqcSI5TC9
 msgctxt "UI"
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:605
 #: /checksum//wOyoOtBxh
@@ -2680,7 +2681,7 @@ msgstr ""
 #: shared/components/Timeline/Timeline.tsx:61 /checksum/ROKxCJgs98
 msgctxt "UI"
 msgid "Toggle the section…"
-msgstr ""
+msgstr "切换部分…"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:91
 #: /checksum/rt+DkxS41H
@@ -2884,12 +2885,12 @@ msgstr ""
 #: packages/insights/src/pages/Root/Root.tsx:554 /checksum/xn7vgAfP/8
 msgctxt "UI"
 msgid "Braiins | Bitcoin Mining Company"
-msgstr ""
+msgstr "首脑Braiins | 比特币挖矿公司"
 
 #: packages/insights/src/pages/Root/Root.tsx:557 /checksum/MMWeCsSd0k
 msgctxt "UI"
 msgid "Bitcoin Mining Company"
-msgstr ""
+msgstr "比特币挖矿公司"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:828
 #: /checksum/hyZk405RHg
@@ -2922,7 +2923,7 @@ msgstr ""
 #: /checksum/nPQS61o4dw
 msgctxt "UI"
 msgid "Stats"
-msgstr ""
+msgstr "统计"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:609
 #: /checksum/8Dxa3iR4Yc
@@ -2995,33 +2996,33 @@ msgstr ""
 #: /checksum/Pbq1qG9RJj
 msgctxt "UI"
 msgid "{duration} ago"
-msgstr ""
+msgstr "{duration} 前"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:117
 #: /checksum/Qbz4Ayd28K
 msgctxt "UI"
 msgid "You have no messages…"
-msgstr ""
+msgstr "您没有任何消息…"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:118
 #: /checksum/5h3lN9gOZq
 msgctxt "UI"
 msgid "Login to see your notifications…"
-msgstr ""
+msgstr "登录以查看通知…"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:129
 #: shared/components/NotificationsList/NotificationsList.tsx:139
 #: /checksum/gzinhFzBsT
 msgctxt "UI"
 msgid "Notifications"
-msgstr ""
+msgstr "通知"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:136
 #: /checksum/95yIsAOHSY
 msgctxt "UI"
 msgid ""
 "{count} unread {count, plural, one {notification} other {notifications}}"
-msgstr ""
+msgstr "{count} 未读 {count, plural, one {notification} other {notifications}}"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:464 /checksum/6v3Z6und4K
 msgctxt "UI"
