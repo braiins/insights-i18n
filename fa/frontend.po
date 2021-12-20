@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-20 10:57+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-12-21 20:50+0000\n"
+"Last-Translator: Behzad Amiri Nezhad <behzad.amiri.nezhad@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/fa/>\n"
 "Language: fa\n"
@@ -3183,39 +3183,39 @@ msgstr ""
 #: shared/components/carbon/DataTable/DataTable.tsx:464 /checksum/6v3Z6und4K
 msgctxt "UI"
 msgid "Select row"
-msgstr ""
+msgstr "انتخاب ردیف"
 
 #. One letter format e.g. "1y" (1 year)
 #: shared/components/format/Timesince/Timesince.tsx:21 /checksum/lmDeptUzje
 msgctxt "UI"
 msgid "{num}y"
-msgstr ""
+msgstr "{num}سال"
 
 #: shared/components/format/Timesince/Timesince.tsx:22
 #: shared/components/format/Timesince/Timesince.tsx:26 /checksum/jYlc0CZdj9
 msgctxt "UI"
 msgid "{num}m"
-msgstr ""
+msgstr "{num}ماه"
 
 #: shared/components/format/Timesince/Timesince.tsx:23 /checksum/6fXvvlhKx/
 msgctxt "UI"
 msgid "{num}w"
-msgstr ""
+msgstr "{num}هفته"
 
 #: shared/components/format/Timesince/Timesince.tsx:24 /checksum/4f1923K8Qx
 msgctxt "UI"
 msgid "{num}d"
-msgstr ""
+msgstr "{num}روز"
 
 #: shared/components/format/Timesince/Timesince.tsx:25 /checksum/9JPC6sZmCf
 msgctxt "UI"
 msgid "{num}h"
-msgstr ""
+msgstr "{num}ساعت"
 
 #: shared/components/format/Timesince/Timesince.tsx:27 /checksum/fJSK2NREFQ
 msgctxt "UI"
 msgid "{num}s"
-msgstr ""
+msgstr "{num}ثانیه"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:267
 #: /checksum/5X9umOjpIY
@@ -3239,22 +3239,22 @@ msgstr ""
 #: shared/components/carbon/Pagination/Pagination.tsx:110 /checksum/GBTcWb/ORF
 msgctxt "UI"
 msgid "Items per page:"
-msgstr ""
+msgstr "آیتم‌های هر صفحه:"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:113 /checksum/0V3R5Cf7KK
 msgctxt "UI"
 msgid "{min}–{max} of {total, plural, =1 {# item} other {# items}}"
-msgstr ""
+msgstr "{min}–{max} of {total, plural, =1 {# item} other {# items}}"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:118 /checksum/lqp2V1gpZL
 msgctxt "UI"
 msgid "of {total, plural, =1 {# page} other {# pages}}"
-msgstr ""
+msgstr "of {total, plural, =1 {# page} other {# pages}}"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:127 /checksum/bQ7hzHIr6V
 msgctxt "UI"
 msgid "Fit the screen"
-msgstr ""
+msgstr "متناسب با صفحه نمایش"
 
 #~ msgctxt "UI"
 #~ msgid "{min}–{max} of {total} items"
