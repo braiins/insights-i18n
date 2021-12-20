@@ -799,12 +799,12 @@ msgctxt "UI"
 msgid "Open menu"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:506 /checksum/yNm5Hh3tEy
+#: packages/insights/src/pages/Root/Root.tsx:503 /checksum/yNm5Hh3tEy
 msgctxt "UI"
 msgid "Braiins | Mining Insights"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:507 /checksum/InDzuhzQQ2
+#: packages/insights/src/pages/Root/Root.tsx:504 /checksum/InDzuhzQQ2
 msgctxt "UI"
 msgid ""
 "Bitcoin Mining Insights is a collection of tools and stats built to help "
@@ -1645,7 +1645,7 @@ msgstr ""
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:103
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:590
 #: shared/components/carbon/DataTable/DataTable.tsx:258
-#: shared/components/carbon/Progressbar/Progressbar.tsx:54
+#: shared/components/carbon/Progressbar/Progressbar.tsx:65
 #: /checksum/1r/fx4e7T/
 msgctxt "UI"
 msgid "Cancel"
@@ -1743,29 +1743,14 @@ msgctxt "UI"
 msgid "{count, plural, =1 {# item} other {# items}} selected"
 msgstr ""
 
-#: shared/components/carbon/Pagination/Pagination.tsx:52 /checksum/UQQSrqxv7w
+#: shared/components/carbon/Pagination/Pagination.tsx:108 /checksum/UQQSrqxv7w
 msgctxt "UI"
 msgid "Previous page"
 msgstr ""
 
-#: shared/components/carbon/Pagination/Pagination.tsx:53 /checksum/ewj1GtYIq6
+#: shared/components/carbon/Pagination/Pagination.tsx:109 /checksum/ewj1GtYIq6
 msgctxt "UI"
 msgid "Next page"
-msgstr ""
-
-#: shared/components/carbon/Pagination/Pagination.tsx:56 /checksum/UbBppVp4ef
-msgctxt "UI"
-msgid "{min}–{max} of {total} items"
-msgstr ""
-
-#: shared/components/carbon/Pagination/Pagination.tsx:59 /checksum/nCnP8rP6z0
-msgctxt "UI"
-msgid "Items per page"
-msgstr ""
-
-#: shared/components/carbon/Pagination/Pagination.tsx:61 /checksum/aM/Du2cS1c
-msgctxt "UI"
-msgid "of {total} pages"
 msgstr ""
 
 #: shared/components/app/LinksBar/LinksBar.tsx:40 /checksum/4arFVhx+6a
@@ -2545,12 +2530,6 @@ msgctxt "UI"
 msgid "Hashprice"
 msgstr ""
 
-#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:197
-#: /checksum/F0hx5cz/hL
-msgctxt "UI"
-msgid "Tx Fees per Block"
-msgstr ""
-
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:199
 #: /checksum/CaztfYw/Mx
 msgctxt "UI"
@@ -2814,12 +2793,12 @@ msgid ""
 "be generated along with options to share directly on social media."
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/xn7vgAfP/8
+#: packages/insights/src/pages/Root/Root.tsx:554 /checksum/xn7vgAfP/8
 msgctxt "UI"
 msgid "Braiins | Bitcoin Mining Company"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:560 /checksum/MMWeCsSd0k
+#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/MMWeCsSd0k
 msgctxt "UI"
 msgid "Bitcoin Mining Company"
 msgstr ""
@@ -3000,3 +2979,50 @@ msgid ""
 "This pool is not reporting their real-time hashrate, so the value is "
 "estimated by blocks found."
 msgstr ""
+
+#: packages/insights/src/pages/Root/Root.tsx:425 /checksum/o6pULoDLvU
+msgctxt "UI"
+msgid "Change Language"
+msgstr ""
+
+#: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:197
+#: /checksum/glA1lZwxQc
+msgctxt "UI"
+msgid "Tx Fees % of Block Reward"
+msgstr ""
+
+#: shared/components/carbon/Pagination/Pagination.tsx:110 /checksum/GBTcWb/ORF
+msgctxt "UI"
+msgid "Items per page:"
+msgstr ""
+
+#: shared/components/carbon/Pagination/Pagination.tsx:113 /checksum/0V3R5Cf7KK
+msgctxt "UI"
+msgid "{min}–{max} of {total, plural, =1 {# item} other {# items}}"
+msgstr ""
+
+#: shared/components/carbon/Pagination/Pagination.tsx:118 /checksum/lqp2V1gpZL
+msgctxt "UI"
+msgid "of {total, plural, =1 {# page} other {# pages}}"
+msgstr ""
+
+#: shared/components/carbon/Pagination/Pagination.tsx:127 /checksum/bQ7hzHIr6V
+msgctxt "UI"
+msgid "Fit the screen"
+msgstr ""
+
+#~ msgctxt "UI"
+#~ msgid "{min}–{max} of {total} items"
+#~ msgstr ""
+
+#~ msgctxt "UI"
+#~ msgid "Items per page"
+#~ msgstr ""
+
+#~ msgctxt "UI"
+#~ msgid "of {total} pages"
+#~ msgstr ""
+
+#~ msgctxt "UI"
+#~ msgid "Tx Fees per Block"
+#~ msgstr ""
