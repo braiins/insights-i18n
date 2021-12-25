@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-21 20:50+0000\n"
+"PO-Revision-Date: 2021-12-26 10:51+0000\n"
 "Last-Translator: Behzad Amiri Nezhad <behzad.amiri.nezhad@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/fa/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -2797,7 +2797,7 @@ msgstr "تغییر بخش…"
 #: /checksum/rt+DkxS41H
 msgctxt "UI"
 msgid "Blocks this Epoch"
-msgstr "این دوره را مسدود می کند"
+msgstr "بلوک‌های این دوره"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:404
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:445
