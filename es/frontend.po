@@ -3,8 +3,7 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-21 20:50+0000\n"
 "Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/"
-"insights-frontend/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/insights-frontend/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -957,39 +956,39 @@ msgctxt "UI"
 msgid "Mining Insights | Guides"
 msgstr "Mining Insights | Guías"
 
-#: packages/insights/src/pages/Root/Root.tsx:224 /checksum/Xot5UuXLAS
+#: packages/insights/src/pages/Root/Root.tsx:236 /checksum/Xot5UuXLAS
 msgctxt "UI"
 msgid "Failed to fetch network stats!"
 msgstr "¡Falló en traer estadísticas de red!"
 
 #: packages/insights/src/pages/Home/Home.tsx:226
-#: packages/insights/src/pages/Root/Root.tsx:345 /checksum/LRsi7QyFPz
+#: packages/insights/src/pages/Root/Root.tsx:357 /checksum/LRsi7QyFPz
 msgctxt "UI"
 msgid "Home"
 msgstr "Inicio"
 
-#: packages/insights/src/pages/Root/Root.tsx:347 /checksum/ueCsPsZISr
+#: packages/insights/src/pages/Root/Root.tsx:359 /checksum/ueCsPsZISr
 msgctxt "UI"
 msgid "Cost to Mine"
 msgstr "Costo para Minar"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:215
-#: packages/insights/src/pages/Root/Root.tsx:346 /checksum/uPDxuK27Wd
+#: packages/insights/src/pages/Root/Root.tsx:358 /checksum/uPDxuK27Wd
 msgctxt "UI"
 msgid "Profitability"
 msgstr "Rentabilidad"
 
-#: packages/insights/src/pages/Root/Root.tsx:405 /checksum/CYAkeY00Qq
+#: packages/insights/src/pages/Root/Root.tsx:417 /checksum/CYAkeY00Qq
 msgctxt "UI"
 msgid "Open menu"
 msgstr "Abrir menú"
 
-#: packages/insights/src/pages/Root/Root.tsx:503 /checksum/yNm5Hh3tEy
+#: packages/insights/src/pages/Root/Root.tsx:515 /checksum/yNm5Hh3tEy
 msgctxt "UI"
 msgid "Braiins | Mining Insights"
 msgstr "Braiins | Conocimientos de Minería"
 
-#: packages/insights/src/pages/Root/Root.tsx:504 /checksum/InDzuhzQQ2
+#: packages/insights/src/pages/Root/Root.tsx:516 /checksum/InDzuhzQQ2
 msgctxt "UI"
 msgid ""
 "Bitcoin Mining Insights is a collection of tools and stats built to help "
@@ -2578,7 +2577,7 @@ msgstr ""
 "externas se ha hecho significativamente mas económica al actualizar el "
 "firmware."
 
-#: packages/insights/src/pages/Root/Root.tsx:348 /checksum/FgOCJ46C8N
+#: packages/insights/src/pages/Root/Root.tsx:360 /checksum/FgOCJ46C8N
 msgctxt "UI"
 msgid "Blog"
 msgstr "Blog"
@@ -3079,12 +3078,12 @@ msgstr ""
 " derecha sobre el gráfico y se generará su URL personalizada junto con "
 "opciones para compartir directamente en las redes sociales."
 
-#: packages/insights/src/pages/Root/Root.tsx:554 /checksum/xn7vgAfP/8
+#: packages/insights/src/pages/Root/Root.tsx:566 /checksum/xn7vgAfP/8
 msgctxt "UI"
 msgid "Braiins | Bitcoin Mining Company"
 msgstr "Braiins | Compañía Minera de Bitcoin"
 
-#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/MMWeCsSd0k
+#: packages/insights/src/pages/Root/Root.tsx:569 /checksum/MMWeCsSd0k
 msgctxt "UI"
 msgid "Bitcoin Mining Company"
 msgstr "Compañía Minera Bitcoin"
@@ -3278,7 +3277,7 @@ msgstr ""
 "Este pool no informa su tasa de hash en tiempo real, por lo que el valor se "
 "estima por bloques encontrados."
 
-#: packages/insights/src/pages/Root/Root.tsx:425 /checksum/o6pULoDLvU
+#: packages/insights/src/pages/Root/Root.tsx:437 /checksum/o6pULoDLvU
 msgctxt "UI"
 msgid "Change Language"
 msgstr "Cambiar Idioma"

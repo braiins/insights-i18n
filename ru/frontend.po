@@ -3,14 +3,12 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-20 10:57+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/"
-"insights-frontend/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/insights-frontend/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.10\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
@@ -945,39 +943,39 @@ msgctxt "UI"
 msgid "Mining Insights | Guides"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:224 /checksum/Xot5UuXLAS
+#: packages/insights/src/pages/Root/Root.tsx:236 /checksum/Xot5UuXLAS
 msgctxt "UI"
 msgid "Failed to fetch network stats!"
 msgstr ""
 
 #: packages/insights/src/pages/Home/Home.tsx:226
-#: packages/insights/src/pages/Root/Root.tsx:345 /checksum/LRsi7QyFPz
+#: packages/insights/src/pages/Root/Root.tsx:357 /checksum/LRsi7QyFPz
 msgctxt "UI"
 msgid "Home"
 msgstr "Главная"
 
-#: packages/insights/src/pages/Root/Root.tsx:347 /checksum/ueCsPsZISr
+#: packages/insights/src/pages/Root/Root.tsx:359 /checksum/ueCsPsZISr
 msgctxt "UI"
 msgid "Cost to Mine"
 msgstr ""
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:215
-#: packages/insights/src/pages/Root/Root.tsx:346 /checksum/uPDxuK27Wd
+#: packages/insights/src/pages/Root/Root.tsx:358 /checksum/uPDxuK27Wd
 msgctxt "UI"
 msgid "Profitability"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:405 /checksum/CYAkeY00Qq
+#: packages/insights/src/pages/Root/Root.tsx:417 /checksum/CYAkeY00Qq
 msgctxt "UI"
 msgid "Open menu"
 msgstr "Открыть меню"
 
-#: packages/insights/src/pages/Root/Root.tsx:503 /checksum/yNm5Hh3tEy
+#: packages/insights/src/pages/Root/Root.tsx:515 /checksum/yNm5Hh3tEy
 msgctxt "UI"
 msgid "Braiins | Mining Insights"
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:504 /checksum/InDzuhzQQ2
+#: packages/insights/src/pages/Root/Root.tsx:516 /checksum/InDzuhzQQ2
 msgctxt "UI"
 msgid ""
 "Bitcoin Mining Insights is a collection of tools and stats built to help "
@@ -2520,7 +2518,7 @@ msgid ""
 "economical by upgrading the firmware."
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:348 /checksum/FgOCJ46C8N
+#: packages/insights/src/pages/Root/Root.tsx:360 /checksum/FgOCJ46C8N
 msgctxt "UI"
 msgid "Blog"
 msgstr ""
@@ -2979,12 +2977,12 @@ msgid ""
 "be generated along with options to share directly on social media."
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:554 /checksum/xn7vgAfP/8
+#: packages/insights/src/pages/Root/Root.tsx:566 /checksum/xn7vgAfP/8
 msgctxt "UI"
 msgid "Braiins | Bitcoin Mining Company"
 msgstr "Braiins | компания Bitcoin майнинга"
 
-#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/MMWeCsSd0k
+#: packages/insights/src/pages/Root/Root.tsx:569 /checksum/MMWeCsSd0k
 msgctxt "UI"
 msgid "Bitcoin Mining Company"
 msgstr "компания Bitcoin майнинга"
@@ -3168,7 +3166,7 @@ msgid ""
 "estimated by blocks found."
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:425 /checksum/o6pULoDLvU
+#: packages/insights/src/pages/Root/Root.tsx:437 /checksum/o6pULoDLvU
 msgctxt "UI"
 msgid "Change Language"
 msgstr ""
@@ -3210,10 +3208,6 @@ msgstr ""
 #~ msgctxt "UI"
 #~ msgid "of {total} pages"
 #~ msgstr "из {total} страниц"
-
-#~ msgctxt "UI"
-#~ msgid "Tx Fees per Block"
-#~ msgstr ""
 
 #~ msgctxt "UI"
 #~ msgid ""

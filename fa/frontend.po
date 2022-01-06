@@ -3,8 +3,7 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-26 10:51+0000\n"
 "Last-Translator: Behzad Amiri Nezhad <behzad.amiri.nezhad@gmail.com>\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/"
-"insights-frontend/fa/>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/insights-frontend/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -922,39 +921,39 @@ msgctxt "UI"
 msgid "Mining Insights | Guides"
 msgstr "Mining Insights | راهنما"
 
-#: packages/insights/src/pages/Root/Root.tsx:224 /checksum/Xot5UuXLAS
+#: packages/insights/src/pages/Root/Root.tsx:236 /checksum/Xot5UuXLAS
 msgctxt "UI"
 msgid "Failed to fetch network stats!"
 msgstr "واکشی آمار شبکه انجام نشد!"
 
 #: packages/insights/src/pages/Home/Home.tsx:226
-#: packages/insights/src/pages/Root/Root.tsx:345 /checksum/LRsi7QyFPz
+#: packages/insights/src/pages/Root/Root.tsx:357 /checksum/LRsi7QyFPz
 msgctxt "UI"
 msgid "Home"
 msgstr "صفحه اصلی"
 
-#: packages/insights/src/pages/Root/Root.tsx:347 /checksum/ueCsPsZISr
+#: packages/insights/src/pages/Root/Root.tsx:359 /checksum/ueCsPsZISr
 msgctxt "UI"
 msgid "Cost to Mine"
 msgstr "هزینه استخراج"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:215
-#: packages/insights/src/pages/Root/Root.tsx:346 /checksum/uPDxuK27Wd
+#: packages/insights/src/pages/Root/Root.tsx:358 /checksum/uPDxuK27Wd
 msgctxt "UI"
 msgid "Profitability"
 msgstr "سودآوری"
 
-#: packages/insights/src/pages/Root/Root.tsx:405 /checksum/CYAkeY00Qq
+#: packages/insights/src/pages/Root/Root.tsx:417 /checksum/CYAkeY00Qq
 msgctxt "UI"
 msgid "Open menu"
 msgstr "باز کردن منو"
 
-#: packages/insights/src/pages/Root/Root.tsx:503 /checksum/yNm5Hh3tEy
+#: packages/insights/src/pages/Root/Root.tsx:515 /checksum/yNm5Hh3tEy
 msgctxt "UI"
 msgid "Braiins | Mining Insights"
 msgstr "Braiins | Mining Insights"
 
-#: packages/insights/src/pages/Root/Root.tsx:504 /checksum/InDzuhzQQ2
+#: packages/insights/src/pages/Root/Root.tsx:516 /checksum/InDzuhzQQ2
 msgctxt "UI"
 msgid ""
 "Bitcoin Mining Insights is a collection of tools and stats built to help "
@@ -2534,7 +2533,7 @@ msgstr ""
 "همان دستگاه با شرایط خارجی مشابه با ارتقاء فریم‌ور به طور قابل توجهی مقرون "
 "به صرفه تر می‌شود."
 
-#: packages/insights/src/pages/Root/Root.tsx:348 /checksum/FgOCJ46C8N
+#: packages/insights/src/pages/Root/Root.tsx:360 /checksum/FgOCJ46C8N
 msgctxt "UI"
 msgid "Blog"
 msgstr "بلاگ"
@@ -3029,12 +3028,12 @@ msgstr ""
 "نمودار کلیک کنید و URL سفارشی شما به همراه گزینه هایی برای اشتراک گذاری "
 "مستقیم در رسانه های اجتماعی ایجاد می شود."
 
-#: packages/insights/src/pages/Root/Root.tsx:554 /checksum/xn7vgAfP/8
+#: packages/insights/src/pages/Root/Root.tsx:566 /checksum/xn7vgAfP/8
 msgctxt "UI"
 msgid "Braiins | Bitcoin Mining Company"
 msgstr "Braiins | شرکت ماینینگ بیت کوین"
 
-#: packages/insights/src/pages/Root/Root.tsx:557 /checksum/MMWeCsSd0k
+#: packages/insights/src/pages/Root/Root.tsx:569 /checksum/MMWeCsSd0k
 msgctxt "UI"
 msgid "Bitcoin Mining Company"
 msgstr "شرکت ماینینگ بیت کوین"
@@ -3225,7 +3224,7 @@ msgid ""
 "estimated by blocks found."
 msgstr ""
 
-#: packages/insights/src/pages/Root/Root.tsx:425 /checksum/o6pULoDLvU
+#: packages/insights/src/pages/Root/Root.tsx:437 /checksum/o6pULoDLvU
 msgctxt "UI"
 msgid "Change Language"
 msgstr ""
