@@ -1,15 +1,16 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-20 10:57+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/slushpool/insights-frontend/zh_Hans/>\n"
+"PO-Revision-Date: 2022-01-12 12:56+0000\n"
+"Last-Translator: Jáchym Černý <jachym.cerny@braiins.cz>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"slushpool/insights-frontend/zh_Hans/>\n"
 "Language: zh-hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -444,9 +445,10 @@ msgstr ""
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:41
 #: /checksum/zOzav3prDj
+#, fuzzy
 msgctxt "UI"
 msgid "Bitcoin Mining Cash Flow Calculator (Advanced Options)"
-msgstr ""
+msgstr "比特币挖矿现金流计算器（高级选项）"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:225
 #: /checksum/0dyLG+auHu
@@ -547,9 +549,10 @@ msgstr "工作人员工资"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:304
 #: /checksum/KJZCer06Iq
+#, fuzzy
 msgctxt "UI"
 msgid "Fixed monthly expenses such as security or insurance"
-msgstr ""
+msgstr "每月固定开支，例如安保，保险"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:308
 #: /checksum/yOW2mFkDDN
