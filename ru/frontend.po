@@ -1,15 +1,17 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-20 10:57+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/insights-frontend/ru/>\n"
+"PO-Revision-Date: 2022-02-10 16:59+0000\n"
+"Last-Translator: Iryna Bashkova <iryna.bashkova@braiins.cz>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/"
+"insights-frontend/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -881,6 +883,8 @@ msgid ""
 "Source: <a>Profitability Calculator Difficulty Increment > Price "
 "Increment</a>"
 msgstr ""
+"Источник: <a>Калькулятор прибыльности Увеличение сложности > Увеличение "
+"цены</a>"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:556
 #: /checksum/nWkpW+cZxs
@@ -891,13 +895,17 @@ msgid ""
 "result in <em>Hardware Value</em> depreciation, as the ASICs are becoming "
 "less profitable over time."
 msgstr ""
+"Поскольку сложность растет быстрее, чем цена, доход и прибыль в месяц "
+"уменьшаются при неизменном хешрейте. Это также может привести к снижению "
+"<em>ценности оборудования</em>, поскольку ASIC со временем становятся менее "
+"прибыльными."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:563
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:566
 #: /checksum/MGvIz95vRT
 msgctxt "UI"
 msgid "Scenario 2: Price Rises Faster than Difficulty"
-msgstr ""
+msgstr "Сценарий 2: Цена растет быстрее, чем сложность"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:568
 #: /checksum/JqMm1qXGgz
@@ -906,6 +914,8 @@ msgid ""
 "Source: <a>Profitability Calculator Price Increment > Difficulty "
 "Increment</a>"
 msgstr ""
+"Источник: <a>Калькулятор прибыльности Увеличение цены > Увеличение "
+"сложности</a>"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:605
 #: /checksum/1DbSfBFPQc
@@ -916,18 +926,22 @@ msgid ""
 "than in the previous case, leading to cumulative profit and net cash flow "
 "both accelerating upward each month."
 msgstr ""
+"Из-за того, что цена опережает трудности, рентабельность хешрейта со "
+"временем увеличивается, а <em>ценность оборудования </em> снижается гораздо "
+"медленнее, чем в предыдущем случае, что приводит к ускорению роста "
+"совокупной прибыли и чистого денежного потока каждый месяц."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:632
 #: /checksum/46APM7i8lE
 msgctxt "UI"
 msgid "Mining Insights | BTC Profitability Calculator Guide"
-msgstr ""
+msgstr "Mining Insights | Руководство по калькулятору доходности BTC"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:639
 #: /checksum/8A3bdleOYt
 msgctxt "UI"
 msgid "BTC Profitability Calculator Guide"
-msgstr ""
+msgstr "Руководство по калькулятору доходности BTC"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:640
 #: /checksum/i5eMm97twR
@@ -937,16 +951,19 @@ msgid ""
 "mining profitability calculator in order to estimate cash flow for your "
 "mining operation."
 msgstr ""
+"Инструкции, объясняющие, как использовать дополнительные параметры в нашем "
+"новом калькуляторе прибыльности майнинга BTC, чтобы оценить денежный поток "
+"для вашего майнинга."
 
 #: packages/insights/src/pages/Guides/Wrapper.tsx:29 /checksum/K6O7lAnbOO
 msgctxt "UI"
 msgid "Mining Insights | Guides"
-msgstr ""
+msgstr "Mining Insights | Гиды"
 
 #: packages/insights/src/pages/Root/Root.tsx:236 /checksum/Xot5UuXLAS
 msgctxt "UI"
 msgid "Failed to fetch network stats!"
-msgstr ""
+msgstr "Не удалось получить статистику сети!"
 
 #: packages/insights/src/pages/Home/Home.tsx:226
 #: packages/insights/src/pages/Root/Root.tsx:357 /checksum/LRsi7QyFPz
@@ -957,13 +974,13 @@ msgstr "Главная"
 #: packages/insights/src/pages/Root/Root.tsx:359 /checksum/ueCsPsZISr
 msgctxt "UI"
 msgid "Cost to Mine"
-msgstr ""
+msgstr "Стоимость майнинга"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:215
 #: packages/insights/src/pages/Root/Root.tsx:358 /checksum/uPDxuK27Wd
 msgctxt "UI"
 msgid "Profitability"
-msgstr ""
+msgstr "Прибыльность"
 
 #: packages/insights/src/pages/Root/Root.tsx:417 /checksum/CYAkeY00Qq
 msgctxt "UI"
@@ -973,7 +990,7 @@ msgstr "Открыть меню"
 #: packages/insights/src/pages/Root/Root.tsx:515 /checksum/yNm5Hh3tEy
 msgctxt "UI"
 msgid "Braiins | Mining Insights"
-msgstr ""
+msgstr "Braiins | Mining Insights"
 
 #: packages/insights/src/pages/Root/Root.tsx:516 /checksum/InDzuhzQQ2
 msgctxt "UI"
@@ -981,6 +998,8 @@ msgid ""
 "Bitcoin Mining Insights is a collection of tools and stats built to help "
 "Bitcoin miners."
 msgstr ""
+"Bitcoin Mining Insights — это набор инструментов и статистических данных, "
+"созданных для помощи биткойн-майнерам."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:185
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:337
@@ -993,21 +1012,21 @@ msgstr "Обязательное значение!"
 #: /checksum/wqiKoP4VFa
 msgctxt "UI"
 msgid "Cannot calculate data without missing data!"
-msgstr ""
+msgstr "Невозможно рассчитать без пропущенных данных!"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:334
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:728
 #: /checksum/ScciS+MZ3k
 msgctxt "UI"
 msgid "Inputs"
-msgstr ""
+msgstr "Входные данные"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:337
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:733
 #: /checksum/DEuqw8TbK2
 msgctxt "UI"
 msgid "BTC Price"
-msgstr ""
+msgstr "Цена BTC"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:342
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:746
@@ -1020,7 +1039,7 @@ msgstr "Сложность сети"
 #: /checksum/qn1/QWM3m+
 msgctxt "UI"
 msgid "Select Hardware"
-msgstr ""
+msgstr "Выберите оборудование"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:358
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:136
@@ -1037,53 +1056,53 @@ msgstr "Хешрейт"
 #: /checksum/X3XhumiUAL
 msgctxt "UI"
 msgid "Consumption"
-msgstr ""
+msgstr "Потребление"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:368
 #: /checksum/Fqo2mGChzE
 msgctxt "UI"
 msgid "Elec.price / kWh"
-msgstr ""
+msgstr "Цена электр. / кВтч"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:373
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:781
 #: /checksum/I5l5ilorKm
 msgctxt "UI"
 msgid "Block Subsidy"
-msgstr ""
+msgstr "Субсидия блока"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:378
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:788
 #: /checksum/AWZsUcaYcv
 msgctxt "UI"
 msgid "Pool Fee"
-msgstr ""
+msgstr "Комиссия пула"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:385
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:864
 #: /checksum/Rr/YYgnKnp
 msgctxt "UI"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Расширенные опции"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:397
 #: /checksum/1pMyCicCIN
 msgctxt "UI"
 msgid "Diff. Increment"
-msgstr ""
+msgstr "Увел. сложности"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:398
 #: /checksum/mcRHNDzzQv
 msgctxt "UI"
 msgid "Adjust the current difficulty by any percentage."
-msgstr ""
+msgstr "Отрегулируйте текущую сложность на любой процент."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:405
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:812
 #: /checksum/FbwVebeIHM
 msgctxt "UI"
 msgid "Other Fees"
-msgstr ""
+msgstr "Другие комиссии"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:406
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:813
@@ -1093,46 +1112,48 @@ msgid ""
 "Additional operational expenses such as dev fees for firmware, management "
 "and hosting fees, etc."
 msgstr ""
+"Дополнительные операционные расходы, такие как devfee, плата за управление и "
+"хостинг и т. д."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:416
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:798
 #: /checksum/ZO4RbEEtiC
 msgctxt "UI"
 msgid "Avg. Tx Fees"
-msgstr ""
+msgstr "Сред. плата за транзакции"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:417
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:799
 #: /checksum/x/bi6wwdqj
 msgctxt "UI"
 msgid "Average value of transaction fees per block mined."
-msgstr ""
+msgstr "Среднее значение комиссии за транзакции за добытый блок."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:505
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1040
 #: /checksum/65p9HDwGV6
 msgctxt "UI"
 msgid "Otherwise we’ll include currently filled values"
-msgstr ""
+msgstr "В противном случае мы включим текущие заполненные значения"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:558
 #: packages/insights/src/pages/Home/Home.tsx:176 /checksum/AYFiio+dr7
 msgctxt "UI"
 msgid "Cost to Mine 1 Bitcoin"
-msgstr ""
+msgstr "Стоимость майнинга 1 биткойна"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:530
 #: /checksum/S8T97QFZmr
 msgctxt "UI"
 msgid "Stats with Stock Firmware"
-msgstr ""
+msgstr "Статистика со стоковой прошивкой"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:574
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1096
 #: /checksum/HktjGc3Vh1
 msgctxt "UI"
 msgid "User Guide"
-msgstr ""
+msgstr "Гид пользователя"
 
 #: packages/insights/src/components/ShareDialog/ShareDialog.tsx:137
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:580
@@ -1140,50 +1161,50 @@ msgstr ""
 #: /checksum/DL6qQ0mjGE
 msgctxt "UI"
 msgid "Share"
-msgstr ""
+msgstr "Поделиться"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:590
 #: /checksum/Eh0gggvHd2
 msgctxt "UI"
 msgid "Hardware Efficiency"
-msgstr ""
+msgstr "Эффективность оборудования"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:596
 #: /checksum/DB1RQWsTmP
 msgctxt "UI"
 msgid "Margin"
-msgstr ""
+msgstr "Допуск"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:602
 #: /checksum/Fs4ylT9aTk
 msgctxt "UI"
 msgid "Break-Even Elec. Price"
-msgstr ""
+msgstr "Безубыточная цена электр."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:615
 #: /checksum/CSS8HlX33N
 msgctxt "UI"
 msgid "BTC Mined per Day"
-msgstr ""
+msgstr "Добытые BTC за день"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:626
 #: /checksum/GYcnoPl3+p
 msgctxt "UI"
 msgid "Profit per Day"
-msgstr ""
+msgstr "Прибыль в день"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:659
 #: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:102
 #: /checksum/xfE7CG1Loy
 msgctxt "UI"
 msgid "Cost to Mine 1 BTC"
-msgstr ""
+msgstr "Стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:770
 #: /checksum/A8XrJerZOu
 msgctxt "UI"
 msgid "Elect. price per kWh"
-msgstr ""
+msgstr "Цена электр. за кВтч"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:709
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:98
@@ -1196,19 +1217,19 @@ msgstr "Временной период"
 #: /checksum/An9RHen1Vh
 msgctxt "UI"
 msgid "Difficulty Increment"
-msgstr ""
+msgstr "Увеличение сложности"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:846
 #: /checksum/G+9Ah/cIjE
 msgctxt "UI"
 msgid "Price Increment"
-msgstr ""
+msgstr "Увеличение цены"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:876
 #: /checksum/VItXOfirv+
 msgctxt "UI"
 msgid "CAPEX"
-msgstr ""
+msgstr "CAPEX"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:877
 #: /checksum/c/GJXdGHgt
@@ -1217,42 +1238,47 @@ msgid ""
 "Initial capital expenditure (e.g. purchasing hardware, setting up more "
 "capacity, labor and materials for installation, etc.)."
 msgstr ""
+"Первоначальные капитальные затраты (например, приобретение оборудования, "
+"создание дополнительных мощностей, трудозатраты и ресурсы для установки и т. "
+"д.)."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:887
 #: /checksum/PnAV62GaSI
 msgctxt "UI"
 msgid "Monthly OPEX"
-msgstr ""
+msgstr "Ежемесячный OPEX"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:888
 #: /checksum/wgQzPqdbr6
 msgctxt "UI"
 msgid "Fixed monthly expenses (e.g. labor, security, insurance, taxes)."
 msgstr ""
+"Фиксированные ежемесячные расходы (например, оплата труда, безопасность, "
+"страхование, налоги)."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:897
 #: /checksum/al0zOyEGEf
 msgctxt "UI"
 msgid "Initial HW Value"
-msgstr ""
+msgstr "Начальная ценность HW"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:898
 #: /checksum/lT3hO2Hkuo
 msgctxt "UI"
 msgid "Total starting value of your ASIC hardware inventory."
-msgstr ""
+msgstr "Общая начальная стоимость вашего ASIC оборудования."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:911
 #: /checksum/dbXvCTViHm
 msgctxt "UI"
 msgid "Hardware Appr./Depr."
-msgstr ""
+msgstr "Увел./Сниж. ценности HW"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:925
 #: /checksum/+kb/N/xw1q
 msgctxt "UI"
 msgid "Initial Infra Value"
-msgstr ""
+msgstr "Начальная ценность инфраструктуры"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:926
 #: /checksum/NOTtKeQYe0
@@ -1261,12 +1287,15 @@ msgid ""
 "Total starting value of your infrastructure (e.g.: land, data center "
 "infrastructure, containers, immersion cooling systems)."
 msgstr ""
+"Общая начальная стоимость вашей инфраструктуры (например, земля, "
+"инфраструктура центра обработки данных, контейнеры, системы иммерсионного "
+"охлаждения)."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:942
 #: /checksum/e+6aAQOhqi
 msgctxt "UI"
 msgid "Infra Appr./Depr."
-msgstr ""
+msgstr "Увел./Сниж. ценности инфраструктуры"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:957
 #: /checksum/G8uNeKdDIe
@@ -1275,6 +1304,8 @@ msgid ""
 "The % of your monthly profit that you hold as BTC instead of cashing out "
 "entirely to fiat."
 msgstr ""
+"% вашей ежемесячной прибыли, которую вы храните в BTC вместо того, чтобы "
+"полностью обналичивать фиат."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:970
 #: /checksum/rs75txoiTe
@@ -1283,48 +1314,50 @@ msgid ""
 "The interest rate used in discounted cash flow (DCF) analysis to determine "
 "the present value of future cash flows."
 msgstr ""
+"Процентная ставка, используемая в анализе дисконтированных денежных потоков "
+"(DCF) для определения приведенной стоимости будущих денежных потоков."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1071
 #: /checksum/tQxjR3TzVR
 msgctxt "UI"
 msgid "Bitcoin Mining Profitability Calculator"
-msgstr ""
+msgstr "Калькулятор прибыльности майнинга BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1090
 #: /checksum/fMrGyRCIVB
 msgctxt "UI"
 msgid "Download CSV"
-msgstr ""
+msgstr "Скачать CSV"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1114
 #: /checksum/r9eNopnqe2
 msgctxt "UI"
 msgid "Avg. Cost of Production"
-msgstr ""
+msgstr "Средний. cтоимость производства"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1115
 #: /checksum/4By/9NSev1
 msgctxt "UI"
 msgid "The average cost to mine 1 BTC for your mining operation."
-msgstr ""
+msgstr "Средняя стоимость майнинга 1 BTC для вашей фермы."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1128
 #: /checksum/aBI7tDibdI
 msgctxt "UI"
 msgid "Electricity Break Even"
-msgstr ""
+msgstr "Безубыточность электроэнергии"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1129
 #: /checksum/0HWkZ2FCNb
 msgctxt "UI"
 msgid "The average break-even electricity price for your mining operation."
-msgstr ""
+msgstr "Средняя безубыточная цена на электроэнергию для вашего майнинга."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1142
 #: /checksum/M9g+76/LYo
 msgctxt "UI"
 msgid "CAPEX Break Even"
-msgstr ""
+msgstr "Безубыточность капитальных затрат"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1143
 #: /checksum/GqYIpdtSoS
@@ -1334,24 +1367,27 @@ msgid ""
 " investment. Will not display a number if CAPEX = 0 or if the Break Even "
 "point is not reached during the given time period."
 msgstr ""
+"Месяц, когда ваша совокупная прибыль равна или превышает ваши первоначальные "
+"капитальные вложения. Не будет отображать число, если CAPEX = 0 или если "
+"точка безубыточности не будет достигнута в течение заданного периода времени."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1155
 #: /checksum/qQMvb0Nm0s
 msgctxt "UI"
 msgid "End Profit/Loss"
-msgstr ""
+msgstr "Конечная прибыль/убыток"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1166
 #: /checksum/03h8GIIbQP
 msgctxt "UI"
 msgid "Total BTC Mined"
-msgstr ""
+msgstr "Всего добыто BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1174
 #: /checksum/hZPhX5b0dK
 msgctxt "UI"
 msgid "IRR"
-msgstr ""
+msgstr "IRR"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1177
 #: /checksum/EBKsUbsWg0
@@ -1360,58 +1396,62 @@ msgid ""
 "Internal Rate of Return, a metric used to estimate the profitability of "
 "potential investments.{br}IRR value is undefined when CAPEX is 0."
 msgstr ""
+"Внутренняя норма доходности — показатель, используемый для оценки доходности "
+"потенциальных инвестиций.{br}Величина внутренней нормы доходности не "
+"определена, если капитальные затраты равны нулю."
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:365
 #: /checksum/B8C37hlrbc
 msgctxt "UI"
 msgid "Revenue and Profit Calculator"
-msgstr ""
+msgstr "Калькулятор доходов и прибыли"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1208
 #: /checksum/xC/sEXQn9t
 msgctxt "UI"
 msgid "Profitability Calculator"
-msgstr ""
+msgstr "Калькулятор доходности"
 
 #: packages/insights/src/pages/Home/Home.tsx:45 /checksum/CXi9ykS1h9
 msgctxt "UI"
 msgid "Bitcoin Mining Stats"
-msgstr ""
+msgstr "Статистика биткойн-майнинга"
 
 #: packages/insights/src/pages/Home/Home.tsx:62 /checksum/o4i/sMjou2
 msgctxt "UI"
 msgid "Profitability of Popular SHA-256 ASICs"
-msgstr ""
+msgstr "Прибыльность популярных SHA-256 ASIC устройств"
 
 #: packages/insights/src/pages/Home/Home.tsx:72 /checksum/DOLrtZ9DYr
 msgctxt "UI"
 msgid "Bitcoin Miner Holdings & Transaction Flows"
-msgstr ""
+msgstr "Средства биткойн-майнеров & Потоки транзакций"
 
 #: packages/insights/src/pages/Home/Home.tsx:77 /checksum/utVGXRJUad
 msgctxt "UI"
 msgid "Powered by Coin Metrics Network Data Pro"
-msgstr ""
+msgstr "Работает на Coin Metrics Network Data Pro"
 
 #: packages/insights/src/pages/Home/Home.tsx:104 /checksum/NboKSD31EQ
 msgctxt "UI"
 msgid "Bitcoin ASIC Hardware & Power Capacity Calculator"
-msgstr ""
+msgstr "Калькулятор оборудования и мощности Bitcoin ASIC устройств"
 
 #: packages/insights/src/pages/Home/Home.tsx:129 /checksum/0MvzbuWmWI
 msgctxt "UI"
 msgid "By subscribing you are agreeing to our <a>Privacy Policy</a>"
 msgstr ""
+"Подписываясь, вы соглашаетесь с нашей <a>Политикой конфиденциальности</a>"
 
 #: packages/insights/src/pages/Home/Home.tsx:150 /checksum/s3eGF+DTYQ
 msgctxt "UI"
 msgid "Other Mining Tools"
-msgstr ""
+msgstr "Другие майнинг-инструменты"
 
 #: packages/insights/src/pages/Home/Home.tsx:156 /checksum/F/ug1KdHjy
 msgctxt "UI"
 msgid "Bitcoin Profitability Calculator"
-msgstr ""
+msgstr "Калькулятор Bitcoin доходности"
 
 #: packages/insights/src/pages/Home/Home.tsx:161
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1074
@@ -1423,12 +1463,16 @@ msgid ""
 "include capital expenditure (e.g. costs to buy hardware), use the advanced "
 "inputs."
 msgstr ""
+"Этот калькулятор покажет вам вашу чистую прибыль от майнинга на основе "
+"вашего хешрейта, эффективности, цены на электроэнергию и других операционных "
+"расходов. Чтобы включить капитальные затраты (например, затраты на покупку "
+"оборудования), используйте расширенные входные данные."
 
 #: packages/insights/src/pages/Home/Home.tsx:169
 #: packages/insights/src/pages/Home/Home.tsx:188 /checksum/H2R4xHOkTU
 msgctxt "UI"
 msgid "Launch Calculator"
-msgstr ""
+msgstr "Калькулятор запуска"
 
 #: packages/insights/src/pages/Home/Home.tsx:180 /checksum/BYQPCB61NI
 msgctxt "UI"
