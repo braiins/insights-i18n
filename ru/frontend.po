@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-10 16:59+0000\n"
+"PO-Revision-Date: 2022-05-06 17:13+0000\n"
 "Last-Translator: Iryna Bashkova <iryna.bashkova@braiins.cz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: packages/insights/src/constants.tsx:53 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -1482,21 +1482,25 @@ msgid ""
 "select any hardware model from the dropdown menu or choose “Custom” to input"
 " the hashrate and power consumption yourself."
 msgstr ""
+"Этот калькулятор покажет вам стоимость майнинга 1 биткойна на основе вашего "
+"хешрейта, энергопотребления и дополнительных (необязательных) входных "
+"данных. Вы можете выбрать любую модель оборудования из меню или выбрать "
+"«Пользовательский», чтобы самостоятельно ввести хешрейт и энергопотребление."
 
 #: packages/insights/src/pages/Guides/common.tsx:36 /checksum/9y+JaDw3aS
 msgctxt "UI"
 msgid "Published on $date"
-msgstr ""
+msgstr "Опубликовано $date"
 
 #: packages/insights/src/pages/Guides/common.tsx:49 /checksum/6UfIPijyDf
 msgctxt "UI"
 msgid "Start Reading"
-msgstr ""
+msgstr "Читать"
 
 #: packages/insights/src/pages/Guides/common.tsx:66 /checksum/gmU6zkS6vt
 msgctxt "UI"
 msgid "Table of Contents"
-msgstr ""
+msgstr "Оглавление"
 
 #: packages/insights/src/pages/Root/components/StatusPage/StatusPage.tsx:48
 #: /checksum/3nCmoeStAW
@@ -1508,13 +1512,13 @@ msgstr "Перейти на домашнюю страницу"
 #: /checksum/5eH/nx0ybe
 msgctxt "UI"
 msgid "Bitcoin Miner Holdings"
-msgstr ""
+msgstr "Средства биткойн-майнинга"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/index.tsx:40
 #: /checksum/3ebHqsf/vO
 msgctxt "UI"
 msgid "Bitcoin Miner Flows"
-msgstr ""
+msgstr "Потоки биткойн-майнинга"
 
 #: shared/charts/MultiLine/MultiLine.tsx:120 /checksum/AMBWvayRmY
 msgctxt "UI"
@@ -1525,13 +1529,13 @@ msgstr "Произошла ошибка в графике!"
 #: /checksum/3/Iz0RNBVE
 msgctxt "UI"
 msgid "Profit/Loss (USD)"
-msgstr ""
+msgstr "Прибыль/убыток (долл. США)"
 
 #: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:105
 #: /checksum/Qkwhhk4BCI
 msgctxt "UI"
 msgid "Electricity Price (USD)"
-msgstr ""
+msgstr "Цена на электроэнергию (долл. США)"
 
 #: shared/components/DidCatch/DidCatch.tsx:29 /checksum/XEa29O/eL/
 msgctxt "UI"
@@ -1609,61 +1613,61 @@ msgstr "Перескочить на конец"
 #: /checksum/3eZ1CeeQpK
 msgctxt "UI"
 msgid "Invalid format of news feed received!"
-msgstr ""
+msgstr "Получен недопустимый формат новостной ленты!"
 
 #: packages/insights/src/pages/Home/components/Feed/Feed.tsx:116
 #: /checksum/CpR4/EPg7K
 msgctxt "UI"
 msgid "News from Braiins.com"
-msgstr ""
+msgstr "Новости с Braiins.com"
 
 #: packages/insights/src/pages/Home/components/Feed/Feed.tsx:125
 #: /checksum/4NXVmu2JQr
 msgctxt "UI"
 msgid "View all news"
-msgstr ""
+msgstr "Посмотреть все новости"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:91
 #: /checksum/HV/ooiQP0Z
 msgctxt "UI"
 msgid "Hashrate <nobr>(current)</nobr>"
-msgstr ""
+msgstr "Хешрейт <nobr>(текущий)</nobr>"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:99
 #: /checksum/F9LBju/SqT
 msgctxt "UI"
 msgid "Monthly Revenue"
-msgstr ""
+msgstr "Ежемесячный доход"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:100
 #: /checksum/HJJwPzZS5B
 msgctxt "UI"
 msgid "Cumulative Profit and Cash Flow"
-msgstr ""
+msgstr "Совокупная прибыль и денежный поток"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:101
 #: /checksum/qNo3H1b+yb
 msgctxt "UI"
 msgid "Cash Flow"
-msgstr ""
+msgstr "Денежный поток"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:102
 #: /checksum/JA5vqgCLjq
 msgctxt "UI"
 msgid "Hardware Value"
-msgstr ""
+msgstr "Стоимость оборудования"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:103
 #: /checksum/umdmQ92e7A
 msgctxt "UI"
 msgid "Net Profit/Loss (Cumulative)"
-msgstr ""
+msgstr "Чистая прибыль/убыток (кумулятивный)"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:65
 #: /checksum/lqKqQ0mXAg
 msgctxt "UI"
 msgid "Difficulty Stats"
-msgstr ""
+msgstr "Статистика сложности"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:127
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:86
@@ -1676,31 +1680,31 @@ msgstr "Сложность"
 #: /checksum/ATYp5Zjitk
 msgctxt "UI"
 msgid "HW Model"
-msgstr ""
+msgstr "Модель майнера"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:192
 #: /checksum/r3Cova/L68
 msgctxt "UI"
 msgid "Break-Even <nobr>Electricity Price</nobr>"
-msgstr ""
+msgstr "Точка безубыточности <nobr>Цена на электроэнергию</nobr>"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:197
 #: /checksum/GlmbHVO4Oc
 msgctxt "UI"
 msgid "Daily Profit <nobr>(Stock FW)</nobr>"
-msgstr ""
+msgstr "Ежедневная прибыль <nobr>(Сток FW)</nobr>"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:209
 #: /checksum/1lnBS8AxOk
 msgctxt "UI"
 msgid "Daily BTC Mined"
-msgstr ""
+msgstr "Ежедневный майнинг BTC"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:246
 #: /checksum/OVQZAOd+ov
 msgctxt "UI"
 msgid "Electricity Price"
-msgstr ""
+msgstr "Цена на электроэнергию"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:52
 #: /checksum/Unjg5IeNjj
@@ -1712,49 +1716,49 @@ msgstr "Пул"
 #: /checksum/ceZQo/v+eC
 msgctxt "UI"
 msgid "HQ"
-msgstr ""
+msgstr "HQ"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:91
 #: /checksum//3P+qQheQw
 msgctxt "UI"
 msgid "Blocks Mined"
-msgstr ""
+msgstr "Добытые блоки"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:96
 #: /checksum/JDjSn4HApx
 msgctxt "UI"
 msgid "Average <nobr>Block Value</nobr>"
-msgstr ""
+msgstr "В среднем <nobr>цена блока</nobr>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:101
 #: /checksum/OG8DJHarbi
 msgctxt "UI"
 msgid "Market Share"
-msgstr ""
+msgstr "Доля рынка"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:138
 #: /checksum/HNtGBx9wVm
 msgctxt "UI"
 msgid "1D"
-msgstr ""
+msgstr "1Д"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:144
 #: /checksum/HAXOLPCkV/
 msgctxt "UI"
 msgid "5D"
-msgstr ""
+msgstr "5Д"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:150
 #: /checksum/icob1w/IFA
 msgctxt "UI"
 msgid "5W"
-msgstr ""
+msgstr "5Н"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:196
 #: /checksum/QfpnwW96qB
 msgctxt "UI"
 msgid "$name pool icon"
-msgstr ""
+msgstr "$name значок пула"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:206
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:219
@@ -1767,25 +1771,25 @@ msgstr "Неизвестный"
 #: /checksum/81gzPHXvIp
 msgctxt "UI"
 msgid "Miner / Pool"
-msgstr ""
+msgstr "Майнер / Пул"
 
 #: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:224
 #: /checksum/aAZhKvuP0r
 msgctxt "UI"
 msgid "Block Mined"
-msgstr ""
+msgstr "Добыт блок"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:60
 #: /checksum/yJ8HmnL8nl
 msgctxt "UI"
 msgid "Hardware Name"
-msgstr ""
+msgstr "Имя оборудования"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:71
 #: /checksum/znPI/OdISi
 msgctxt "UI"
 msgid "# of Units"
-msgstr ""
+msgstr "# единиц"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:76
 #: /checksum/z4umX4xjIV
@@ -1806,24 +1810,26 @@ msgid ""
 "Go to the Profitability Calculator with pre-set values for hashrate & "
 "consumption"
 msgstr ""
+"Перейдите к калькулятору прибыльности с предварительно установленными "
+"значениями хешрейта и потребления"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:141
 #: /checksum/LCpBtbm6oj
 msgctxt "UI"
 msgid "Filter"
-msgstr ""
+msgstr "Фильтр"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:156
 #: /checksum/rwsubf/2OJ
 msgctxt "UI"
 msgid "Capacity"
-msgstr ""
+msgstr "Вместимость"
 
 #: packages/insights/src/components/ShareDialog/ShareDialog.tsx:52
 #: /checksum/C4HW/7za0G
 msgctxt "UI"
 msgid "Share on"
-msgstr ""
+msgstr "Поделись"
 
 #: packages/insights/src/components/ShareDialog/ShareDialog.tsx:68
 #: /checksum/9PQ5DfQLsj
@@ -1835,19 +1841,19 @@ msgstr "URL"
 #: /checksum/Xm5AbMToPI
 msgctxt "UI"
 msgid "Embed Code"
-msgstr ""
+msgstr "Код для вставки"
 
 #: packages/insights/src/components/ShareDialog/ShareDialog.tsx:129
 #: /checksum/P3KqmkfYNf
 msgctxt "UI"
 msgid "Share Results"
-msgstr ""
+msgstr "Поделиться результатами"
 
 #: packages/insights/src/components/ShareDialog/ShareDialog.tsx:130
 #: /checksum//mMDsL79dq
 msgctxt "UI"
 msgid "Embed Form"
-msgstr ""
+msgstr "Встроить форму"
 
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:80
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:81
@@ -1860,7 +1866,7 @@ msgstr "Обязательное поле!"
 #: /checksum/c8qQrc8GCm
 msgctxt "UI"
 msgid "Select hardware"
-msgstr ""
+msgstr "Выберите оборудование"
 
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:103
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:590
@@ -1875,14 +1881,14 @@ msgstr "Отмена"
 #: /checksum/EyCCklf9ED
 msgctxt "UI"
 msgid "Select Manufacturer"
-msgstr ""
+msgstr "Выберите производителя"
 
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:148
 #: packages/insights/src/components/HardwareSelectionDialog/HardwareSelectionDialog.tsx:149
 #: /checksum/w2I6CCm7sb
 msgctxt "UI"
 msgid "Select HW Model"
-msgstr ""
+msgstr "Выберите модель оборудования"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:607
 #: shared/components/format/Interval/Interval.tsx:84 /checksum/vkQ1giC8GS
@@ -2001,73 +2007,73 @@ msgstr "Подтвердите запрос, перейдя по включен�
 #: /checksum/paykJGarUV
 msgctxt "UI"
 msgid "1-hop_miner_flows"
-msgstr ""
+msgstr "1-hop_miner_flows"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:174
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:289
 #: /checksum/BHaEZRMkHu
 msgctxt "UI"
 msgid "Inflow"
-msgstr ""
+msgstr "Приток"
 
 #. Chart title shown on fullscreen & exported version
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:82
 #: /checksum/1r3A11mht1
 msgctxt "UI"
 msgid "1-hop Miner Flows"
-msgstr ""
+msgstr "Майнинг-потоки с 1 хопом"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:89
 #: /checksum/cBBHFVqWuR
 msgctxt "UI"
 msgid "miner_net_flows"
-msgstr ""
+msgstr "miner_net_flows"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:289
 #: /checksum/ydfowNAugO
 msgctxt "UI"
 msgid "0-hop (Pools)"
-msgstr ""
+msgstr "0 хопов (Пулы)"
 
 #. Chart title shown on fullscreen & exported version
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:91
 #: /checksum/XNKm4xVVFe
 msgctxt "UI"
 msgid "Miner Net Flows"
-msgstr ""
+msgstr "Чистые потоки майнинга"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:98
 #: /checksum/Ws1Wbkl9ml
 msgctxt "UI"
 msgid "30_day_mri"
-msgstr ""
+msgstr "30_day_mri"
 
 #. Chart title shown on fullscreen & exported version
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:100
 #: /checksum/LMob98w5vw
 msgctxt "UI"
 msgid "30-day MRI"
-msgstr ""
+msgstr "MRI 30-дней"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:248
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:302
 #: /checksum/MFUI/YuMc5
 msgctxt "UI"
 msgid "Coinbase Distance"
-msgstr ""
+msgstr "Coinbase Расстояние"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:297
 #: /checksum/9GGSkxx+gY
 msgctxt "UI"
 msgid "1-hop (Miners)"
-msgstr ""
+msgstr "1-хоп (Майнеры)"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:175
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:298
 #: /checksum/gyIJ1LXShZ
 msgctxt "UI"
 msgid "Outflow"
-msgstr ""
+msgstr "Отток"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:348
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:387
@@ -2075,14 +2081,14 @@ msgstr ""
 #: /checksum/KYW8UNz+rU
 msgctxt "UI"
 msgid "Cannot download chart, no config present!"
-msgstr ""
+msgstr "Невозможно загрузить диаграмму, нет конфигурации!"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:378
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:419
 #: /checksum/DUuvC5+E9x
 msgctxt "UI"
 msgid "Type:"
-msgstr ""
+msgstr "Тип:"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:390
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:431
@@ -2090,7 +2096,7 @@ msgstr ""
 #: /checksum/KkYC1OlDIP
 msgctxt "UI"
 msgid "Period"
-msgstr ""
+msgstr "Период"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:403
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:444
@@ -2098,7 +2104,7 @@ msgstr ""
 #: /checksum/qk/iOQGVD3
 msgctxt "UI"
 msgid "Exit Fullscreen [ESC]"
-msgstr ""
+msgstr "Выйти из полноэкранного режима [ESC]"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:414
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:455
@@ -2114,64 +2120,64 @@ msgstr "Загрузить"
 #: /checksum/GMbfIMiT8Q
 msgctxt "UI"
 msgid "Generating the image…"
-msgstr ""
+msgstr "Генерация изображения…"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:81
 #: /checksum/kT74goT0GM
 msgctxt "UI"
 msgid "miner_holdings"
-msgstr ""
+msgstr "miner_holdings"
 
 #. Chart title shown on fullscreen & exported version
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:83
 #: /checksum/pGnuz7bfvc
 msgctxt "UI"
 msgid "Absolute"
-msgstr ""
+msgstr "Абсолют"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:86
 #: /checksum/YdXl2rj+v7
 msgctxt "UI"
 msgid "miner_holdings_as_a_proportion_of_supply"
-msgstr ""
+msgstr "miner_holdings_as_a_proportion_of_supply"
 
 #. filename for the chart download function
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:87
 #: /checksum/9qJ/UczxGS
 msgctxt "UI"
 msgid "Miner Holdings as a Proportion of Supply"
-msgstr ""
+msgstr "Средства майнинга как доля предложения"
 
 #. Chart title shown on fullscreen & exported version
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:88
 #: /checksum/4Qv2W2tdw8
 msgctxt "UI"
 msgid "Proportional"
-msgstr ""
+msgstr "Пропорционально"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:241
 #: /checksum/FWDFvHowFH
 msgctxt "UI"
 msgid "Remaining Supply"
-msgstr ""
+msgstr "Оставшееся предложение"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:240
 #: /checksum/9KtBQ3gnPq
 msgctxt "UI"
 msgid "1 hop (Miners)"
-msgstr ""
+msgstr "1 хоп (Майнеры)"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:239
 #: /checksum/moVVfwlR1G
 msgctxt "UI"
 msgid "0 hops (Pools)"
-msgstr ""
+msgstr "0 хопов (Пулы)"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:321
 #: /checksum/Wjru8jTbnV
 msgctxt "UI"
 msgid "Total Holdings (BTC)"
-msgstr ""
+msgstr "Все средства (BTC)"
 
 #: shared/lib/time/calendar.tsx:13 /checksum/SjZn2pSSEW
 msgctxt "UI"
@@ -2403,135 +2409,140 @@ msgid ""
 "from the ASIC database, which is best if you use a performance boosting "
 "firmware like <a>Braiins OS+‎</a> to improve your device's efficiency."
 msgstr ""
+"Кроме того, вы можете выбрать параметр <em>Пользовательский</em>, чтобы "
+"ввести свои собственные значения хешрейта и энергопотребления, а не "
+"использовать предварительно загруженные значения из базы данных ASIC, что "
+"лучше, если вы используете прошивку для повышения производительности, "
+"например <a>Braiins OS+‎</a> для повышения эффективности вашего устройства."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:287
 #: /checksum/Fuc1okraUQ
 msgctxt "UI"
 msgid "Get up to 20% better efficiency with Braiins OS+‎"
-msgstr ""
+msgstr "Повысьте эффективность до 20% благодаря Braiins OS+‎"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:174
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:433
 #: /checksum/rbQ01JJy0Z
 msgctxt "UI"
 msgid "Failed to load profitability data!"
-msgstr ""
+msgstr "Не удалось загрузить данные о прибыльности!"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:53
 #: /checksum/ObVB7kP6+p
 msgctxt "UI"
 msgid "Failed to load hashrate stats!"
-msgstr ""
+msgstr "Не удалось загрузить статистику хешрейта!"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:96
 #: /checksum/2RvAm18JRS
 msgctxt "UI"
 msgid "Hashrate <nobr>(30 Days)</nobr>"
-msgstr ""
+msgstr "Хешрейт <nobr>(30 дней)</nobr>"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:111
 #: /checksum/Toal6+ItWn
 msgctxt "UI"
 msgid "Average Fees per Block <nobr>(144 Blocks)</nobr>"
-msgstr ""
+msgstr "Средняя комиссия за блок <nobr>(144 блока)</nobr>"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:116
 #: /checksum/5IjbcT2Mf3
 msgctxt "UI"
 msgid "Fees % of Block Reward <nobr>(144 Blocks)</nobr>"
-msgstr ""
+msgstr "Комиссия % вознаграждения за блок <nobr>(144 блока)</nobr>"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:121
 #: /checksum/W5fBWrGuaa
 msgctxt "UI"
 msgid "Total Mining Revenue <nobr>($mil/Day)</nobr>"
-msgstr ""
+msgstr "Общий доход от майнинга <nobr>(млн долларов в день)</nobr>"
 
 #: packages/insights/src/pages/Home/components/Feed/Feed.tsx:74
 #: /checksum/k+uA+BUNOO
 msgctxt "UI"
 msgid "Failed to load news feed!"
-msgstr ""
+msgstr "Не удалось загрузить ленту новостей!"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:101
 #: /checksum/nqpvvdWpVc
 msgctxt "UI"
 msgid "Current Epoch Block Time"
-msgstr ""
+msgstr "Текущее время блока эпохи"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:106
 #: /checksum/3bzbUhWLNq
 msgctxt "UI"
 msgid "Estimated Adjustment"
-msgstr ""
+msgstr "Предполагаемая корректировка"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:111
 #: /checksum/Pu4K27kiy3
 msgctxt "UI"
 msgid "Estimated Next Difficulty"
-msgstr ""
+msgstr "Предполагаемая следующая сложность"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:116
 #: /checksum/TFjaw4ktaL
 msgctxt "UI"
 msgid "Estimated Adjustment Date"
-msgstr ""
+msgstr "Предполагаемая дата корректировки"
 
 #: packages/insights/src/pages/Home/components/DifficultyStatsTable/DifficultyStatsTable.tsx:121
 #: /checksum/lV9ekhR6p5
 msgctxt "UI"
 msgid "Previous Adjustment"
-msgstr ""
+msgstr "Предыдущая корректировка"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:163
 #: /checksum/ZQ4DUVeX6e
 msgctxt "UI"
 msgid "Coming Soon™‎"
-msgstr ""
+msgstr "Уже Скоро™‎"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:203
 #: /checksum/kxUN/ynKJh
 msgctxt "UI"
 msgid "Daily Profit <nobr>(Braiins OS+‎)</nobr>"
-msgstr ""
+msgstr "Ежедневная прибыль <nobr>(Braiins OS+‎)</nobr>"
 
 #: packages/insights/src/pages/Home/components/Pools/Pools.tsx:76
 #: /checksum/JSvSvqiiMO
 msgctxt "UI"
 msgid "Failed to load pools data!"
-msgstr ""
+msgstr "Не удалось загрузить данные пулов!"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:136
 #: /checksum/w+H7Dd8KcI
 msgctxt "UI"
 msgid "Show All"
-msgstr ""
+msgstr "Показать все"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:152
 #: /checksum/lZOek0Zcae
 msgctxt "UI"
 msgid "Failed to load flows data!"
-msgstr ""
+msgstr "Не удалось загрузить данные о потоках!"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:177
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:166
 #: /checksum/sEKHbvKR3D
 msgctxt "UI"
 msgid "Invalid data for: $keys!"
-msgstr ""
+msgstr "Неверные данные для: $keys!"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:207
 #: /checksum/CKUVGY9esM
 msgctxt "UI"
 msgid "Failed to load data for Flows!"
-msgstr ""
+msgstr "Не удалось загрузить данные для потоков!"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:136
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:226
 #: /checksum/fw7TMoK7kO
 msgctxt "UI"
 msgid "Failed to load holdings data!"
-msgstr ""
+msgstr "Не удалось загрузить данные о средствах!"
 
 #: packages/insights/src/constants.tsx:101 /checksum/I0NREYlQZw
 msgctxt "UI"
@@ -2544,11 +2555,14 @@ msgid ""
 "To give you an example of how this tool can be used, we’ll compare a stock "
 "Antminer S9 with a custom S9 running Braiins OS+‎ autotuning firmware."
 msgstr ""
+"Чтобы дать вам пример того, как можно использовать этот инструмент, мы "
+"сравним стандартный Antminer S9 с пользовательским S9 с прошивкой с "
+"автонастройкой Braiins OS+‎."
 
 #: packages/insights/src/pages/Guides/CostToMine.tsx:176 /checksum/EceIjaZjKw
 msgctxt "UI"
 msgid "Antminer S9 with stock firmware compared to an S9 with Braiins OS+‎"
-msgstr ""
+msgstr "Сравнение Antminer S9 со стоковой прошивкой и S9 с Braiins OS+‎"
 
 #: packages/insights/src/pages/Guides/CostToMine.tsx:182 /checksum/6wphixzXUC
 msgctxt "UI"
@@ -2561,35 +2575,42 @@ msgid ""
 "essentially the same external conditions was made significantly more "
 "economical by upgrading the firmware."
 msgstr ""
+"Вы можете видеть, что повышение эффективности S9 за счет запуска прошивки "
+"Braiins OS+ снижает стоимость майнинга 1 BTC с 9293 до 7787 долларов, а "
+"безубыточную цену на электроэнергию с 0,043 до 0,052 доллара за кВтч. S9 со "
+"стандартной прошивкой имеет комиссию пула в размере 2%, в то время как S9 на "
+"Braiins OS+ имеет devfee в размере 2%, но 0% за пул на Slush Pool. Иными "
+"словами, та же машина при практически тех же внешних условиях стала "
+"значительно экономичнее за счет обновления прошивки."
 
 #: packages/insights/src/pages/Root/Root.tsx:360 /checksum/FgOCJ46C8N
 msgctxt "UI"
 msgid "Blog"
-msgstr ""
+msgstr "Блог"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:403
 #: /checksum/b4iT1U7JQR
 msgctxt "UI"
 msgid "Invalid state of inputs!"
-msgstr ""
+msgstr "Недопустимое состояние входных данных!"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:511
 #: /checksum/sZt0xVj4PH
 msgctxt "UI"
 msgid "Start date cannot be in the future!"
-msgstr ""
+msgstr "Дата начала не может быть в будущем!"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:512
 #: /checksum/pAduusPDV3
 msgctxt "UI"
 msgid "End date cannot be before start date!"
-msgstr ""
+msgstr "Дата окончания не может быть раньше даты начала!"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:539
 #: /checksum/91Yyyuz6dL
 msgctxt "UI"
 msgid "End Date"
-msgstr ""
+msgstr "Дата окончания"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:595
 #: /checksum/pyqcSI5TC9
@@ -2601,37 +2622,37 @@ msgstr "Отправить"
 #: /checksum//wOyoOtBxh
 msgctxt "UI"
 msgid "Start Date"
-msgstr ""
+msgstr "Дата начала"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:608
 #: /checksum/83FUjqi/4Q
 msgctxt "UI"
 msgid "Historical / Mixed"
-msgstr ""
+msgstr "Исторический / Смешанный"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:616
 #: /checksum/6PgPFEkfJ1
 msgctxt "UI"
 msgid "Length"
-msgstr ""
+msgstr "Длина"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:620
 #: /checksum/M1aG/x7U3f
 msgctxt "UI"
 msgid "Value between 6 and 60 is required!"
-msgstr ""
+msgstr "Необходимо значение от 6 до 60!"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:633
 #: /checksum/RUS4dicL9v
 msgctxt "UI"
 msgid "Months"
-msgstr ""
+msgstr "Месяцев"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:656
 #: /checksum/hZniybduag
 msgctxt "UI"
 msgid "Future Projection {count, plural, one {# month} other {# months}}"
-msgstr ""
+msgstr "Прогноз на будущее {count, plural, one {# месяц} other {# месяцев}}"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:674
 #: /checksum/3//ap7lrzm
@@ -2641,54 +2662,57 @@ msgid ""
 "transaction fees are retrieved automatically from the database.{br}<a>Read "
 "user guide</a>"
 msgstr ""
+"Исторические данные о цене BTC, сложности сети, субсидиях на блок и "
+"комиссиях за транзакции автоматически извлекаются из базы данных.{br}"
+"<a>Читать руководство пользователя</a>"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:692
 #: /checksum/VD/CdAC1ER
 msgctxt "UI"
 msgid "Backtest {range}"
-msgstr ""
+msgstr "Бэктест {range}"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:696
 #: /checksum/JBCeP8G23w
 msgctxt "UI"
 msgid "Mixed Projection {range}"
-msgstr ""
+msgstr "Смешанная проекция {range}"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:193
 #: /checksum/pMub1/k0QX
 msgctxt "UI"
 msgid "Cannot calculate data without missing inputs!"
-msgstr ""
+msgstr "Невозможно рассчитать данные без входных данных!"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:314
 #: /checksum/RCPtOPDIPH
 msgctxt "UI"
 msgid "Stock Firmware"
-msgstr ""
+msgstr "Стоковая прошивка"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:317
 #: /checksum/UJYY8W2t/J
 msgctxt "UI"
 msgid "Braiins OS+‎ Overclocking"
-msgstr ""
+msgstr "Разгон Braiins OS+‎"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:321
 #: /checksum/C2W90NsWEF
 msgctxt "UI"
 msgid "Braiins OS+‎ High Efficiency"
-msgstr ""
+msgstr "Высокая эффективность Braiins OS+‎"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:533
 #: /checksum/tgiYk6/Vgl
 msgctxt "UI"
 msgid "Stats with Braiins OS+‎ Overclocking"
-msgstr ""
+msgstr "Статистика с разгоном Braiins OS+‎"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:536
 #: /checksum/FsjkhY+tcF
 msgctxt "UI"
 msgid "Stats with Braiins OS+‎ High Efficiency"
-msgstr ""
+msgstr "Статистика с высокой эффективностью Braiins OS+‎"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:554
 #: /checksum/YXY3M58vxT
@@ -2699,111 +2723,115 @@ msgid ""
 "select any hardware model from the dropdown menu or choose \"Custom\" to "
 "input the hashrate and power consumption yourself."
 msgstr ""
+"Этот калькулятор покажет вам стоимость добычи 1 биткойна на основе вашего "
+"хешрейта, энергопотребления и дополнительных (необязательных) входных "
+"данных. Вы можете выбрать любую модель оборудования из меню или выбрать "
+"«Пользовательский», чтобы самостоятельно ввести хешрейт и энергопотребление."
 
 #: packages/insights/src/pages/Home/Home.tsx:53 /checksum/MGLP2PcvKw
 msgctxt "UI"
 msgid "Hashrate and Mining Economics Charts"
-msgstr ""
+msgstr "Графики хешрейта и экономики майнинга"
 
 #: packages/insights/src/pages/Home/Home.tsx:88 /checksum/jfxMXP/IlB
 msgctxt "UI"
 msgid "Bitcoin Mining Pools Hashrate Distribution"
-msgstr ""
+msgstr "Распределение хешрейта биткойн-майнинг пулов"
 
 #: packages/insights/src/pages/Home/Home.tsx:94 /checksum/STac/CrfxR
 msgctxt "UI"
 msgid "Hashrate Distribution"
-msgstr ""
+msgstr "Распределение хешрейта"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:135
 #: /checksum/DstM6VZtfm
 msgctxt "UI"
 msgid "Hashrate (EH/s)"
-msgstr ""
+msgstr "Хешрейт (EH/s)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:126
 #: /checksum/Euu+M/Xh/H
 msgctxt "UI"
 msgid "Difficulty (Trillion)"
-msgstr ""
+msgstr "Сложность (триллион)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:161
 #: /checksum/y4yk18uIaB
 msgctxt "UI"
 msgid "Hashvalue (SAT/TH/day)"
-msgstr ""
+msgstr "Значение хешрейта (SAT/TH/день)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:162
 #: /checksum/vcrLxoUyng
 msgctxt "UI"
 msgid "Hashvalue"
-msgstr ""
+msgstr "Значение хешрейта"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:171
 #: /checksum/rQvwZZ5PRx
 msgctxt "UI"
 msgid "Hashprice ($/TH/day)"
-msgstr ""
+msgstr "Стоимость хешрейта ($/TH/день)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:172
 #: /checksum/emgdF8ShJ1
 msgctxt "UI"
 msgid "Hashprice"
-msgstr ""
+msgstr "Цена хешрейта"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:199
 #: /checksum/CaztfYw/Mx
 msgctxt "UI"
 msgid "Tx Fees % of Block Reward (%)"
-msgstr ""
+msgstr "Комиссионные сборы % от вознаграждения за блок (%)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:209
 #: /checksum/6BclstADF7
 msgctxt "UI"
 msgid "Avg. Tx Fees per Block (BTC)"
-msgstr ""
+msgstr "Сред. комиссии за блок (BTC)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:211
 #: /checksum/wokGXwN1CN
 msgctxt "UI"
 msgid "Tx Fees per Block (BTC)"
-msgstr ""
+msgstr "Комиссии за блок (BTC)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:234
 #: /checksum/3xIrgtBVgj
 msgctxt "UI"
 msgid "Daily Mining Revenue (USD million)"
-msgstr ""
+msgstr "Ежедневный доход от майнинга (млн долларов США)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:235
 #: /checksum/GJuiFuXNWr
 msgctxt "UI"
 msgid "Daily Mining Revenue (USD)"
-msgstr ""
+msgstr "Ежедневный доход от майнинга (долл. США)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:257
 #: /checksum/+r09eehBkT
 msgctxt "UI"
 msgid "Hashrate & Difficulty"
-msgstr ""
+msgstr "Хешрейт и сложность"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:258
 #: /checksum/ii058H8B+6
 msgctxt "UI"
 msgid "Hashvalue & Hashprice"
-msgstr ""
+msgstr "Значение хэшрейта и цена хэшрейта"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:259
 #: /checksum/IzhskMhTVm
 msgctxt "UI"
 msgid "Transaction Fees"
-msgstr ""
+msgstr "Комиссии за транзакции"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:260
 #: /checksum/iZ3tA77cnx
 msgctxt "UI"
 msgid "Daily Mining Revenue"
-msgstr ""
+msgstr "Ежедневный доход от майнинга"
 
 #: shared/components/Notifications/Notifications.tsx:244 /checksum/kFuPtdj2PY
 msgctxt "UI"
@@ -2819,7 +2847,7 @@ msgstr "Переключить раздел…"
 #: /checksum/rt+DkxS41H
 msgctxt "UI"
 msgid "Blocks this Epoch"
-msgstr ""
+msgstr "Блоки в эту эпоху"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:404
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:445
@@ -2827,59 +2855,59 @@ msgstr ""
 #: /checksum/DHl8h1/rxq
 msgctxt "UI"
 msgid "Switch to Fullscreen"
-msgstr ""
+msgstr "Переключиться на полноэкранный режим"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:68
 #: /checksum/OF6vWgqvRX
 msgctxt "UI"
 msgid "Hashrate Stats"
-msgstr ""
+msgstr "Статистика хешрейта"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:101
 #: /checksum/XqKEItV7fr
 msgctxt "UI"
 msgid "Hashvalue <nobr>(SAT/TH/Day)</nobr>"
-msgstr ""
+msgstr "Значение хешрейта <nobr>(SAT/TH/День)</nobr>"
 
 #: packages/insights/src/pages/Home/components/HashRateStatsTable/HashRateStatsTable.tsx:106
 #: /checksum/nhZWc96SIP
 msgctxt "UI"
 msgid "Hashprice <nobr>($/TH/Day)</nobr>"
-msgstr ""
+msgstr "Цена хешрейта <nobr>($/TH/День)</nobr>"
 
 #. filename for the chart download function
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:81
 #: /checksum/4LMYwRj55w
 msgctxt "UI"
 msgid "Bitcoin Miner Flows: 1-hop"
-msgstr ""
+msgstr "Потоки биткойн-майнинга: 1-хоп"
 
 #. filename for the chart download function
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:90
 #: /checksum/Jv4/Vf4QRn
 msgctxt "UI"
 msgid "Bitcoin Miner Flows: 0-hop (Pools)"
-msgstr ""
+msgstr "Потоки биткойн-майнинга: 0-хоп (пулы)"
 
 #. filename for the chart download function
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:99
 #: /checksum/vtjWAXzZ0q
 msgctxt "UI"
 msgid "Bitcoin Miner Flows: 30-day MRI"
-msgstr ""
+msgstr "Потоки биткойн-майнинга: 30-дневная MRI"
 
 #. filename for the chart download function
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:82
 #: /checksum/ER/KHy1eNM
 msgctxt "UI"
 msgid "Miner Holdings: Absolute values"
-msgstr ""
+msgstr "Средства майнинга: абсолютные значения"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:65
 #: /checksum/voU7bmgaFG
 msgctxt "UI"
 msgid "Reported <nobr>Hashrate</nobr>"
-msgstr ""
+msgstr "Сообщенный <nobr>хешрейт</nobr>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:66
 #: /checksum/TM4WyKjamz
@@ -2890,12 +2918,16 @@ msgid ""
 "typical short-term variance in block finds (i.e. pool \"luck\"). However, it"
 " is possible for pools to misreport their hashrate."
 msgstr ""
+"Хешрейт сообщается пулами в режиме реального времени через API. Это должно "
+"более точно отражать фактический хешрейт пулов, поскольку на него не "
+"повлияет типичная краткосрочная дисперсия в находках блоков (то есть «удача» "
+"пула). Однако пулы также могут неверно указывать свой хешрейт."
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:80
 #: /checksum/dJfLdVhPTH
 msgctxt "UI"
 msgid "Estimated <nobr>Hashrate</nobr>"
-msgstr ""
+msgstr "Предполагаемый <nobr>хешрейт</nobr>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:81
 #: /checksum/jo+0bCw3By
@@ -2905,6 +2937,9 @@ msgid ""
 " be somewhat inaccurate over short time periods due to luck, it doesn’t "
 "require trusting the pool operators."
 msgstr ""
+"Рассчитывается на основе количества блоков, найденных каждым пулом. Хотя это "
+"может быть несколько неточным в течение коротких периодов времени из-за "
+"удачи, это не требует доверия к операторам пула."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:130
 #: /checksum/Rk4HRYLO9c
@@ -2913,25 +2948,27 @@ msgid ""
 "<strong>Pool & other fees</strong> (e.g. firmware devfees, revenue splits, "
 "etc.; taken as a % of revenue)"
 msgstr ""
+"<strong>Комиссия и другие сборы</strong> (например, devfee встроенного ПО, "
+"разделение доходов и т. д.; берется в процентах от дохода)"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:504
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1039
 #: /checksum/l3r7TWcusV
 msgctxt "UI"
 msgid "Include always-live data for difficulty and BTC price"
-msgstr ""
+msgstr "Включить всегда актуальные данные о сложности и цене BTC"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:104
 #: /checksum/HCbBw7RI12
 msgctxt "UI"
 msgid "Revenue per Month"
-msgstr ""
+msgstr "Доход в месяц"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:105
 #: /checksum/LwDC9hJzSI
 msgctxt "UI"
 msgid "Net Profit per Month"
-msgstr ""
+msgstr "Чистая прибыль в месяц"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:69
 #: /checksum/Ilgmn3t6IX
@@ -2971,12 +3008,14 @@ msgid ""
 "The basic version of our profitability calculator is what you're likely "
 "already accustomed to seeing on other sites. The inputs are:"
 msgstr ""
+"Базовая версия нашего калькулятора доходности — это то, что вы, вероятно, "
+"уже привыкли видеть на других сайтах. Входы:"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:477
 #: /checksum/2xUOdYn6K6
 msgctxt "UI"
 msgid "Date range selection dialog"
-msgstr ""
+msgstr "Диалоговое окно выбора диапазона дат"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:484
 #: /checksum/4WG+nTV/UE
@@ -2989,6 +3028,12 @@ msgid ""
 "Then click Historical / Mixed and select the months that you want to start "
 "and end the analysis period."
 msgstr ""
+"В дополнение к прогнозированию предполагаемой прибыльности майнинга с учетом "
+"предположений о цене и сложности BTC, вы также можете проверить историческую "
+"прибыльность с помощью реальных данных. Для этого щелкните поле «Период "
+"времени» в верхнем левом углу, чтобы открыть всплывающее окно, показанное "
+"ниже. Затем щелкните Исторический/Смешанный и выберите месяцы, в которых вы "
+"хотите начать и закончить период анализа."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:492
 #: /checksum/y4Km8ny0oX
@@ -3004,12 +3049,21 @@ msgid ""
 "is due to the halving that is automatically factored in based on expected "
 "10-minute block times."
 msgstr ""
+"Как указано, ваша <strong>Дата окончания</strong> не обязательно должна быть "
+"в прошлом, даже если ваша <strong>Дата начала</strong> в прошлом. Вы можете "
+"либо провести чистый исторический анализ прибыльности майнинга на основе "
+"реальных данных, либо оставить свои предположения о будущей цене BTC, "
+"сложности и средней комиссии за транзакцию за блок, чтобы расширить свой "
+"анализ и на будущее. Пример смешанной проекции показан ниже. Вы также "
+"заметите, что доход от майнинга и прибыльность значительно падают в 50-м "
+"месяце, что связано с халвингом, который автоматически учитывается на основе "
+"ожидаемого 10-минутного времени блока."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:499
 #: /checksum/LgwvYCQtq8
 msgctxt "UI"
 msgid "Revenue example for historical backtesting"
-msgstr ""
+msgstr "Пример дохода для исторического тестирования"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:620
 #: /checksum/5AsaWWvsJi
@@ -3020,6 +3074,11 @@ msgid ""
 "\"Share\" in the top-right corner above the chart and your custom URL will "
 "be generated along with options to share directly on social media."
 msgstr ""
+"Если вы хотите поделиться или сохранить свой анализ прибыльности майнинга "
+"без необходимости повторного ввода, вы можете использовать собственный URL-"
+"адрес для обмена. Просто нажмите «Поделиться» в правом верхнем углу над "
+"диаграммой, и ваш собственный URL-адрес будет сгенерирован вместе с опциями "
+"для прямого обмена в социальных сетях."
 
 #: packages/insights/src/pages/Root/Root.tsx:566 /checksum/xn7vgAfP/8
 msgctxt "UI"
@@ -3039,24 +3098,29 @@ msgid ""
 "approximately 2 difficulty adjustments per month, so this increment should "
 "be roughly double your expected average difficulty adjustment."
 msgstr ""
+"Ежегодное изменение сложности за указанный период времени. Обратите "
+"внимание, что в месяц происходит примерно 2 корректировки сложности, поэтому "
+"это увеличение должно примерно вдвое превышать ожидаемую среднюю "
+"корректировку сложности."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:847
 #: /checksum/geSpY6Uv6h
 msgctxt "UI"
 msgid "Annual increase or decrease in BTC price over the given Time Period."
 msgstr ""
+"Ежегодное увеличение или уменьшение цены BTC за указанный период времени."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:912
 #: /checksum/rZYtGm3v2E
 msgctxt "UI"
 msgid "Annual % change in the value of your ASIC hardware inventory."
-msgstr ""
+msgstr "Годовое % изменение стоимости вашего оборудования ASIC."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:943
 #: /checksum/Ih/wlEs4w5
 msgctxt "UI"
 msgid "Annual % change in the value of your infrastructure."
-msgstr ""
+msgstr "Годовое % изменение стоимости вашей инфраструктуры."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1083
 #: /checksum/nPQS61o4dw
@@ -3068,12 +3132,12 @@ msgstr "Статистика"
 #: /checksum/8Dxa3iR4Yc
 msgctxt "UI"
 msgid "Cost of Production"
-msgstr ""
+msgstr "Стоимость производства"
 
 #: packages/insights/src/pages/Home/Home.tsx:111 /checksum/gie6CC+51H
 msgctxt "UI"
 msgid "More updates in progress…"
-msgstr ""
+msgstr "Готовятся другие обновления…"
 
 #: packages/insights/src/pages/Home/Home.tsx:114 /checksum/NhOnkXR9Vt
 msgctxt "UI"
@@ -3081,29 +3145,31 @@ msgid ""
 "We’re working on adding more stats, charts, and tools to shed light on the "
 "bitcoin mining industry."
 msgstr ""
+"Мы работаем над добавлением дополнительных статистических данных, диаграмм и "
+"инструментов, чтобы пролить свет на индустрию биткойн-майнинга."
 
 #: packages/insights/src/pages/Home/Home.tsx:124 /checksum/YdCmAWkNvc
 msgctxt "UI"
 msgid "Subscribe to get notified when we release an update."
-msgstr ""
+msgstr "Подпишитесь, чтобы получать уведомления, когда мы выпускаем обновление."
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:115
 #: /checksum/cGfBryBnoW
 msgctxt "UI"
 msgid "Price (USD)"
-msgstr ""
+msgstr "Цена (долл. США)"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:116
 #: /checksum/cW8ApCXFKe
 msgctxt "UI"
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: packages/insights/src/pages/CostToMine/components/Chart/Chart.tsx:103
 #: /checksum/YK8163o+x2
 msgctxt "UI"
 msgid "Profit/Loss"
-msgstr ""
+msgstr "Потеря / Прибыль"
 
 #: packages/insights/src/pages/Home/components/HardwarePowerCapacity/HardwarePowerCapacity.tsx:67
 #: /checksum/MdCZnzoxLN
@@ -3112,24 +3178,26 @@ msgid ""
 "Calculated at 90% of full capacity, leaving a safety factor and some "
 "capacity for cooling"
 msgstr ""
+"Рассчитано на 90 % полной мощности, оставляя запас прочности и некоторую "
+"емкость для охлаждения"
 
 #: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:240
 #: /checksum/klVTlTZ1MH
 msgctxt "UI"
 msgid "1 Day"
-msgstr ""
+msgstr "1 день"
 
 #: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:241
 #: /checksum/JtDYf0egO0
 msgctxt "UI"
 msgid "5 Days"
-msgstr ""
+msgstr "5 дней"
 
 #: packages/insights/src/pages/Home/components/Pools/Chart/Chart.tsx:242
 #: /checksum/owUpCbgKqX
 msgctxt "UI"
 msgid "5 Weeks"
-msgstr ""
+msgstr "5 недель"
 
 #: shared/components/NotificationsList/NotificationsList.tsx:66
 #: /checksum/Pbq1qG9RJj
@@ -3209,37 +3277,39 @@ msgid ""
 "This pool is not reporting their real-time hashrate, so the value is "
 "estimated by blocks found."
 msgstr ""
+"Этот пул не сообщает о своем хешрейте в реальном времени, поэтому значение "
+"оценивается по найденным блокам."
 
 #: packages/insights/src/pages/Root/Root.tsx:437 /checksum/o6pULoDLvU
 msgctxt "UI"
 msgid "Change Language"
-msgstr ""
+msgstr "Изменить язык"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:197
 #: /checksum/glA1lZwxQc
 msgctxt "UI"
 msgid "Tx Fees % of Block Reward"
-msgstr ""
+msgstr "% комиссий за транзакции от вознаграждения за блок"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:110 /checksum/GBTcWb/ORF
 msgctxt "UI"
 msgid "Items per page:"
-msgstr ""
+msgstr "Элементы на странице:"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:113 /checksum/0V3R5Cf7KK
 msgctxt "UI"
 msgid "{min}–{max} of {total, plural, =1 {# item} other {# items}}"
-msgstr ""
+msgstr "{min}–{max} of {total, plural, =1 {# элемент} other {# элементы}}"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:118 /checksum/lqp2V1gpZL
 msgctxt "UI"
 msgid "of {total, plural, =1 {# page} other {# pages}}"
-msgstr ""
+msgstr "of {total, plural, =1 {# страница} other {# страницы}}"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:127 /checksum/bQ7hzHIr6V
 msgctxt "UI"
 msgid "Fit the screen"
-msgstr ""
+msgstr "По размеру экрана"
 
 #~ msgctxt "UI"
 #~ msgid "{min}–{max} of {total} items"
