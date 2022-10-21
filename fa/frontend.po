@@ -3,15 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-21 13:43+0330\n"
+"PO-Revision-Date: 2022-10-22 13:06+0000\n"
 "Last-Translator: Behzad Amiri Nezhad <behzad.amiri.nezhad@gmail.com>\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/insights-frontend/fa/>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/"
+"insights-frontend/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: packages/insights/src/constants.tsx:51 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -2777,7 +2778,7 @@ msgstr ""
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:908 /checksum/UoKfS2IPKu
 msgctxt "UI"
 msgid "Currency"
-msgstr "واحد پول"
+msgstr "ارز"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:909 /checksum/Lhfslgl7R6
 msgctxt "UI"
@@ -3381,7 +3382,7 @@ msgstr "زمان"
 #: /checksum/fpfVw0h4Z7
 msgctxt "UI"
 msgid "Block Value"
-msgstr "مقدار بلوک"
+msgstr "ارزش بلوک"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/Chart.tsx:118
 #: /checksum/OdUZoJpKAm
@@ -3496,10 +3497,11 @@ msgid ""
 "cooling method, and other factors. It is also possible to run Braiins OS+ on many other power "
 "inputs (e.g. overclocking, Low Power Mode, etc.)"
 msgstr ""
-"سود تخمینی روزانه در صورت اجرای Braiins OS+ در سطح مصرف انرژی قابل مصرف در مقدار کارخانه داده "
-"شده. نتایج واقعی بسته به کیفیت سیلیکون، روش خنک‌سازی و سایر عوامل می‌تواند از یک ماشین به ماشین "
-"دیگر متفاوت باشد. همچنین امکان اجرای Braiins OS+ روی بسیاری از ورودی های برق دیگر (مانند "
-"اورکلاک، حالت کم مصرف و غیره) وجود دارد."
+"سود تخمینی روزانه در صورت اجرای Braiins OS+ در سطح مصرف انرژی قابل مصرف در "
+"مقدار کارخانه داده شده. نتایج واقعی بسته به کیفیت سیلیکون، روش خنک‌سازی و "
+"سایر عوامل می‌تواند از یک ماشین به ماشین دیگر متفاوت باشد. همچنین امکان "
+"اجرای Braiins OS+ روی بسیاری از ورودی های برق دیگر (مانند اورکلاک، حالت کم "
+"مصرف و غیره) وجود دارد"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:373
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:413
