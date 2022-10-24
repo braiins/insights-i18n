@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-18 15:03+0000\n"
+"PO-Revision-Date: 2022-10-25 12:07+0000\n"
 "Last-Translator: Iryna Bashkova <iryna.bashkova@braiins.cz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: packages/insights/src/constants.tsx:51 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -2730,18 +2730,25 @@ msgid ""
 "essentially the same external conditions was made significantly more "
 "economical by upgrading the firmware."
 msgstr ""
+"Вы можете видеть, что повышение эффективности S9 за счет запуска прошивки "
+"Braiins OS+ снижает стоимость майнинга 1 BTC с 9293 до 7787 долларов, а "
+"безубыточную цену на электроэнергию с 0,043 до 0,052 доллара за кВтч. S9 со "
+"стандартной прошивкой имеет комиссию за пул в размере 2%, в то время как S9 "
+"на Braiins OS+ имеет комиссию за разработку в размере 2%, но 0% за пул в "
+"Braiins Pool. Иными словами, та же машина при практически тех же внешних "
+"условиях стала значительно экономичнее за счет обновления прошивки."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:49
 #: /checksum/d5R+ILLHEZ
 msgctxt "UI"
 msgid "Capital Expenditure (CapEx)"
-msgstr ""
+msgstr "Капитальные затраты (CapEx)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:53
 #: /checksum//Ar1tJ9ckL
 msgctxt "UI"
 msgid "Monthly Operational Expenditure (OpEx)"
-msgstr ""
+msgstr "Ежемесячные операционные расходы (OpEx)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:86
 #: /checksum/2B96MEZNRE
@@ -2752,6 +2759,10 @@ msgid ""
 "outlook. In fact, these mining tools have existed for almost as long as "
 "bitcoin itself."
 msgstr ""
+"Существуют десятки калькуляторов прибыльности майнинга биткойнов, которые "
+"майнеры могут использовать для быстрой оценки своей маржи и долгосрочных "
+"перспектив. Фактически, эти инструменты майнинга существуют почти столько "
+"же, сколько и сам биткойн."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:92
 #: /checksum/pZFYb2cii2
@@ -2764,6 +2775,13 @@ msgid ""
 "expenditure (CAPEX) and ASIC hardware inventory values, asset appreciation "
 "or depreciation, additional fees and operating expenses, and more."
 msgstr ""
+"Тем не менее, мы создали новый калькулятор прибыльности майнинга, который "
+"призван предоставить гораздо больше настроек для многих переменных, которые "
+"входят в анализ денежных потоков майнинга. А именно, мы позволяем "
+"пользователям устанавливать расширенные переменные, такие как годовая цена "
+"BTC и приращение сложности, капитальные затраты (CAPEX) и стоимость "
+"оборудования ASIC, повышение или амортизация активов, дополнительные сборы и "
+"операционные расходы и многое другое."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:98
 #: /checksum/08zntc8N0f
@@ -2775,6 +2793,12 @@ msgid ""
 "are raising funds or just for yourself to get a better idea of how to best "
 "reinvest past profits into newer hardware."
 msgstr ""
+"В этом руководстве мы объясним, как использовать эти расширенные параметры "
+"для детального прогнозирования вашего потенциального денежного потока от "
+"майнинга биткойнов. Эти визуализации денежных потоков могут быть особенно "
+"полезны для презентации, если вы собираете средства, или просто для себя, "
+"чтобы получить лучшее представление о том, как лучше всего реинвестировать "
+"прошлую прибыль в новое оборудование."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:136
 #: /checksum/yg+wwqWWOq
@@ -2784,6 +2808,9 @@ msgid ""
 "from 6 - 60 months, or historical backtesting using real BTC price, "
 "difficulty, and transaction fees)"
 msgstr ""
+"<strong>Временной период</strong> (могут быть прогнозы на будущее для "
+"пользовательского диапазона от 6 до 60 месяцев или исторические тесты с "
+"использованием реальной цены BTC, сложности и комиссий за транзакции)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:148
 #: /checksum/o3PsUenxrI
@@ -2792,6 +2819,8 @@ msgid ""
 "<strong>Price increment</strong> (change the BTC price by a custom % "
 "annually)"
 msgstr ""
+"<strong>Повышение цены</strong> (изменение цены BTC на пользовательский % "
+"ежегодно)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:154
 #: /checksum/7UPDBWWtcO
@@ -2800,6 +2829,8 @@ msgid ""
 "<strong>Difficulty increment</strong> (change the BTC network difficulty by "
 "a custom % annually)"
 msgstr ""
+"<strong>Увеличение сложности</strong> (изменение сложности сети BTC на "
+"пользовательский % ежегодно)"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:162
 #: /checksum/XRat77ZIhw
@@ -2811,6 +2842,11 @@ msgid ""
 "is a bottleneck on difficulty growth. This can be seen clearly looking at "
 "difficulty and price from 2016-2020, shown below."
 msgstr ""
+"Сложность сети биткойна всегда значительно возрастала в течение длительных "
+"периодов времени, но это увеличение обычно отстает от роста цен, потому что "
+"время на производство и развертывание нового оборудования ASIC и "
+"инфраструктуры майнинга является узким местом для роста сложности. Это "
+"хорошо видно по сложности и цене 2016-2020 гг., показанным ниже."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:170
 #: /checksum/ra9bMqJQcD
@@ -2822,6 +2858,11 @@ msgid ""
 "2018, but difficulty resumed it’s climb after just a few negative "
 "adjustments."
 msgstr ""
+"Вы заметите, что сложность продолжала быстро расти на протяжении всего 2018 "
+"года, даже после того, как цена уже достигла своего пика в конце 2017 года. "
+"Затем произошла короткая капитуляция майнеров, когда цена BTC упала ниже 4 "
+"тысяч долларов в конце 2018 года, но трудности возобновились. Это подъем "
+"после нескольких отрицательных корректировок."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:178
 #: /checksum/spuxfHs4q5
@@ -2833,12 +2874,17 @@ msgid ""
 "frequent nor substantial. Therefore, we recommend testing out different "
 "possibilities from 60-130%/year increases."
 msgstr ""
+"В эпоху ASIC майнинга биткойнов сложность удваивалась каждый год, с 1 "
+"миллиарда в начале 2014 года до 28 триллионов на момент написания. Однако "
+"сейчас рост замедляется, поскольку повышение эффективности ASIC происходит "
+"не так часто и не так существенно. Поэтому мы рекомендуем протестировать "
+"различные возможности увеличения на 60-130% в год."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:186
 #: /checksum/fnHjTYPQzD
 msgctxt "UI"
 msgid "Profitability Calculator - Hashrate and Difficulty"
-msgstr ""
+msgstr "Калькулятор прибыльности - хешрейт и сложность"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:272
 #: /checksum/bzY8wJJx2l
@@ -2848,6 +2894,10 @@ msgid ""
 " more sophisticated overview of how your mining business will perform in "
 "different scenarios. Let’s explain the custom options one-by-one."
 msgstr ""
+"Усовершенствованная версия нашего калькулятора доходности майнинга дает вам "
+"гораздо более подробный обзор того, как ваш бизнес будет работать в "
+"различных сценариях. Давайте объясним пользовательские параметры один за "
+"другим."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:286
 #: /checksum/md455nx4n8
@@ -2856,12 +2906,15 @@ msgid ""
 "Capital expenditures are costs you pay to acquire or upgrade your business’ "
 "assets. In Bitcoin mining, examples of CapEx include:"
 msgstr ""
+"Капитальные затраты — это затраты, которые вы платите за приобретение или "
+"модернизацию активов вашего бизнеса. В майнинге биткойнов примеры CapEx "
+"включают:"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:299
 #: /checksum/5CZB6RzL3w
 msgctxt "UI"
 msgid "Immersion cooling or air cooling setup"
-msgstr ""
+msgstr "Иммерсионное охлаждение или установка воздушного охлаждения"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:312
 #: /checksum/oxUBZioaE1
@@ -2869,6 +2922,9 @@ msgid ""
 "If you have fixed monthly costs that are independent of your mining revenue,"
 " you can factor those in here. Examples of common OpExs include:"
 msgstr ""
+"Если у вас есть фиксированные ежемесячные расходы, которые не зависят от "
+"вашего дохода от майнинга, вы можете учесть их здесь. Примеры общих "
+"операционных расходов включают:"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:323
 #: /checksum/45XXmdKxh7
@@ -2878,6 +2934,9 @@ msgid ""
 "is calculated for you based on your power consumption and electricity price "
 "per kWh."
 msgstr ""
+"Обратите внимание, что сюда <em>не</em> должны входить операционные расходы "
+"на запуск майнеров, так как они рассчитываются для вас на основе вашего "
+"энергопотребления и цены на электроэнергию за кВтч."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:339
 #: /checksum/sAWsrzs7ho
@@ -2889,6 +2948,12 @@ msgid ""
 "your infrastructure such as land, buildings, containers, immersion cooling "
 "tanks and fluid, generators, etc."
 msgstr ""
+"Входная информация <em>Начальная стоимость оборудования</em> должна "
+"представлять собой предполагаемую стоимость при перепродаже любого "
+"оборудования для майнинга (ASIC и блоков питания), которым вы владеете. "
+"Между тем, <em>Исходная стоимость инфраструктуры </em> должна быть рыночной "
+"стоимостью всей вашей инфраструктуры, такой как земля, здания, контейнеры, "
+"баки погружного охлаждения и жидкости, генераторы и т.д."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:354
 #: /checksum/4Kqavs4mO6
@@ -2897,6 +2962,8 @@ msgid ""
 "These two inputs for annual appreciation / depreciation allow you to change "
 "the value of your physical assets over time."
 msgstr ""
+"Эти два исходных параметра для годовой оценки/амортизации позволяют вам "
+"изменять стоимость ваших физических активов с течением времени."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:361
 #: /checksum/9B0GaIySC3
@@ -2910,6 +2977,13 @@ msgid ""
 "originally selling for $2000 - $3000 in 2016 were available for $20 - $50 "
 "after the <a>2020 halving</a>."
 msgstr ""
+"Исторически стоимость оборудования ASIC сильно зависела от цены BTC (и в "
+"гораздо меньшей степени от цены других монет SHA-256, включая Bitcoin Cash и "
+"Bitcoin SV). В то же время ASIC становятся менее ценными, когда на рынок "
+"выходят новые и более эффективные модели, а сложность сети возрастает. "
+"Например, Antminer S9, которые первоначально продавались по цене от 2000 до "
+"3000 долларов США в 2016 году, после <a>халвинга 2020</a> стали доступны по "
+"цене от 20 до 50 долларов США."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:377
 #: /checksum/p3xWXFJFAe
@@ -2921,6 +2995,11 @@ msgid ""
 "should be the main factors that contribute to depreciation over longer time "
 "periods of multiple years."
 msgstr ""
+"Если вы рассчитываете денежный поток от майнинга за 6-12 месяцев, цена BTC "
+"должна быть значимой переменной, определяющей изменение стоимости вашего "
+"оборудования. С другой стороны, растущая сложность и появление на рынке "
+"новых ASIC должны быть основными факторами, которые способствуют "
+"обесцениванию в течение более длительных периодов времени в несколько лет."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:383
 #: /checksum/4uHoNkJc0l
@@ -2931,6 +3010,10 @@ msgid ""
 "why we enable you to set a separate rate for appreciation and depreciation "
 "of infrastructure."
 msgstr ""
+"Стоимость вашей инфраструктуры, такой как контейнеры, здания, земля и т. д., "
+"скорее всего, меньше коррелирует с ценой BTC по сравнению с оборудованием "
+"ASIC. Вот почему мы позволяем вам установить отдельную ставку для оценки и "
+"амортизации инфраструктуры."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:398
 #: /checksum/AYr0hz/M9V
@@ -2943,6 +3026,13 @@ msgid ""
 " Ratio</em> as a way for users to determine a percentage of their net profit"
 " each month they want to keep in BTC rather than cashing it out."
 msgstr ""
+"Большинство майнеров добывают биткойны не только для того, чтобы "
+"максимизировать свою фиатную прибыль в краткосрочной перспективе. Вместо "
+"этого майнеры очень часто держат хотя бы часть своей прибыли в BTC на своем "
+"балансе, что дает им возможность потенциального повышения цены. Имея это в "
+"виду, мы создали <em>Коэффициент HODL</em>, чтобы пользователи могли "
+"определять процент от своей чистой прибыли каждый месяц, который они хотят "
+"хранить в BTC, а не обналичивать."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:427
 #: /checksum/QFY/bjjTpW
@@ -2953,6 +3043,10 @@ msgid ""
 "BTC on your balance sheet will appreciate or depreciate in fiat terms over "
 "time."
 msgstr ""
+"Если вы установите ненулевое значение для <em>Приращения цены</em> в "
+"основных входных данных, коэффициент HODL повлияет на вашу <em>Конечную "
+"прибыль/убыток</em>, поскольку стоимость BTC на вашем балансе увеличится или "
+"со временем обесцениваются в фиатных деньгах."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:526
 #: /checksum/kNgIw1muAp
@@ -2965,12 +3059,18 @@ msgid ""
 "yourself in order to make better decisions when managing your business, this"
 " can aid you in that venture."
 msgstr ""
+"Наконец, мы оставим вам пример того, как вы можете использовать калькулятор "
+"прибыльности майнинга и денежных потоков, чтобы визуализировать прогнозы для "
+"нескольких различных сценариев поведения цены BTC в будущем. Если вы хотите "
+"представить финансовые прогнозы потенциальным инвесторам или просто получить "
+"информацию, чтобы принимать более эффективные решения при управлении своим "
+"бизнесом, это может помочь вам в этом начинании."
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:642
 #: /checksum/pLgLUZZ1Uh
 msgctxt "UI"
 msgid "Bitcoin Mining Profitability Calculator User Guide"
-msgstr ""
+msgstr "Руководство пользователя калькулятора прибыльности майнинга биткойнов"
 
 #: packages/insights/src/pages/Guides/ProfitibilityCalculator.tsx:643
 #: /checksum/i/HD8qutgt
@@ -2980,21 +3080,24 @@ msgid ""
 "mining profitability calculator in order to estimate cash flow for your "
 "mining operation."
 msgstr ""
+"Инструкции, объясняющие, как использовать дополнительные параметры в нашем "
+"калькуляторе прибыльности майнинга биткойнов, чтобы оценить денежный поток "
+"для вашей операции майнинга."
 
 #: packages/insights/src/pages/Root/Root.tsx:338 /checksum/k5jkhsK05y
 msgctxt "UI"
 msgid "Dark theme"
-msgstr ""
+msgstr "Темная тема"
 
 #: packages/insights/src/pages/Root/Root.tsx:338 /checksum/WVaMhI3dXZ
 msgctxt "UI"
 msgid "Light theme"
-msgstr ""
+msgstr "Светлая тема"
 
 #: packages/insights/src/pages/Root/Root.tsx:376 /checksum/mk11sqPwnK
 msgctxt "UI"
 msgid "Pools and Blocks"
-msgstr ""
+msgstr "Пулы и блоки"
 
 #: packages/insights/src/pages/Root/Root.tsx:515 /checksum/1kCaHddyoF
 msgctxt "UI"
@@ -3002,12 +3105,14 @@ msgid ""
 "Mining Insights is a collection of mining data tools and key Bitcoin metrics"
 " built by Braiins for Bitcoin miners."
 msgstr ""
+"Mining Insights — это набор инструментов обработки данных и ключевых "
+"показателей биткойна, созданный Braiins для майнеров."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:884
 #: /checksum/3bh0ZZwrax
 msgctxt "UI"
 msgid "Months to Halving"
-msgstr ""
+msgstr "Месяцы до халвинга"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:885
 #: /checksum/DdwX9w0Y0h
@@ -3019,12 +3124,18 @@ msgid ""
 "block height of the next halving. In other words, you can leave the default "
 "value if you want to estimate mining profitability starting today."
 msgstr ""
+"В будущих прогнозах это количество месяцев до того, как блоковая субсидия "
+"уменьшится вдвое. Значение по умолчанию рассчитывается автоматически на "
+"основе текущей высоты блока и среднего времени блока, равного 10 минутам, "
+"для достижения высоты блока следующего халвинга. Другими словами, вы можете "
+"оставить значение по умолчанию, если хотите оценить прибыльность майнинга, "
+"начиная с сегодняшнего дня."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:908
 #: /checksum/UoKfS2IPKu
 msgctxt "UI"
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:909
 #: /checksum/Lhfslgl7R6
@@ -3033,25 +3144,27 @@ msgid ""
 "Choose whether your profitability and cash flow stats are shown in USD or "
 "BTC terms on the chart."
 msgstr ""
+"Выберите, будет ли ваша прибыльность и статистика денежных потоков "
+"отображаться на графике в долларах США или BTC."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:438
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:962
 #: /checksum/ik2FGGpMAV
 msgctxt "UI"
 msgid "Electricity price per kWh"
-msgstr ""
+msgstr "Цена электроэнергии за кВтч"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:983
 #: /checksum/VSBfhF4UF4
 msgctxt "UI"
 msgid "Avg. Tx Fees per Block"
-msgstr ""
+msgstr "Сред. gлата за транзакцию за блок"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:997
 #: /checksum/hQkE7HD2ZL
 msgctxt "UI"
 msgid "Revenue Fees & Downtime"
-msgstr ""
+msgstr "Комиссионные сборы и время простоя"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:998
 #: /checksum/5QOVuXQmWG
@@ -3063,12 +3176,17 @@ msgid ""
 "your hashrate and consumption by that percentage in order to reduce "
 "electricity costs."
 msgstr ""
+"Все сборы с вашего дохода в BTC, включая сборы за пул, сборы за разработку "
+"прошивки, программное обеспечение для управления и т. д., а также упущенный "
+"доход из-за простоя машины. Примечание: если вы ожидаете значительного "
+"простоя, лучше уменьшить хешрейт и потребление на этот процент, чтобы "
+"снизить затраты на электроэнергию."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1010
 #: /checksum/EqBG7mcJPE
 msgctxt "UI"
 msgid "Profit Fees"
-msgstr ""
+msgstr "Комиссия за прибыль"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1011
 #: /checksum/GeApcH6tEm
@@ -3077,18 +3195,20 @@ msgid ""
 "All fees on your monthly profit, such as profit shares with hosting "
 "providers or investors."
 msgstr ""
+"Все сборы с вашей ежемесячной прибыли, такие как распределение прибыли с "
+"хостинг-провайдерами или инвесторами."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1026
 #: /checksum/Su3By4yRYg
 msgctxt "UI"
 msgid "Annual change in difficulty over the given Time Period."
-msgstr ""
+msgstr "Ежегодное изменение сложности за указанный период времени."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1060
 #: /checksum/aCsogiJ9SD
 msgctxt "UI"
 msgid "Halving Difficulty Drop"
-msgstr ""
+msgstr "Уменьшение сложности халвинг"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1061
 #: /checksum/iiNJAxZcIO
@@ -3098,12 +3218,15 @@ msgid ""
 "cost miners immediately become unprofitable and go offline due to the "
 "decrease in the block subsidy."
 msgstr ""
+"Одноразовое снижение сложности, которое происходит в месяц халвинга, "
+"поскольку высокозатратные майнеры сразу становятся убыточными и отключаются "
+"из-за уменьшения субсидии на блок."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1092
 #: /checksum/sqkRV7aPfv
 msgctxt "UI"
 msgid "Income Tax Rate"
-msgstr ""
+msgstr "Ставка подоходного налога"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1093
 #: /checksum/7BToQhkoCh
@@ -3114,30 +3237,35 @@ msgid ""
 "deducted as a business expense so this will be applied differently than "
 "“Profit Fees” which do not factor in depreciation."
 msgstr ""
+"Процент прибыли от майнинга, которая вычитается для уплаты подоходного "
+"налога. Обратите внимание, что амортизация активов (например, оборудования) "
+"учитывается как эксплуатационные расходы и вычитается как коммерческие "
+"расходы, поэтому она будет применяться иначе, чем «комиссии за прибыль», "
+"которая не учитывает амортизацию."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1140
 #: /checksum/m7LZDAXDky
 msgctxt "UI"
 msgid "Initial Hardware Value"
-msgstr ""
+msgstr "Начальная стоимость оборудования"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1154
 #: /checksum/GxK8U96YjZ
 msgctxt "UI"
 msgid "Hardware Appreciation / Depreciation"
-msgstr ""
+msgstr "Оценка/амортизация оборудования"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1185
 #: /checksum/eoWZq7bgMr
 msgctxt "UI"
 msgid "Infra Appreciation / Depreciation"
-msgstr ""
+msgstr "Инфра оценка/амортизация"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1212
 #: /checksum/U2Wl3YG75c
 msgctxt "UI"
 msgid "HODL Ratio applied on"
-msgstr ""
+msgstr "Коэффициент HODL применяется к"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1213
 #: /checksum/7kL9Pfy10G
