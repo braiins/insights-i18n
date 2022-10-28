@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-25 12:07+0000\n"
+"PO-Revision-Date: 2022-10-29 12:04+0000\n"
 "Last-Translator: Iryna Bashkova <iryna.bashkova@braiins.cz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/ru/>\n"
@@ -3274,12 +3274,15 @@ msgid ""
 "Apply the HODL Ratio to the total BTC mined each month (revenue) or to only "
 "the BTC mining rewards leftover after paying OpEx (profit)."
 msgstr ""
+"Примените коэффициент HODL к общему количеству BTC каждый месяц (доход), или "
+"только к вознаграждению за майнинг BTC, оставшемуся после выплаты OpEx "
+"(прибыль)."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1236
 #: /checksum/oep3UwZ5j1
 msgctxt "UI"
 msgid "Starting Cash Balance"
-msgstr ""
+msgstr "Начальный баланс денежных средств"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1237
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1254
@@ -3289,18 +3292,20 @@ msgid ""
 "If you have cash on your balance sheet to cover OpEx without selling BTC to "
 "do so, input the amount here."
 msgstr ""
+"Если у вас есть наличные на балансе для покрытия операционных расходов без "
+"продажи BTC, введите сумму здесь."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1253
 #: /checksum/K/lpGt4oMU
 msgctxt "UI"
 msgid "Starting BTC Balance"
-msgstr ""
+msgstr "Начальный баланс BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1270
 #: /checksum/Zqej4SjoOi
 msgctxt "UI"
 msgid "WACC"
-msgstr ""
+msgstr "WACC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1271
 #: /checksum/S+MzcBNmIX
@@ -3311,18 +3316,23 @@ msgid ""
 "Ratio on Revenue) meaning that you would need to sell BTC or raise funds to "
 "cover operating costs."
 msgstr ""
+"Средневзвешенная стоимость капитала; Применяется, если вашего остатка "
+"денежных средств в данном месяце недостаточно для покрытия ежемесячных "
+"операционных расходов (например, при использовании коэффициента HODL 100% "
+"для дохода), что означает, что вам нужно будет продать BTC или собрать "
+"средства для покрытия операционных расходов."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1284
 #: /checksum/VR23QOld1O
 msgctxt "UI"
 msgid "Debt Financing"
-msgstr ""
+msgstr "Долговое финансирование"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1298
 #: /checksum/Bzbx9G64Xp
 msgctxt "UI"
 msgid "Loan Amount"
-msgstr ""
+msgstr "Сумма кредита"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1299
 #: /checksum/3vHBJQQXyi
@@ -3332,12 +3342,15 @@ msgid ""
 " other expenses with a loan, enter the loan amount here and it will offset "
 "an equal amount from your CapEx"
 msgstr ""
+"Если вы финансируете покупку оборудования для майнинга биткойнов, "
+"инфраструктуру и/или другие расходы с помощью кредита, введите сумму кредита "
+"здесь, и она компенсирует равную сумму из ваших капитальных затрат"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1315
 #: /checksum/Vi+zSCreCv
 msgctxt "UI"
 msgid "Interest Rate"
-msgstr ""
+msgstr "Процентная ставка"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1316
 #: /checksum/08B/TS168W
@@ -3346,12 +3359,15 @@ msgid ""
 "The annual interest rate that you will pay on the loan. Note that interest "
 "payments are added to your monthly OpEx in the calculations"
 msgstr ""
+"Годовая процентная ставка, которую вы будете платить по кредиту. Обратите "
+"внимание, что процентные платежи добавляются к вашим ежемесячным "
+"операционным расходам при расчетах"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1332
 #: /checksum/QfvIqEGZHA
 msgctxt "UI"
 msgid "Loan Period"
-msgstr ""
+msgstr "Срок кредита"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1333
 #: /checksum/XccosuuheR
@@ -3361,12 +3377,15 @@ msgid ""
 "interest rate will be used to calculate the monthly payment amount which is "
 "included in your OpEx."
 msgstr ""
+"Количество месяцев для полного погашения кредита. Этот период вместе с "
+"процентной ставкой будет использоваться для расчета суммы ежемесячного "
+"платежа, которая включена в ваши операционные расходы."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1349
 #: /checksum/ILQLjC7FY8
 msgctxt "UI"
 msgid "LTV"
-msgstr ""
+msgstr "LTV"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1350
 #: /checksum/SP02ADnpdd
@@ -3376,25 +3395,29 @@ msgid ""
 "posted. For example, assuming a $100k machine purchase cost at a value of "
 "50% LTV, you would need to post $200k in BTC collateral."
 msgstr ""
+"Предположение о кредите к стоимости, определяющее сумму залога, которую "
+"необходимо внести. Например, если предположить, что стоимость покупки машины "
+"составляет 100 000 долларов США при стоимости LTV 50%, вам нужно будет "
+"разместить 200 000 долларов США в качестве обеспечения BTC."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:527
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1393
 #: /checksum/0XXaTHcnXI
 msgctxt "UI"
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1479
 #: /checksum/ohTzC4hMYl
 msgctxt "UI"
 msgid "USD CapEx Break Even"
-msgstr ""
+msgstr "Безубыточность капиталовложений в долларах США"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1492
 #: /checksum/MPOQS4n73z
 msgctxt "UI"
 msgid "BTC CapEx Break Even"
-msgstr ""
+msgstr "Безубыточность капиталовложений в BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1493
 #: /checksum/tCGde092j4
@@ -3406,30 +3429,35 @@ msgid ""
 "BTC. Value will be N/a if the break even doesn’t occur in the analyzed time "
 "period."
 msgstr ""
+"Месяц, когда ваша совокупная прибыль равна или превышает ваши первоначальные "
+"капиталовложения в BTC. Например, если стоимость вашего оборудования и "
+"инфраструктуры составляла 0,5 BTC, эта статистика сообщает вам, когда ваша "
+"прибыль от майнинга достигает 0,5 BTC. Значение будет N/a, если безубыток не "
+"произойдет в анализируемом периоде времени."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1527
 #: /checksum/YPPfJz9CLO
 msgctxt "UI"
 msgid "Final Value of BTC Holdings"
-msgstr ""
+msgstr "Окончательная стоимость активов BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1531
 #: /checksum/vKDtgu/Huv
 msgctxt "UI"
 msgid "Cumulative Profit from Mining"
-msgstr ""
+msgstr "Совокупная прибыль от майнинга"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1539
 #: /checksum/LqdW8Vm+E2
 msgctxt "UI"
 msgid "Hardware Fully Depreciated"
-msgstr ""
+msgstr "Аппаратное обеспечение полностью амортизировано"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1548
 #: /checksum/ySeNtuf3N7
 msgctxt "UI"
 msgid "Avg. Cost to Mine 1 BTC"
-msgstr ""
+msgstr "Сред. стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1559
 #: /checksum/L/4PFx7+Wz
@@ -3438,12 +3466,15 @@ msgid ""
 "The average marginal break-even electricity price for your mining operation."
 " (Marginal means it doesn’t account for hardware depreciation in the costs.)"
 msgstr ""
+"Средняя предельная безубыточная цена на электроэнергию для вашего майнинга. ("
+"\"Предельная\" означает, что амортизация оборудования не учитывается в "
+"затратах.)"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1573
 #: /checksum/mTRtQnQAbg
 msgctxt "UI"
 msgid "BTC Collateral for Loan"
-msgstr ""
+msgstr "Обеспечение BTC по кредиту"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1574
 #: /checksum/2PqC4DyoXQ
@@ -3452,12 +3483,14 @@ msgid ""
 "The amount of BTC needed to collateralize your loan based on the Loan Amount"
 " and Loan-to-Value Ratio you set."
 msgstr ""
+"Сумма BTC, необходимая для обеспечения вашего кредита, зависит от суммы "
+"кредита и соотношения кредита к стоимости, которые вы установили."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1586
 #: /checksum/3oQDcm1G3l
 msgctxt "UI"
 msgid "Monthly Loan Payment"
-msgstr ""
+msgstr "Ежемесячный платеж по кредиту"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1587
 #: /checksum/yM+XP+OI6Q
@@ -3466,12 +3499,15 @@ msgid ""
 "The monthly payment on your loan including principal and interest. This "
 "amount is included in your monthly OpEx until the loan is paid off."
 msgstr ""
+"Ежемесячный платеж по кредиту, включая основную сумму и проценты. Эта сумма "
+"включается в ваши ежемесячные операционные расходы до тех пор, пока кредит "
+"не будет погашен."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1599
 #: /checksum/bpGIm4o9sF
 msgctxt "UI"
 msgid "Total Cost of Loan"
-msgstr ""
+msgstr "Общая стоимость кредита"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1600
 #: /checksum/0wiLkhHoI7
@@ -3480,6 +3516,8 @@ msgid ""
 "This is the total amount of interest you’ll pay on the loan over its "
 "duration."
 msgstr ""
+"Это общая сумма процентов, которые вы будете платить по кредиту в течение "
+"всего срока его действия."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1629
 #: /checksum/gZKr6HVTEG
@@ -3488,54 +3526,56 @@ msgid ""
 "Calculate Bitcoin mining profitability and use advanced mining data inputs "
 "to estimate your mining cash flow."
 msgstr ""
+"Рассчитайте прибыльность майнинга биткойнов и используйте расширенные "
+"входные данные майнинга, чтобы оценить денежный поток."
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1672
 #: /checksum/FDbioAp3Kz
 msgctxt "UI"
 msgid "Profit & Cash Flow"
-msgstr ""
+msgstr "Прибыль & Денежный поток"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1684
 #: /checksum/i4/Yey5u5s
 msgctxt "UI"
 msgid "Balance Sheet"
-msgstr ""
+msgstr "Бухгалтерский баланс"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:1703
 #: /checksum/ofn5aE4sDz
 msgctxt "UI"
 msgid "Mining Insights | Profitability Calculator"
-msgstr ""
+msgstr "Mining Insights | Калькулятор доходности"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:340
 #: /checksum/bMzfBCv9ee
 msgctxt "UI"
 msgid "Show results for"
-msgstr ""
+msgstr "Показать результаты для"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:375
 #: /checksum/WIjp29nuAm
 msgctxt "UI"
 msgid "Braiins OS+‎ at Stock Consumption"
-msgstr ""
+msgstr "Braiins OS+‎ на заводском потреблении"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:391
 #: /checksum/lONbD6cgdG
 msgctxt "UI"
 msgid "Learn more about Braiins OS+"
-msgstr ""
+msgstr "Узнать больше о Braiins OS+"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:633
 #: /checksum/ZnVpO3tDcq
 msgctxt "UI"
 msgid "Break-Even Electricity Price"
-msgstr ""
+msgstr "Безубыточная цена на электроэнергию"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:637
 #: /checksum/sk26Qldglx
 msgctxt "UI"
 msgid "Cost of Production for 1 BTC"
-msgstr ""
+msgstr "Стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:676
 #: /checksum/6EaiblX+iy
@@ -3544,42 +3584,44 @@ msgid ""
 "Calculate the cost to mine 1 BTC with preset Bitcoin mining data profiles of"
 " all popular SHA-256 ASICs."
 msgstr ""
+"Рассчитайте стоимость майнинга 1 BTC с предустановленными профилями данных "
+"всех популярных ASIC SHA-256."
 
 #: packages/insights/src/pages/CostToMine/CostToMine.tsx:739
 #: /checksum/bRtl4wOc0/
 msgctxt "UI"
 msgid "Mining Insights | Cost to Mine 1 BTC"
-msgstr ""
+msgstr "Mining Insights | Стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/PoolsBlocks/PoolsBlocks.tsx:44
 #: packages/insights/src/pages/PoolsBlocks/components/ChartsHashrateDistribution/index.tsx:84
 #: /checksum/MR2VOgkNyY
 msgctxt "UI"
 msgid "Hashrate Distribution Historical Chart"
-msgstr ""
+msgstr "Историческая диаграмма распределения хешрейта"
 
 #: packages/insights/src/pages/PoolsBlocks/PoolsBlocks.tsx:46
 #: /checksum/1elOfz6e4N
 msgctxt "UI"
 msgid "Pool Hashrate Distribution Geographical Chart"
-msgstr ""
+msgstr "Географическая диаграмма распределения хешрейта пулов"
 
 #: packages/insights/src/pages/PoolsBlocks/PoolsBlocks.tsx:79
 #: /checksum/elDzCYKFdy
 msgctxt "UI"
 msgid "Pools & Blocks"
-msgstr ""
+msgstr "Пулы & Блоки"
 
 #: packages/insights/src/pages/PoolsBlocks/PoolsBlocks.tsx:80
 #: /checksum/iz/P7J1QGx
 msgctxt "UI"
 msgid "Mining Insights | Pools & Blocks"
-msgstr ""
+msgstr "Mining Insights | Пулы & Блоки"
 
 #: packages/insights/src/pages/Home/Home.tsx:117 /checksum/iVluQsBv5O
 msgctxt "UI"
 msgid "Advanced Bitcoin Mining Data"
-msgstr ""
+msgstr "Расширенные данные о майнинге биткойнов"
 
 #: packages/insights/src/pages/Home/Home.tsx:180 /checksum/ZCAGizgEbL
 msgctxt "UI"
@@ -3588,118 +3630,121 @@ msgid ""
 "bitcoin mining industry. Subscribe to get notified when we release an "
 "update."
 msgstr ""
+"Мы работаем над добавлением дополнительных статистических данных, диаграмм и "
+"инструментов, чтобы пролить свет на индустрию майнинга биткойнов. "
+"Подпишитесь, чтобы получать уведомления, когда мы выпускаем обновление."
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:220
 #: packages/insights/src/pages/Home/Home.tsx:201 /checksum/52jqxzhVUG
 msgctxt "UI"
 msgid "Your e-mail"
-msgstr ""
+msgstr "Ваш e-mail"
 
 #: packages/insights/src/pages/Home/Home.tsx:204 /checksum/T4rIEdYjE8
 msgctxt "UI"
 msgid "Subscribe"
-msgstr ""
+msgstr "Подписаться"
 
 #: packages/insights/src/pages/Home/Home.tsx:250 /checksum/llZgt1FfOq
 msgctxt "UI"
 msgid "Mining Insights"
-msgstr ""
+msgstr "Mining Insights"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:36
 #: /checksum/YwT0TiCJ/d
 msgctxt "UI"
 msgid "BTC price"
-msgstr ""
+msgstr "Цена BTC"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:49
 #: /checksum/smsxVU3OzE
 msgctxt "UI"
 msgid "Marginal Cost to Mine 1 BTC"
-msgstr ""
+msgstr "Предельная стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:61
 #: /checksum/go4L6hxgct
 msgctxt "UI"
 msgid "Total Cost to Mine 1 BTC"
-msgstr ""
+msgstr "Общая стоимость майнинга 1 BTC"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:73
 #: /checksum/IIWTQ9MYM/
 msgctxt "UI"
 msgid "Marginal Electricity Break Even"
-msgstr ""
+msgstr "Предельная безубыточность электроэнергии"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:86
 #: /checksum/qiS3zdFadf
 msgctxt "UI"
 msgid "Total Electricity Break Even"
-msgstr ""
+msgstr "Суммарная безубыточность электроэнергии"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:105
 #: /checksum/dJZSrJdybC
 msgctxt "UI"
 msgid "BTC Price & Cost to Mine"
-msgstr ""
+msgstr "Цена BTC & Стоимость майнига"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/CostOfProductionChart.tsx:115
 #: /checksum/37qXEP6i7D
 msgctxt "UI"
 msgid "Electricity Break-Even ($/kWh)"
-msgstr ""
+msgstr "Безубыточность электроэнергии ($/кВтч)"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:31
 #: /checksum/ruBE+7LwzM
 msgctxt "UI"
 msgid "Mining hardware"
-msgstr ""
+msgstr "Оборудование для майнинга"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:41
 #: /checksum/3F4yNjAnuT
 msgctxt "UI"
 msgid "Infra/Other"
-msgstr ""
+msgstr "Инфра/Другое"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:54
 #: /checksum/eG8M/AGm/G
 msgctxt "UI"
 msgid "Fiat Cumulative Holdings"
-msgstr ""
+msgstr "Совокупные активы в фиате"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:64
 #: /checksum/h9hDWtVKRG
 msgctxt "UI"
 msgid "Total Fiat Value of BTC Holdings"
-msgstr ""
+msgstr "Общая фиатная стоимость BTC активов"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:77
 #: /checksum/RrPvVGxcRz
 msgctxt "UI"
 msgid "Liabilities (Debt)"
-msgstr ""
+msgstr "Обязательства (долг)"
 
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/BalanceSheetChart.tsx:88
 #: /checksum/bmRo3ybSK7
 msgctxt "UI"
 msgid "BTC Cumulative Holdings"
-msgstr ""
+msgstr "Совокупные активы BTC"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/index.tsx:62
 #: /checksum/VhWT7gygZs
 msgctxt "UI"
 msgid "Failed to fetch stats!"
-msgstr ""
+msgstr "Не удалось получить статистику!"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/index.tsx:90
 #: /checksum/dbicufBkhV
 msgctxt "UI"
 msgid "Difficulty Adjustment Epoch Tracker"
-msgstr ""
+msgstr "Отслеживание эпох"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/index.tsx:93
 #: /checksum/B3jLk57SPj
 msgctxt "UI"
 msgid "Epoch #"
-msgstr ""
+msgstr "Эпоха #"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/index.tsx:94
 #: /checksum/IghoNya9tc
@@ -3710,111 +3755,115 @@ msgid ""
 "halving epoch is a period of 210,000 blocks (approximately 4 years) in which"
 " the block subsidy (new BTC issuance) is constant."
 msgstr ""
+"Эпоха относится к определенному периоду времени. Эпоха сложности — это "
+"период из 2016 блоков (примерно 2 недели), в течение которого сложность "
+"постоянна. Эпоха халвинга — это период в 210 000 блоков (примерно 4 года), в "
+"течение которого субсидия блока (выпуск новых BTC) постоянна."
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/index.tsx:181
 #: /checksum/f1vCWLW6I4
 msgctxt "UI"
 msgid "Diff"
-msgstr ""
+msgstr "Разница"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:315
 #: packages/insights/src/pages/ProfitCalc/components/Highcharts/Chart.tsx:110
 #: /checksum/8eqUGtbjk/
 msgctxt "UI"
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:124
 #: /checksum/W/tzJdlNVT
 msgctxt "UI"
 msgid "Monthly Profit"
-msgstr ""
+msgstr "Ежемесячная прибыль"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:125
 #: /checksum/WW7f1VKDSB
 msgctxt "UI"
 msgid "Cash Flow (Cumulative)"
-msgstr ""
+msgstr "Денежный поток (кумулятивный)"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:127
 #: /checksum/pesem9dHZt
 msgctxt "UI"
 msgid "Profit/Loss (Cumulative)"
-msgstr ""
+msgstr "Прибыль/убыток (кумулятивный)"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:129
 #: /checksum/CgBxzuAQsd
 msgctxt "UI"
 msgid "Monthly Revenue & Profit"
-msgstr ""
+msgstr "Ежемесячный доход и прибыль"
 
 #: packages/insights/src/pages/ProfitCalc/components/Chart/Chart.tsx:130
 #: /checksum/N+Wj15hmPb
 msgctxt "UI"
 msgid "Cumulative Profit & Cash Flow"
-msgstr ""
+msgstr "Совокупная прибыль и денежный поток"
 
 #: packages/insights/src/pages/PoolsBlocks/components/WorldMap/WorldMap.tsx:206
 #: /checksum/094U1yoHGG
 msgctxt "UI"
 msgid "Total:"
-msgstr ""
+msgstr "Сумма:"
 
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:101
 #: /checksum/ogoomKdcJm
 msgctxt "UI"
 msgid "Failed to load blocks and pools data!"
-msgstr ""
+msgstr "Не удалось загрузить данные блоков и пулов!"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/Chart.tsx:127
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:114
 #: /checksum/IZJvy4ibWM
 msgctxt "UI"
 msgid "Block Height"
-msgstr ""
+msgstr "Высота блока"
 
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:115
 #: /checksum/OKPdkDsUyN
 msgctxt "UI"
 msgid "Follow the link to see more details about the block"
-msgstr ""
+msgstr "Перейдите по ссылке, чтобы узнать подробнее о блоке"
 
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:122
 #: /checksum/Cw9KzhM/PL
 msgctxt "UI"
 msgid "Miner (Pool)"
-msgstr ""
+msgstr "Майнер (пул)"
 
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:127
 #: /checksum/SgGzzXU5DN
 msgctxt "UI"
 msgid "Time"
-msgstr ""
+msgstr "Время"
 
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:132
 #: packages/insights/src/pages/PoolsBlocks/components/BlocksMinedTable/BlocksMinedTable.tsx:137
 #: /checksum/fpfVw0h4Z7
 msgctxt "UI"
 msgid "Block Value"
-msgstr ""
+msgstr "Значение блока"
 
 #: packages/insights/src/pages/Home/components/DifficultyAdjustmentWidget/Chart.tsx:118
 #: /checksum/OdUZoJpKAm
 msgctxt "UI"
 msgid "Estimated Adjustment (%)"
-msgstr ""
+msgstr "Расчетная корректировка (%)"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:43
 #: /checksum/4Tz9OGbZp1
 msgctxt "UI"
 msgid "Current & Historical Trends"
-msgstr ""
+msgstr "Текущие и исторические тенденции"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:72
 #: /checksum/CBYPufR0Ja
 msgctxt "UI"
 msgid "<nobr>Real-Time Network Hashrate</nobr>"
-msgstr ""
+msgstr "<nobr>Хешрейт сети в реальном времени</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:73
 #: /checksum/oJVkItWcld
@@ -3824,38 +3873,42 @@ msgid ""
 "for all mining pools and estimated hashrate values based on blocks found for"
 " miners and pools who are not reporting their real-time hashrate."
 msgstr ""
+"Предполагаемый общий хэшрейт сети на основе значений хешрейта, сообщаемых "
+"API, для всех пулов майнинга и оценочных значений хешрейта, основанных на "
+"блоках, найденных для майнеров и пулов, которые не сообщают свой хешрейт в "
+"реальном времени."
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:83
 #: /checksum/yYTWiOmudn
 msgctxt "UI"
 msgid "<nobr>1-Year Total Difficulty Change</nobr>"
-msgstr ""
+msgstr "<nobr>Общее изменение сложности за 1 год</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:84
 #: /checksum/Fv4ZRz37WB
 msgctxt "UI"
 msgid ""
 "How much bitcoin network difficulty has changed in total over the past year"
-msgstr ""
+msgstr "Насколько общая сложность сети биткойнов изменилась за последний год"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:91
 #: /checksum/nJNu7FXv2R
 msgctxt "UI"
 msgid "<nobr>1-Year Avg. Monthly Hashrate Change</nobr>"
-msgstr ""
+msgstr "<nobr>Среднее значение ежемесячного изменения хешрейта за 1 год</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:92
 #: /checksum/I6a/Lusllz
 msgctxt "UI"
 msgid ""
 "The average monthly change in total network hashrate across the past year"
-msgstr ""
+msgstr "Среднемесячное изменение общего хешрейта сети за последний год"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:99
 #: /checksum/WY/LyEPBDu
 msgctxt "UI"
 msgid "<nobr>1-Year Avg. Tx. Fees per Block</nobr>"
-msgstr ""
+msgstr "<nobr>Среднее значение за 1 год тр. комиссий за блок</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:100
 #: /checksum/pXucKoGTH3
@@ -3863,24 +3916,26 @@ msgctxt "UI"
 msgid ""
 "The average transaction fees per block for all blocks mined in the past year"
 msgstr ""
+"Средняя комиссия за транзакцию за блок для всех блоков, добытых за последний "
+"год"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:107
 #: /checksum/dXJd4GwK57
 msgctxt "UI"
 msgid "<nobr>1-Year Avg. Difficulty Adjustment</nobr>"
-msgstr ""
+msgstr "<nobr>Ср. значение регулировки сложности за 1 год</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:108
 #: /checksum/1sP+pmVRjF
 msgctxt "UI"
 msgid "The average adjustment per difficulty epoch in the past year"
-msgstr ""
+msgstr "Средняя корректировка на эпоху сложности за последний год"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:115
 #: /checksum/W316kEKwG7
 msgctxt "UI"
 msgid "<nobr>Current Halving Epoch Difficulty Change</nobr>"
-msgstr ""
+msgstr "<nobr>Текущее изменение сложности халвинг-эпохи</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:116
 #: /checksum/PpF9b4rTrZ
@@ -3889,12 +3944,14 @@ msgid ""
 "How much bitcoin network difficulty has changed in total since the last "
 "halving"
 msgstr ""
+"Насколько общая сложность сети биткойнов изменилась с момента последнего "
+"халвинга"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:123
 #: /checksum/uXgu7DKrH3
 msgctxt "UI"
 msgid "<nobr>Previous Halving Epoch Difficulty Change</nobr>"
-msgstr ""
+msgstr "<nobr>Изменение сложности предыдущей халвинг-эпохи</nobr>"
 
 #: packages/insights/src/pages/Home/components/AdvancedMiningDataTable/AdvancedMiningDataTable.tsx:124
 #: /checksum/XAdvmSUDYR
@@ -3903,6 +3960,8 @@ msgid ""
 "How much bitcoin network difficulty changed in total during the previous "
 "fully-completed halving epoch"
 msgstr ""
+"Насколько общая сложность сети биткойнов изменилась за предыдущую полностью "
+"завершенную эпоху халвинга"
 
 #: packages/insights/src/pages/Home/components/ProfitabilityTable/ProfitabilityTable.tsx:209
 #: /checksum/sLg5OMziV/
@@ -3914,6 +3973,12 @@ msgid ""
 " It is also possible to run Braiins OS+ on many other power inputs (e.g. "
 "overclocking, Low Power Mode, etc.)"
 msgstr ""
+"Расчетная дневная прибыль при использовании Braiins OS+ при заданном уровне "
+"энергопотребления майнинговой фермы. Реальные результаты могут варьироваться "
+"от одной машины к другой в зависимости от качества кремния, метода "
+"охлаждения и других факторов. Также можно запускать Braiins OS+ со многими "
+"другими источниками питания (например, в режиме разгона, в режиме низкого "
+"энергопотребления и т.д.)"
 
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Flows/Flows.tsx:373
 #: packages/insights/src/pages/Home/components/ChartsMinersEconomics/Holdings/Holdings.tsx:413
@@ -3922,81 +3987,82 @@ msgstr ""
 #: /checksum/NwHlcfCl71
 msgctxt "UI"
 msgid "Cannot download chart"
-msgstr ""
+msgstr "Не удалось загрузить график"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:373
 #: /checksum/TXpGPek6Mr
 msgctxt "UI"
 msgid "Scale"
-msgstr ""
+msgstr "Шкала"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:377
 #: /checksum/Cupx/POUjA
 msgctxt "UI"
 msgid "Linear"
-msgstr ""
+msgstr "Линейная"
 
 #: packages/insights/src/pages/Home/components/ChartsMiningEconomics/Chart.tsx:378
 #: /checksum/0K4aEx8o5p
 msgctxt "UI"
 msgid "Logarithmic"
-msgstr ""
+msgstr "Логарифмическая"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:127
 #: /checksum/tYlbhZpngz
 msgctxt "UI"
 msgid "Your feedback is highly appreciated."
-msgstr ""
+msgstr "Ваш отзыв очень важен."
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:128
 #: /checksum/3vtIjVPbvz
 msgctxt "UI"
 msgid "Thank you for answering"
-msgstr ""
+msgstr "Спасибо за ответ"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:151
 #: packages/insights/src/components/Feedback/Feedback.tsx:262
 #: /checksum/g37RQHBYLX
 msgctxt "UI"
 msgid "Provide feedback"
-msgstr ""
+msgstr "Оставить отзыв"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:154
 #: /checksum/fSge7Zcs/j
 msgctxt "UI"
 msgid ""
 "Your feedback is very important to us.{br}Help us improve your experience."
-msgstr ""
+msgstr "Ваше мнение очень важно для нас.{br}Помогите нам улучшить ваш опыт."
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:168
 #: /checksum/aWy8QrDSvh
 msgctxt "UI"
 msgid "Your feedback"
-msgstr ""
+msgstr "Ваш отзыв"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:169
 #: /checksum/6HzgULIrJt
 msgctxt "UI"
 msgid "What we can do to improve Braiins Insights?"
-msgstr ""
+msgstr "Что мы можем сделать, чтобы улучшить Braiins Insights?"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:190
 #: /checksum/CNYkespadI
 msgctxt "UI"
 msgid "How likely are you to recommend us to a fellow miner?"
-msgstr ""
+msgstr "Насколько вероятно, что вы порекомендуете нас коллеге-майнеру?"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:202
 #: /checksum/YfmxEeWz7O
 msgctxt "UI"
 msgid "Can we contact you to ask for more information?"
 msgstr ""
+"Можем ли мы связаться с вами, чтобы запросить дополнительную информацию?"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:221
 #: /checksum/+mx5dVTWG9
 msgctxt "UI"
 msgid "Invalid e-mail format"
-msgstr ""
+msgstr "Неверный формат электронной почты"
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:248
 #: /checksum/PyZyMuDPzU
@@ -4005,23 +4071,25 @@ msgid ""
 "We would like to hear your <strong>feedback</strong>. Please use a feedback "
 "form and help us improve our customer experience."
 msgstr ""
+"Мы хотели бы услышать ваш <strong>отзыв</strong>. Пожалуйста, используйте "
+"форму обратной связи и помогите нам улучшить качество обслуживания клиентов."
 
 #: packages/insights/src/components/Feedback/Feedback.tsx:285
 #: /checksum/2T6/8iFN7L
 msgctxt "UI"
 msgid "Submit feedback"
-msgstr ""
+msgstr "Отправить отзыв"
 
 #: packages/insights/src/pages/PoolsBlocks/components/ChartsHashrateDistribution/Chart.tsx:241
 #: /checksum/WBKUnBHh9V
 msgctxt "UI"
 msgid "Percent"
-msgstr ""
+msgstr "Процент"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:270 /checksum/PpTHbldMji
 msgctxt "UI"
 msgid "{selected, plural, =1 {# item} other {# items}} selected"
-msgstr ""
+msgstr "{выбрано, plural, =1 {# пункт} other {# пунктов(ы)}} выбраны"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:277 /checksum/b+Ug8loJFB
 msgctxt "UI"
@@ -4029,6 +4097,8 @@ msgid ""
 "All {selected, plural, =1 {# item} other {# items}} available items are "
 "selected."
 msgstr ""
+"Все {выбрано, plural, =1 {# пункт} other {# пунктов(ы)}} доступные пункты "
+"выбраны."
 
 #: shared/components/carbon/DataTable/DataTable.tsx:294 /checksum/RpjXkMNOY6
 msgctxt "UI"
@@ -4036,12 +4106,15 @@ msgid ""
 "All {selected, plural, =1 {# item} other {# items}} on this page are "
 "selected. <a>Select all {available, plural, =1 {# item} other {# items}}</a>"
 msgstr ""
+"Все {выбрано, plural, =1 {# пункт} other {# пунктов(ы)}} на этой странице "
+"выбраны. <a>Выбрать все {досьупные, plural, =1 {# пункты} other {# "
+"пункты}}</a>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:117
 #: /checksum/TWco0kFUSv
 msgctxt "UI"
 msgid "1W <nobr>Hashrate</nobr>"
-msgstr ""
+msgstr "1W <nobr>Хешрейт</nobr>"
 
 #~ msgctxt "UI"
 #~ msgid ""
