@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-17 00:55+0000\n"
+"PO-Revision-Date: 2024-03-09 16:01+0000\n"
 "Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/es/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: packages/insights/src/constants.tsx:51 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -4092,7 +4092,7 @@ msgstr "Por ciento"
 #: shared/components/carbon/DataTable/DataTable.tsx:270 /checksum/PpTHbldMji
 msgctxt "UI"
 msgid "{selected, plural, =1 {# item} other {# items}} selected"
-msgstr "{selected, plural, =1 {# elemento} other {# elementos}} seleccionados"
+msgstr "{selected, plural, =1 {# item} otros {# items}} seleccionados"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:277 /checksum/b+Ug8loJFB
 msgctxt "UI"
@@ -4109,9 +4109,9 @@ msgid ""
 "All {selected, plural, =1 {# item} other {# items}} on this page are "
 "selected. <a>Select all {available, plural, =1 {# item} other {# items}}</a>"
 msgstr ""
-"Todo {selected, plural, =1 {# elemento} other {# elementos}} en esta página "
-"están seleccionados. <a>Seleccionar todo {available, plural, =1 {# elemento} "
-"other {# elementos}}</a>"
+"Todos {selected, plural, =1 {# item} otros {# items}} en esta página están "
+"seleccionados. <a>Seleccionar todos {available, plural, =1 {# item} otros {# "
+"items}}</a>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:117
 #: /checksum/TWco0kFUSv
