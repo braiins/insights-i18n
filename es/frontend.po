@@ -2210,7 +2210,7 @@ msgstr "Meses"
 #: /checksum/hZniybduag
 msgctxt "UI"
 msgid "Future Projection {count, plural, one {# month} other {# months}}"
-msgstr "Proyección de futuro {cuenta, plural, un {# mes} otro {# meses}}"
+msgstr "Proyección de futuro {cuenta, plural, un {# month} otro {# months}}"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:820
 #: /checksum/3//ap7lrzm
