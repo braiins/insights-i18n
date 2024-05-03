@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-22 13:06+0000\n"
+"PO-Revision-Date: 2024-05-03 12:23+0000\n"
 "Last-Translator: Behzad Amiri Nezhad <behzad.amiri.nezhad@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/slushpool/"
 "insights-frontend/fa/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: packages/insights/src/constants.tsx:51 /checksum/KcE81/lbC/
 msgctxt "UI"
@@ -1306,7 +1306,7 @@ msgstr "{num} {num, plural, =1 {هفته} other {هفته} }"
 #: shared/components/format/Timesince/Timesince.tsx:34 /checksum/9Jrmz3TB7z
 msgctxt "UI"
 msgid "{num} {num, plural, =1 {day} other {days} }"
-msgstr "{num} {num, plural, = {روز} other {روز} }"
+msgstr "{num} {num, plural, = {days} از {day} }"
 
 #: shared/components/format/Timesince/Timesince.tsx:35 /checksum/0BdOuMCWOr
 msgctxt "UI"
