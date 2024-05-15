@@ -2210,7 +2210,7 @@ msgstr "Meses"
 #: /checksum/hZniybduag
 msgctxt "UI"
 msgid "Future Projection {count, plural, one {# month} other {# months}}"
-msgstr "Proyección de futuro {cuenta, plural, un {# mes} otro {# meses}}"
+msgstr "Proyección de futuro {count, plural, one {# mes} other {# meses}}"
 
 #: packages/insights/src/pages/ProfitCalc/ProfitCalc.tsx:820
 #: /checksum/3//ap7lrzm
@@ -2614,7 +2614,7 @@ msgctxt "UI"
 msgid ""
 "{count} unread {count, plural, one {notification} other {notifications}}"
 msgstr ""
-"{count} sin leer {count, plural, one {notification} otras {notifications}}"
+"{count} sin leer {count, plural, one {notification} other {notifications}}"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:525 /checksum/6v3Z6und4K
 msgctxt "UI"
@@ -4092,7 +4092,7 @@ msgstr "Por ciento"
 #: shared/components/carbon/DataTable/DataTable.tsx:270 /checksum/PpTHbldMji
 msgctxt "UI"
 msgid "{selected, plural, =1 {# item} other {# items}} selected"
-msgstr "{selected, plural, =1 {# item} otros {# items}} seleccionados"
+msgstr "{selected, plural, =1 {# item} other {# items}} seleccionados"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:277 /checksum/b+Ug8loJFB
 msgctxt "UI"
@@ -4109,8 +4109,8 @@ msgid ""
 "All {selected, plural, =1 {# item} other {# items}} on this page are "
 "selected. <a>Select all {available, plural, =1 {# item} other {# items}}</a>"
 msgstr ""
-"Todos {selected, plural, =1 {# item} otros {# items}} en esta página están "
-"seleccionados. <a>Seleccionar todos {available, plural, =1 {# item} otros {# "
+"Todos {selected, plural, =1 {# item} other {# items}} en esta página están "
+"seleccionados. <a>Seleccionar todos {available, plural, =1 {# item} other {# "
 "items}}</a>"
 
 #: packages/insights/src/pages/Home/components/Pools/Table/Table.tsx:117
@@ -4447,7 +4447,7 @@ msgstr "1W <nobr>Tasa de hash</nobr>"
 
 #~ msgctxt "UI"
 #~ msgid "{count, plural, =1 {# item} other {# items}} selected"
-#~ msgstr "{count, plural, = 1 {# item} otros {# items}} seleccionados"
+#~ msgstr "{count, plural, =1 {# item} other {# items}} seleccionados"
 
 #~ msgctxt "UI"
 #~ msgid "Failed to load hashrate stats!"
